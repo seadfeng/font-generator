@@ -3,7 +3,7 @@
  
 ## Installation
 
-To set up the Redirect Checker project locally, follow these steps:
+To set up the Font Generator project locally, follow these steps:
 
 1. Clone the repository:
 

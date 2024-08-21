@@ -1,4 +1,4 @@
-// 字体唯一索引 - 驼峰命名
+
 const fontKeys = [
   "script",
   "superscript",
@@ -26,8 +26,7 @@ const fontKeys = [
 
 export type FontKey = typeof fontKeys[number];
 
-// Font Name
-// 新增时先添加索引到fontKeys
+// Font Name for fontKeys
 export const fonts: Record<FontKey, string> = {
   script: "Script",
   superscript: "Super Script",

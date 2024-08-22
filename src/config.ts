@@ -10,7 +10,6 @@ export const appConfig = {
   appName: "Font Generator",
   appDescription: "font-generator",
   gaId: process.env.NEXT_PUBLIC_GA_ID,
-  origin: process.env.NODE_ENV === "development" ? "http://127.0.0.1:3000" : "https://font-generator.pages.dev",
   i18n: {
     locales,
     defaultLocale,

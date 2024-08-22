@@ -52,7 +52,7 @@ export const Sidebar =( )=>{
 
   return(
     <>
-      <Link href="" className={linkCls}>
+      <Link href="/" className={linkCls}>
         <span>{t('frontend.style.sidebar.all')}</span> 
       </Link>
       { Object.entries(slugFonts).map(([slug]) =>{ 

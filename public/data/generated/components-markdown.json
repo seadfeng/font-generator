@@ -22,22 +22,22 @@
       "en"
     ]
   },
-  "style/bold/block1": {
-    "locales": [
-      "en"
-    ]
-  },
-  "style/bold/block2": {
-    "locales": [
-      "en"
-    ]
-  },
   "style/bold-italic/block1": {
     "locales": [
       "en"
     ]
   },
   "style/bold-italic/block2": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/bold-text/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/bold-text/block2": {
     "locales": [
       "en"
     ]

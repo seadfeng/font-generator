@@ -12,7 +12,8 @@
     "deploy": "npm run pages:build && wrangler pages deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
     "generate-markdown-data": "npx tsx bin/generateComponentsMarkdownData.ts",
-    "add-data": "git add public/data"
+    "add-data": "git add public/data",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -58,16 +59,12 @@
     "eslint-plugin-next-on-pages": "^1.13.2",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^8.0.0",
     "postcss": "^8",
-    "pre-commit": "^1.2.2",
     "tailwindcss": "^3.4.1",
     "tsx": "^4.17.0",
     "typescript": "^5",
     "vercel": "^32.3.0",
     "wrangler": "^3.70.0"
-  },
-  "pre-commit": [
-    "generate-markdown-data",
-    "add-data"
-  ]
+  }
 }

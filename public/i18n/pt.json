@@ -6,6 +6,11 @@
       "h1": "Fonte",
       "sidebar": {
         "all": "TODOS"
+      },
+      "bold": {
+        "meta": {
+          "title": "Geradores de texto em negrito | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

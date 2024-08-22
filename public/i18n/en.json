@@ -8,7 +8,10 @@
         "all": "ALL"
       },
       "bold": {
-        "name": "Bold"
+        "name": "Bold",
+        "meta": {
+          "title": "Bold Text Generators | 𝐁𝐨𝐥𝐝 𝐓𝐞𝐱𝐭"
+        }
       }
     },
     "slug": {

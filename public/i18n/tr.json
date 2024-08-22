@@ -6,6 +6,11 @@
       "h1": "Yazı tipi",
       "sidebar": {
         "all": "TÜM"
+      },
+      "bold": {
+        "meta": {
+          "title": "Kalın Metin Oluşturucular | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

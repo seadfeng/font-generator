@@ -6,6 +6,11 @@
       "h1": "Fonte",
       "sidebar": {
         "all": "TOUS"
+      },
+      "bold": {
+        "meta": {
+          "title": "Générateurs de texte gras | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

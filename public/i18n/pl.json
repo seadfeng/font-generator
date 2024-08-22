@@ -6,6 +6,11 @@
       "h1": "Chrzcielnica",
       "sidebar": {
         "all": "WSZYSTKO"
+      },
+      "bold": {
+        "meta": {
+          "title": "Generatory pogrubionego tekstu | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

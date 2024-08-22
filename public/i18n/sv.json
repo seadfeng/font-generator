@@ -6,6 +6,11 @@
       "h1": "Font",
       "sidebar": {
         "all": "ALLA"
+      },
+      "bold": {
+        "meta": {
+          "title": "Fet textgeneratorer | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

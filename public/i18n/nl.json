@@ -6,6 +6,11 @@
       "h1": "Lettertype",
       "sidebar": {
         "all": "ALLE"
+      },
+      "bold": {
+        "meta": {
+          "title": "Vetgedrukte tekstgeneratoren | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+        }
       }
     },
     "slug": {

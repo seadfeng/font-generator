@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Font",
+      "sidebar": {
+        "all": "TUTTO"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Grassetto",
+        "fancy": "Fantasia",
+        "italic": "Corsivo",
+        "cool": "Freddo",
+        "bold-italic": "Grassetto corsivo",
+        "small": "Piccolo",
+        "normal": "Normale"
+      }
+    }
   }
 }

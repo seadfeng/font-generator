@@ -1,5 +1,5 @@
  
-import { Main } from "@/components/frontend/page/home/main";
+import { StyleMain } from "@/components/frontend/page/style/main";
 import { LocaleType } from "@/config";
 import { getComponentMarkdown } from "@/i18n";
 
@@ -20,7 +20,7 @@ export default async function  Home({
  
   return (
     <div className="px-8 flex">
-      <Main markdownContents={markdownContents} />
+      <StyleMain style="all" markdownContents={markdownContents} />
     </div>
   );
 }

@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "세례반",
+      "sidebar": {
+        "all": "모두"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "용감한",
+        "fancy": "팬시한",
+        "italic": "이탤릭체",
+        "cool": "시원한",
+        "bold-italic": "굵은 이탤릭체",
+        "small": "작은",
+        "normal": "정상"
+      }
+    }
   }
 }

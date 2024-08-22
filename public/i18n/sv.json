@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Font",
+      "sidebar": {
+        "all": "ALLA"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Djärv",
+        "fancy": "Lust",
+        "italic": "Kursiv",
+        "cool": "Sval",
+        "bold-italic": "Fet kursiv",
+        "small": "Små",
+        "normal": "Normal"
+      }
+    }
   }
 }

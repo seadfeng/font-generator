@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Yazı tipi",
+      "sidebar": {
+        "all": "TÜM"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Gözü pek",
+        "fancy": "Süslü",
+        "italic": "İtalik",
+        "cool": "Serin",
+        "bold-italic": "Kalın İtalik",
+        "small": "Küçük",
+        "normal": "Normal"
+      }
+    }
   }
 }

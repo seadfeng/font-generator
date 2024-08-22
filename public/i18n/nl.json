@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Lettertype",
+      "sidebar": {
+        "all": "ALLE"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Vetgedrukt",
+        "fancy": "Modieus",
+        "italic": "Cursief",
+        "cool": "Koel",
+        "bold-italic": "Vet cursief",
+        "small": "Klein",
+        "normal": "Normaal"
+      }
+    }
   }
 }

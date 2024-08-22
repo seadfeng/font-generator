@@ -2,5 +2,24 @@
   "shared": {
     "mobile": "移动",
     "desktop": "桌面"
+  },
+  "frontend": {
+    "style": {
+      "h1": "字体",
+      "sidebar": {
+        "all": "全部"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "粗体",
+        "fancy": "优雅",
+        "italic": "斜体",
+        "cool": "酷",
+        "bold-italic": "粗体斜体",
+        "small": "小的",
+        "normal": "普通"
+      }
+    }
   }
 }

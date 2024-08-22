@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Шрифт",
+      "sidebar": {
+        "all": "ВСЕ"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Смелый",
+        "fancy": "Изысканный",
+        "italic": "Курсив",
+        "cool": "Прохладный",
+        "bold-italic": "Жирный курсив",
+        "small": "Маленький",
+        "normal": "Нормальный"
+      }
+    }
   }
 }

@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Fonte",
+      "sidebar": {
+        "all": "TODOS"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Audacioso",
+        "fancy": "Chique",
+        "italic": "itálico",
+        "cool": "Legal",
+        "bold-italic": "Negrito Itálico",
+        "small": "Pequeno",
+        "normal": "Normal"
+      }
+    }
   }
 }

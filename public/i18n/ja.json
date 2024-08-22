@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "フォント",
+      "sidebar": {
+        "all": "全て"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "太字",
+        "fancy": "ファンシー",
+        "italic": "イタリック",
+        "cool": "クール",
+        "bold-italic": "太字斜体",
+        "small": "小さい",
+        "normal": "普通"
+      }
+    }
   }
 }

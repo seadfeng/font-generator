@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Font & Text Generator",
+      "sidebar": {
+        "all": "ALL"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Bold",
+        "fancy": "Fancy",
+        "italic": "Italic",
+        "cool": "Cool",
+        "bold-italic": "Bold Italic",
+        "small": "Small",
+        "normal": "Normal"
+      }
+    }
   }
 }

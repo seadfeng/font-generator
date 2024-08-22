@@ -1,6 +1,23 @@
 {
   "frontend": {
     "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found"
+    "page_not_found": "Page not found",
+    "style": {
+      "h1": "Chrzcielnica",
+      "sidebar": {
+        "all": "WSZYSTKO"
+      }
+    },
+    "slug": {
+      "menu": {
+        "bold": "Pogrubiony",
+        "fancy": "Wymyślny",
+        "italic": "italski",
+        "cool": "Fajny",
+        "bold-italic": "Pogrubiona kursywa",
+        "small": "Mały",
+        "normal": "Normalna"
+      }
+    }
   }
 }

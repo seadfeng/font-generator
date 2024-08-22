@@ -1,5 +1,5 @@
 
-const fontKeys = [
+export const fontKeys = [
   "script",
   "superscript",
   "smallCaps",

@@ -39,6 +39,12 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
       title = t('frontend.style.bold-italic.meta.title');
       description = t('frontend.style.bold-italic.meta.description');
       break;
+    case "sans-serif":
+      title = t('frontend.style.sans-serif.meta.title');
+      description = t('frontend.style.bold-italic.meta.description');
+    case "serif":
+      title = t('frontend.style.serif.meta.title');
+      description = t('frontend.style.bold-italic.meta.description');
     default:
       title = "";
   }
@@ -65,6 +71,10 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
       return t('frontend.slug.menu.small');
     case "bold-italic":
       return t('frontend.slug.menu.bold-italic');
+    case "sans-serif":
+      return "Sans Serif";
+    case "serif":
+      return "Serif";
     default:
       return "";
   }

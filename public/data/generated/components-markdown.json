@@ -77,6 +77,21 @@
       "en"
     ]
   },
+  "style/sans-serif/block2": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/serif/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/serif/block2": {
+    "locales": [
+      "en"
+    ]
+  },
   "style/small/block1": {
     "locales": [
       "en"

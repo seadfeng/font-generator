@@ -8,7 +8,8 @@ export const styleKeys = [
   "bold-text",
   "italic",
   "bold-italic",
-  "sans-serif"
+  "sans-serif",
+  "serif"
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
@@ -41,5 +42,10 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "sansBold",
     "sansItalic",
     "sansBoldItalic"
+  ],
+  "serif": [
+    "serifBold",
+    "serifItalic",
+    "serifBoldItalic"
   ]
 };

@@ -16,5 +16,40 @@
       "tr",
       "zh"
     ]
+  },
+  "style/bold/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/bold-italic/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/cool/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/fancy/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/italic/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/normal/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/small/block1": {
+    "locales": [
+      "en"
+    ]
   }
 }

@@ -1,5 +1,5 @@
 import { Link } from "@/lib/i18n";
-import { slugFonts, SlugKey } from "@/slugs";
+import { styleFonts, StyleKey } from "@/slugs";
 import { ALargeSmallIcon, BoldIcon, Circle, FeatherIcon, ItalicIcon, StarsIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ClassNameValue } from "tailwind-merge";
@@ -8,7 +8,7 @@ export const Sidebar =( )=>{
   const t = useTranslations();
   const linkCls: ClassNameValue = "border w-full h-12 flex rounded-lg items-center gap-3 px-5 font-semibold mb-5";
 
-  const i18nName=(slug: SlugKey)=>{
+  const i18nName=(slug: StyleKey)=>{
     switch(slug){ 
       case "bold":
         return t("frontend.slug.menu.bold");
@@ -29,7 +29,7 @@ export const Sidebar =( )=>{
     }
   }
 
-  const NavIcon=({slug}:{slug: SlugKey}): React.ReactNode =>{
+  const NavIcon=({slug}:{slug: StyleKey}): React.ReactNode =>{
     switch(slug){ 
       case "bold":
         return <BoldIcon />;
@@ -55,12 +55,12 @@ export const Sidebar =( )=>{
       <Link href="/" className={linkCls}>
         <span>{t('frontend.style.sidebar.all')}</span> 
       </Link>
-      { Object.entries(slugFonts).map(([slug]) =>{ 
-        const name = i18nName(slug as SlugKey); 
+      { Object.entries(styleFonts).map(([slug]) =>{ 
+        const name = i18nName(slug as StyleKey); 
         if(!name) return;
         return(
-          <Link href={slug} key={slug} className={linkCls}>
-            <NavIcon slug={slug as SlugKey} />
+          <Link href={`/style/${slug}`} key={slug} className={linkCls}>
+            <NavIcon slug={slug as StyleKey} />
             <span className="text-sm">{name}</span>
           </Link>
         )

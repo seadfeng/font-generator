@@ -3,7 +3,7 @@
 import { Markdown } from "@/components/shared/markdown";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
-import { slugFonts, SlugKey } from "@/slugs";
+import { styleFonts, StyleKey } from "@/slugs";
 import { fontKeys } from "@/transforms";
 import { useState } from "react";
 import { Fonts } from "./fonts";
@@ -14,7 +14,7 @@ export function StyleMain({
   style = "all"
 }: Readonly<{  
   markdownContents: Record<string, string | undefined>;
-  style: SlugKey
+  style: StyleKey
 }>) {
   const { block1, block2 } = markdownContents; 
   const [content, setContent] = useState<string>("Hello My old Friend");   
@@ -23,7 +23,7 @@ export function StyleMain({
     setContent(e.target.value);
   }
 
-  const currentFonts = style === "all" ? fontKeys : slugFonts[style];
+  const currentFonts = style === "all" ? fontKeys : styleFonts[style];
 
   return (
     <div className={cn("w-full leading-9 text-base")}> 

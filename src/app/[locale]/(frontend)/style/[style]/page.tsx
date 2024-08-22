@@ -4,7 +4,7 @@ import { LocaleType } from "@/config";
 import { getComponentMarkdown } from "@/i18n";
 import { origin } from "@/lib/utils";
 import { styleMetadata } from "@/metadata";
-import { SlugKey } from "@/slugs";
+import { StyleKey } from "@/slugs";
 import { headers } from "next/headers";
 
 export const runtime = 'edge';
@@ -14,7 +14,7 @@ export { styleMetadata as generateMetadata };
 export default async function  Style({
   params
 }: Readonly<{ 
-  params: { locale: LocaleType; style: SlugKey; };
+  params: { locale: LocaleType; style: StyleKey; };
 }>) {
   const { locale, style } = params; 
    

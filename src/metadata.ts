@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleType } from "./config";
-import { SlugKey } from "./slugs";
+import { StyleKey } from "./slugs";
 
 
 /**
@@ -9,7 +9,7 @@ import { SlugKey } from "./slugs";
  * 
  * @returns 
  */
-export const styleMetadata = async ({ params }: { params: { locale: LocaleType, style: SlugKey } }): Promise<Metadata> => {
+export const styleMetadata = async ({ params }: { params: { locale: LocaleType, style: StyleKey } }): Promise<Metadata> => {
   const t = await getTranslations(params);
   const { style } = params;
   let title = "";

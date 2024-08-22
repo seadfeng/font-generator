@@ -1,7 +1,7 @@
 import { FontKey } from "./transforms";
 
 
-export const slugKeys = [
+export const styleKeys = [
   "all",
   "normal",
   "cool",
@@ -11,23 +11,29 @@ export const slugKeys = [
   "italic",
   "bold-italic",
 ] as const;
-export type SlugKey = typeof slugKeys[number];
+export type StyleKey = typeof styleKeys[number];
 
-export const slugFonts: Record<SlugKey, FontKey[]> = {
-  "all": [],
-  "normal": ["superscript"],
-  "cool": ["script", "superscript", "circled", "circledNegative"],
-  "fancy": ["script"],
-  "small": ["superscript", "smallCaps", "script", "monospace"],
-  "bold": ["boldScript", "boldFraktur"],
+export const styleFonts: Record<StyleKey, FontKey[]> = {
+  "all": [], // keep it empty
+  "normal": ["sans", "serifBold", "monospace", "superscript"],
+  "cool": [
+    "circled", "circledNegative", "fullwidth", "squared",
+    "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
+  ],
+  "fancy": [
+    "script", "boldScript", "fraktur", "boldFraktur",
+    "doubleStruck", "smallCaps"
+  ],
+  "small": [
+    "smallCaps", "superscript", "subscript"
+  ],
+  "bold": [
+    "sansBold", "serifBold", "boldScript", "boldFraktur", "serifBoldItalic"
+  ],
   "italic": [
-    "sansItalic",
-    "sansBoldItalic",
-    "serifBoldItalic",
-    "serifItalic"
+    "sansItalic", "serifItalic", "serifBoldItalic", "sansBoldItalic"
   ],
   "bold-italic": [
-    "serifBoldItalic",
-    "sansBoldItalic"
+    "sansBoldItalic", "serifBoldItalic"
   ]
-}
+};

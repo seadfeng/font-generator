@@ -1,4 +1,5 @@
-import { FontKey } from "./fonts";
+import { FontKey } from "./transforms";
+
 
 export const slugKeys = [
   "all",

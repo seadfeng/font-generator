@@ -2,9 +2,9 @@
 
 import { Markdown } from "@/components/shared/markdown";
 import { Textarea } from "@/components/ui/textarea";
-import { fontKeys } from "@/fonts";
 import { cn } from "@/lib/utils";
 import { slugFonts, SlugKey } from "@/slugs";
+import { fontKeys } from "@/transforms";
 import { useState } from "react";
 import { Fonts } from "./fonts";
 import { Sidebar } from "./sidebar";

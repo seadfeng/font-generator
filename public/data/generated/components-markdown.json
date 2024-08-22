@@ -17,7 +17,17 @@
       "zh"
     ]
   },
+  "home/block2": {
+    "locales": [
+      "en"
+    ]
+  },
   "style/bold/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/bold/block2": {
     "locales": [
       "en"
     ]
@@ -27,7 +37,17 @@
       "en"
     ]
   },
+  "style/bold-italic/block2": {
+    "locales": [
+      "en"
+    ]
+  },
   "style/cool/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/cool/block2": {
     "locales": [
       "en"
     ]
@@ -37,7 +57,17 @@
       "en"
     ]
   },
+  "style/fancy/block2": {
+    "locales": [
+      "en"
+    ]
+  },
   "style/italic/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/italic/block2": {
     "locales": [
       "en"
     ]
@@ -47,7 +77,17 @@
       "en"
     ]
   },
+  "style/normal/block2": {
+    "locales": [
+      "en"
+    ]
+  },
   "style/small/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/small/block2": {
     "locales": [
       "en"
     ]

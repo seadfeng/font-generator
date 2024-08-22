@@ -19,7 +19,15 @@ export const slugFonts: Record<SlugKey, FontKey[]> = {
   "cool": ["script", "superscript", "circled", "circledNegative"],
   "fancy": ["script"],
   "small": ["superscript", "smallCaps", "script", "monospace"],
-  "bold": ["boldScript", "mathematicalBold"],
-  "italic": ["mathematicalItalic"],
-  "bold-italic": ["mathematicalBoldItalic"]
+  "bold": ["boldScript", "boldFraktur"],
+  "italic": [
+    "sansItalic",
+    "sansBoldItalic",
+    "serifBoldItalic",
+    "serifItalic"
+  ],
+  "bold-italic": [
+    "serifBoldItalic",
+    "sansBoldItalic"
+  ]
 }

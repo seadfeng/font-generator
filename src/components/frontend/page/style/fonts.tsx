@@ -26,7 +26,7 @@ export const Fonts = ({
     // };
 
     const transformAndAdjust = (text: string) => {
-      return text.split('').map(char => {
+      return Array.from(text).map(char => {
         return chars[char] || char;
         // const transformedChar = chars[char] || char;
         // return adjustUnicode(transformedChar); 

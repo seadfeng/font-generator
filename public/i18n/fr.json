@@ -18,6 +18,12 @@
         "small": "Petit",
         "normal": "Normale"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Générateur de texte élégant pour Facebook, X (Twitter)",
+        "description": "Générez facilement du texte élégant pour Facebook, X (anciennement Twitter) et d'autres plateformes de médias sociaux. \nPersonnalisez les polices avec des styles gras, italique, fantaisie et sympa pour faire ressortir vos publications."
+      }
     }
   }
 }

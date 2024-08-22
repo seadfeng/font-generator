@@ -18,6 +18,12 @@
         "small": "Piccolo",
         "normal": "Normale"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Elegante generatore di testo per Facebook, X (Twitter)",
+        "description": "Genera facilmente testo elegante per Facebook, X (ex Twitter) e altre piattaforme di social media. \nPersonalizza i caratteri con stili in grassetto, corsivo, fantasiosi e interessanti per far risaltare i tuoi post."
+      }
     }
   }
 }

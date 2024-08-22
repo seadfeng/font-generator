@@ -11,9 +11,8 @@ export async function generateMetadata({ params }:{ params: any }): Promise<Meta
   const t = await getTranslations(params); 
   return {
     title: {
-      absolute: t('frontend.meta.default.title'),
-      default: t('frontend.meta.default.title'),
-      template: `${appConfig.appName}: %s`,
+      absolute: `${appConfig.appName}: ${t('frontend.meta.default.title')}`,
+      template: "%s"
     },
     description: t('frontend.meta.default.description')
   };

@@ -15,7 +15,7 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
   let title = "";
   let description = "";
   switch (style) {
-    case "bold":
+    case "bold-text":
       title = t('frontend.style.bold.meta.title');
       description = t('frontend.style.bold.meta.description');
       break;
@@ -30,10 +30,6 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
     case "italic":
       title = t('frontend.style.italic.meta.title');
       description = t('frontend.style.italic.meta.description');
-      break;
-    case "normal":
-      title = t('frontend.style.normal.meta.title');
-      description = t('frontend.style.normal.meta.description');
       break;
     case "small":
       title = t('frontend.style.small.meta.title');
@@ -51,3 +47,26 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
     description
   };
 }
+
+
+export const getStyleName = async ({ params }: Readonly<{ params: { locale: LocaleType, style?: StyleKey } }>): Promise<string> => {
+  const t = await getTranslations(params);
+  const { style } = params;
+  switch (style) {
+    case "bold-text":
+      return t('frontend.slug.menu.bold');
+    case "cool":
+      return t('frontend.slug.menu.cool');
+    case "fancy":
+      return t('frontend.slug.menu.fancy');
+    case "italic":
+      return t('frontend.slug.menu.italic');
+    case "small":
+      return t('frontend.slug.menu.small');
+    case "bold-italic":
+      return t('frontend.slug.menu.bold-italic');
+    default:
+      return "";
+  }
+}
+

@@ -18,6 +18,12 @@
         "small": "Küçük",
         "normal": "Normal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Facebook için Şık Metin Oluşturucu, X (Twitter)",
+        "description": "Facebook, X (eski adıyla Twitter) ve diğer sosyal medya platformları için kolayca şık metinler oluşturun. \nGönderilerinizin öne çıkmasını sağlamak için yazı tiplerini kalın, italik, süslü ve havalı stillerle özelleştirin."
+      }
     }
   }
 }

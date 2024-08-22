@@ -18,6 +18,12 @@
         "small": "작은",
         "normal": "정상"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Facebook, X(Twitter)를 위한 세련된 텍스트 생성기",
+        "description": "Facebook, X(이전의 Twitter) 및 기타 소셜 미디어 플랫폼을 위한 멋진 텍스트를 쉽게 생성하세요. \n볼드체, 이탤릭체, 팬시, 멋진 스타일로 글꼴을 맞춤 설정하여 게시물을 돋보이게 만드세요."
+      }
     }
   }
 }

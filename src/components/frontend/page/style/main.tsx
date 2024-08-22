@@ -11,10 +11,11 @@ import { Sidebar } from "./sidebar";
 
 export function StyleMain({
   markdownContents,
-  style = "all"
+  style = "all" 
 }: Readonly<{  
   markdownContents: Record<string, string | undefined>;
-  style: StyleKey
+  style: StyleKey,
+ 
 }>) {
   const { block1, block2 } = markdownContents; 
   const [content, setContent] = useState<string>("Hello My old Friend");   
@@ -32,8 +33,8 @@ export function StyleMain({
         h2: "scroll-m-20 pb-2 text-2xl lg:text-3xl font-semibold tracking-tight mt-5 text-primary",
       }} content={block1} className="mt-10" />}   
       <Textarea defaultValue={content} className="rounded-md h-20 text-xl" onChange={(e) => onChange(e)}/>
-      <div className="flex py-10 gap-10">
-        <div className="w-[200px] flex-shrink-0">
+      <div className="flex flex-col md:flex-row py-10 gap-10">
+        <div className="md:w-[200px] flex-shrink-0">
           <Sidebar />
         </div>
         <div className="w-full rounded-lg dark:bg-secondary p-8 border">

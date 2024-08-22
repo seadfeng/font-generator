@@ -18,6 +18,12 @@
         "small": "Klein",
         "normal": "Normaal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Stijlvolle tekstgenerator voor Facebook, X (Twitter)",
+        "description": "Genereer eenvoudig stijlvolle tekst voor Facebook, X (voorheen Twitter) en andere sociale mediaplatforms. \nPas lettertypen aan met vetgedrukte, cursieve, mooie en coole stijlen om uw berichten te laten opvallen."
+      }
     }
   }
 }

@@ -18,6 +18,12 @@
         "small": "Mały",
         "normal": "Normalna"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Stylowy generator tekstu dla Facebooka, X (Twitter)",
+        "description": "Z łatwością generuj stylowy tekst dla Facebooka, X (dawniej Twittera) i innych platform mediów społecznościowych. \nDostosuj czcionki za pomocą pogrubienia, kursywy, fantazyjnych i fajnych stylów, aby Twoje posty wyróżniały się."
+      }
     }
   }
 }

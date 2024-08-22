@@ -23,7 +23,7 @@ export default function Copy({ children, className }: CopyProps) {
   };
 
   return (
-    <div className={cn(  "code-copy-btn", className ?? "" )} onClick={handleClick}>
+    <div className={cn(  "code-copy-btn cursor-pointer", className ?? "" )} onClick={handleClick}>
       {copyOk ? "Copyed!" : "Copy"}
     </div>
   );

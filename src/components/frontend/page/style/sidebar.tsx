@@ -1,6 +1,6 @@
 import { Link } from "@/lib/i18n";
 import { styleFonts, StyleKey } from "@/slugs";
-import { ALargeSmallIcon, BoldIcon, Circle, FeatherIcon, ItalicIcon, StarsIcon } from "lucide-react";
+import { ALargeSmallIcon, BoldIcon, FeatherIcon, ItalicIcon, StarsIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ClassNameValue } from "tailwind-merge";
 
@@ -10,7 +10,7 @@ export const Sidebar =( )=>{
 
   const i18nName=(slug: StyleKey)=>{
     switch(slug){ 
-      case "bold":
+      case "bold-text":
         return t("frontend.slug.menu.bold");
       case "fancy":
         return t("frontend.slug.menu.fancy");
@@ -21,9 +21,7 @@ export const Sidebar =( )=>{
       case "bold-italic":
         return t("frontend.slug.menu.bold-italic");
       case "small":
-        return t("frontend.slug.menu.small");
-      case "normal":
-        return t("frontend.slug.menu.normal");
+        return t("frontend.slug.menu.small"); 
       default:
         return null;
     }
@@ -31,7 +29,7 @@ export const Sidebar =( )=>{
 
   const NavIcon=({slug}:{slug: StyleKey}): React.ReactNode =>{
     switch(slug){ 
-      case "bold":
+      case "bold-text":
         return <BoldIcon />;
       case "fancy":
         return <FeatherIcon />;
@@ -42,9 +40,7 @@ export const Sidebar =( )=>{
       case "bold-italic":
         return <ItalicIcon strokeWidth={3}/>;
       case "small":
-        return <ALargeSmallIcon />;
-      case "normal":
-        return <Circle />;
+        return <ALargeSmallIcon />; 
       default:
         return null;
     }
@@ -52,19 +48,21 @@ export const Sidebar =( )=>{
 
   return(
     <>
-      <Link href="/" className={linkCls}>
-        <span>{t('frontend.style.sidebar.all')}</span> 
-      </Link>
-      { Object.entries(styleFonts).map(([slug]) =>{ 
-        const name = i18nName(slug as StyleKey); 
-        if(!name) return;
-        return(
-          <Link href={`/style/${slug}`} key={slug} className={linkCls}>
-            <NavIcon slug={slug as StyleKey} />
-            <span className="text-sm">{name}</span>
-          </Link>
-        )
-      })}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-1 gap-x-3  md:flex-row">
+        <Link href="/" className={linkCls}>
+          <span>{t('frontend.style.sidebar.all')}</span> 
+        </Link>
+        { Object.entries(styleFonts).map(([slug]) =>{ 
+          const name = i18nName(slug as StyleKey); 
+          if(!name) return;
+          return(
+            <Link href={`/style/${slug}`} key={slug} className={linkCls}>
+              <NavIcon slug={slug as StyleKey} />
+              <span className="text-sm">{name}</span>
+            </Link>
+          )
+        })}
+      </div>
     </>
   )
 } 

@@ -20,6 +20,12 @@
         "small": "小的",
         "normal": "普通"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "适用于 Facebook、X (Twitter) 的时尚文本生成器",
+        "description": "轻松为 Facebook、X（以前称为 Twitter）和其他社交媒体平台生成时尚文本。\n使用粗体、斜体、花式和酷炫风格自定义字体，让您的帖子脱颖而出。"
+      }
     }
   }
 }

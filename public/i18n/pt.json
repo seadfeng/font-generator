@@ -18,6 +18,12 @@
         "small": "Pequeno",
         "normal": "Normal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Gerador de texto elegante para Facebook, X (Twitter)",
+        "description": "Gere facilmente textos elegantes para Facebook, X (antigo Twitter) e outras plataformas de mídia social. \nPersonalize fontes com estilos em negrito, itálico, sofisticado e legal para destacar suas postagens."
+      }
     }
   }
 }

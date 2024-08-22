@@ -18,6 +18,12 @@
         "small": "Små",
         "normal": "Normal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Snygg textgenerator för Facebook, X (Twitter)",
+        "description": "Skapa enkelt snygg text för Facebook, X (tidigare Twitter) och andra sociala medieplattformar. \nAnpassa typsnitt med fetstil, kursiv, snygg och cool stil för att få dina inlägg att sticka ut."
+      }
     }
   }
 }

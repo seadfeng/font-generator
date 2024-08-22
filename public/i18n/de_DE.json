@@ -18,6 +18,12 @@
         "small": "Klein",
         "normal": "Normal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Stilvoller Textgenerator für Facebook, X (Twitter)",
+        "description": "Generieren Sie ganz einfach stilvolle Texte für Facebook, X (ehemals Twitter) und andere Social-Media-Plattformen. \nPassen Sie Schriftarten mit fetten, kursiven, ausgefallenen und coolen Stilen an, um Ihre Beiträge hervorzuheben."
+      }
     }
   }
 }

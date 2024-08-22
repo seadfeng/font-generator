@@ -18,3 +18,9 @@ export type Faq = {
   question: string;
   answer: string;
 }
+
+export type CrumbItem = {
+  name: string;
+  type?: "style"
+  href?: string;
+}

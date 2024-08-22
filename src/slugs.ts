@@ -1,33 +1,31 @@
 import { FontKey } from "./transforms";
 
-
 export const styleKeys = [
   "all",
-  "normal",
   "cool",
   "fancy",
   "small",
-  "bold",
+  "bold-text",
   "italic",
   "bold-italic",
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
 export const styleFonts: Record<StyleKey, FontKey[]> = {
-  "all": [], // keep it empty
-  "normal": ["sans", "serifBold", "monospace", "superscript"],
-  "cool": [
-    "circled", "circledNegative", "fullwidth", "squared",
-    "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
-  ],
+  "all": [], // keep it empty 
   "fancy": [
     "script", "boldScript", "fraktur", "boldFraktur",
     "doubleStruck", "smallCaps"
   ],
+  "cool": [
+    "circled", "circledNegative", "fullwidth", "squared",
+    "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
+  ],
+
   "small": [
     "smallCaps", "superscript", "subscript"
   ],
-  "bold": [
+  "bold-text": [
     "sansBold", "serifBold", "boldScript", "boldFraktur", "serifBoldItalic"
   ],
   "italic": [

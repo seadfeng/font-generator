@@ -18,6 +18,12 @@
         "small": "Pequeño",
         "normal": "Normal"
       }
+    },
+    "meta": {
+      "default": {
+        "title": "Generador de texto con estilo para Facebook, X (Twitter)",
+        "description": "Genere fácilmente texto elegante para Facebook, X (anteriormente Twitter) y otras plataformas de redes sociales. \nPersonaliza fuentes con estilos en negrita, cursiva, elegantes y atractivos para que tus publicaciones se destaquen."
+      }
     }
   }
 }

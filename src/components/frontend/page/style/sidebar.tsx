@@ -22,6 +22,8 @@ export const Sidebar =( )=>{
         return t("frontend.slug.menu.bold-italic");
       case "small":
         return t("frontend.slug.menu.small"); 
+      case "sans-serif":
+        return "Sans Serif";
       default:
         return null;
     }

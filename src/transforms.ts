@@ -2,7 +2,7 @@
 // This file is auto-generated. Do not edit manually.
 
 export const transforms = {
-  "sans": {
+  "sansSerif": {
     "0": "𝟢",
     "1": "𝟣",
     "2": "𝟤",
@@ -3775,7 +3775,7 @@ export const transforms = {
 } as const;
 
 export const fontKeys = [
-  "sans",
+  "sansSerif",
   "sansBold",
   "sansItalic",
   "sansBoldItalic",
@@ -3806,7 +3806,7 @@ export const fontKeys = [
 export type FontKey = typeof fontKeys[number];
 
 export const fonts: Record<FontKey, string> = {
-  "sans": "Sans",
+  "sansSerif": "Sans Serif",
   "sansBold": "Sans Bold",
   "sansItalic": "Sans Italic",
   "sansBoldItalic": "Sans Bold Italic",

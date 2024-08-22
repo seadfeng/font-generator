@@ -8,6 +8,7 @@ export const styleKeys = [
   "bold-text",
   "italic",
   "bold-italic",
+  "sans-serif"
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
@@ -21,9 +22,8 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "circled", "circledNegative", "fullwidth", "squared",
     "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
   ],
-
   "small": [
-    "smallCaps", "superscript", "subscript"
+    "smallCaps", "superscript", "subscript", "sansItalic", "serifItalic"
   ],
   "bold-text": [
     "sansBold", "serifBold", "boldScript", "boldFraktur", "serifBoldItalic"
@@ -32,6 +32,14 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "sansItalic", "serifItalic", "serifBoldItalic", "sansBoldItalic"
   ],
   "bold-italic": [
-    "sansBoldItalic", "serifBoldItalic"
+    "sansBoldItalic", "serifBoldItalic",
+    "sansItalic", "serifItalic",
+    "sansBold", "serifBold", "boldScript", "boldFraktur"
+  ],
+  "sans-serif": [
+    "sansSerif",
+    "sansBold",
+    "sansItalic",
+    "sansBoldItalic"
   ]
 };

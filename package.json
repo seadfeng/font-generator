@@ -12,7 +12,9 @@
     "deploy": "npm run pages:build && wrangler pages deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
     "generate-markdown-data": "npx tsx bin/generateComponentsMarkdownData.ts",
+    "generate-transforms": "node bin/transforms.js",
     "add-data": "git add public/data",
+    "add-transforms": "git add src/transforms.ts",
     "prepare": "husky install"
   },
   "dependencies": {

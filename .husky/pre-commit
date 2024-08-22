@@ -2,3 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run generate-markdown-data && npm run add-data
+npm run generate-transforms && npm run add-transforms

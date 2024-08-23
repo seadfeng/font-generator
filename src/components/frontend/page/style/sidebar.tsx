@@ -60,7 +60,7 @@ export const Sidebar =( )=>{
           const name = i18nName(slug as StyleKey); 
           if(!name) return;
           return(
-            <Link href={`/style/${slug}`} key={slug} className={linkCls}>
+            <Link href={`/${slug}`} key={slug} className={linkCls}>
               <NavIcon slug={slug as StyleKey} />
               <span className="text-sm">{name}</span>
             </Link>

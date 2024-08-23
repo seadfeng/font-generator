@@ -23,7 +23,8 @@
         "small": "작은",
         "normal": "정상",
         "underline": "밑줄",
-        "bubble-text": "버블 텍스트"
+        "bubble-text": "버블 텍스트",
+        "square-text": "정사각형 텍스트"
       }
     },
     "meta": {

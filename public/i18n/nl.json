@@ -23,7 +23,8 @@
         "small": "Klein",
         "normal": "Normaal",
         "underline": "Onderstrepen",
-        "bubble-text": "Bellentekst"
+        "bubble-text": "Bellentekst",
+        "square-text": "Vierkante tekst"
       }
     },
     "meta": {

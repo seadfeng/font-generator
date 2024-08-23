@@ -23,7 +23,8 @@
         "small": "Små",
         "normal": "Normal",
         "underline": "Betona",
-        "bubble-text": "Bubbla text"
+        "bubble-text": "Bubbla text",
+        "square-text": "Fyrkantig text"
       }
     },
     "meta": {

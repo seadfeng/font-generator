@@ -24,7 +24,8 @@
         "small": "Small",
         "normal": "Normal",
         "underline": "Underline",
-        "bubble-text": "Bubble Text"
+        "bubble-text": "Bubble Text",
+        "square-text": "Square Text"
       }
     },
     "meta": {

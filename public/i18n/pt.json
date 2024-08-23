@@ -23,7 +23,8 @@
         "small": "Pequeno",
         "normal": "Normal",
         "underline": "Sublinhado",
-        "bubble-text": "Texto de bolha"
+        "bubble-text": "Texto de bolha",
+        "square-text": "Texto Quadrado"
       }
     },
     "meta": {

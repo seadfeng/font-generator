@@ -23,7 +23,8 @@
         "small": "小さい",
         "normal": "普通",
         "underline": "下線",
-        "bubble-text": "バブルテキスト"
+        "bubble-text": "バブルテキスト",
+        "square-text": "正方形のテキスト"
       }
     },
     "meta": {

@@ -41,10 +41,19 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
       break;
     case "sans-serif":
       title = t('frontend.style.sans-serif.meta.title');
-      description = t('frontend.style.bold-italic.meta.description');
+      description = t('frontend.style.sans-serif.meta.description');
     case "serif":
       title = t('frontend.style.serif.meta.title');
-      description = t('frontend.style.bold-italic.meta.description');
+      description = t('frontend.style.serif.meta.description');
+    case "underline":
+      title = t('frontend.style.underline.meta.title');
+      description = t('frontend.style.underline.meta.description');
+    case "bubble-text":
+      title = t('frontend.style.bubble-text.meta.title');
+      description = t('frontend.style.bubble-text.meta.description');
+    case "square-text":
+      title = t('frontend.style.square-text.meta.title');
+      description = t('frontend.style.square-text.meta.description');
     default:
       title = "";
   }

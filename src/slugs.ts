@@ -10,7 +10,8 @@ export const styleKeys = [
   "bold-italic",
   "sans-serif",
   "serif",
-  "underline"
+  "underline",
+  "bubble-text"
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
@@ -68,5 +69,8 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "mirrored",
     "boldFraktur",
     "subscript"
+  ],
+  "bubble-text": [
+    "circled", "circledNegative"
   ]
 };

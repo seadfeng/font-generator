@@ -22,7 +22,8 @@
         "bold-italic": "Grassetto corsivo",
         "small": "Piccolo",
         "normal": "Normale",
-        "underline": "Sottolineare"
+        "underline": "Sottolineare",
+        "bubble-text": "Testo a bolle"
       }
     },
     "meta": {

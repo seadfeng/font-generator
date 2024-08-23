@@ -22,7 +22,8 @@
         "bold-italic": "Negrito Itálico",
         "small": "Pequeno",
         "normal": "Normal",
-        "underline": "Sublinhado"
+        "underline": "Sublinhado",
+        "bubble-text": "Texto de bolha"
       }
     },
     "meta": {

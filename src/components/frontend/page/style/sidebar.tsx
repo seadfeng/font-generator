@@ -32,6 +32,8 @@ export const Sidebar =( )=>{
         return "Serif";
       case "underline":
         return t("frontend.slug.menu.underline"); 
+      case "bubble-text":
+        return t("frontend.slug.menu.bubble-text");
       default:
         return null;
     }

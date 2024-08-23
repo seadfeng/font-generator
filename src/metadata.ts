@@ -75,6 +75,10 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
       return "Sans Serif";
     case "serif":
       return "Serif";
+    case "underline":
+      return t("frontend.slug.menu.underline");
+    case "bubble-text":
+      return t("frontend.slug.menu.bubble-text");
     default:
       return "";
   }

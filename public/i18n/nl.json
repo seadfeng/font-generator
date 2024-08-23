@@ -22,7 +22,8 @@
         "bold-italic": "Vet cursief",
         "small": "Klein",
         "normal": "Normaal",
-        "underline": "Onderstrepen"
+        "underline": "Onderstrepen",
+        "bubble-text": "Bellentekst"
       }
     },
     "meta": {

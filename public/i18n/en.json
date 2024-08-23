@@ -23,7 +23,8 @@
         "bold-italic": "Bold Italic",
         "small": "Small",
         "normal": "Normal",
-        "underline": "Underline"
+        "underline": "Underline",
+        "bubble-text": "Bubble Text"
       }
     },
     "meta": {

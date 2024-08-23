@@ -22,7 +22,8 @@
         "bold-italic": "굵은 이탤릭체",
         "small": "작은",
         "normal": "정상",
-        "underline": "밑줄"
+        "underline": "밑줄",
+        "bubble-text": "버블 텍스트"
       }
     },
     "meta": {

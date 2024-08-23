@@ -4,7 +4,7 @@ on:
     types:
       - published
 jobs:
-  deploy_production:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -13,6 +13,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: production
+      url: ${{ steps.deploy.outputs.deployment-url }}
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies

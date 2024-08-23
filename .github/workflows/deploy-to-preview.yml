@@ -22,23 +22,28 @@ jobs:
     timeout-minutes: 10
     environment:
       name: preview
-      url: https://font-generator-preview.pages.dev/
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
         run: npm install
       - name: Deploy to Cloudflare Pages
         run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/font-generator-preview" \
+          response=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/font-generator" \
             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}")
           if [ $response -eq 404 ]; then
             echo "Project does not exist, creating..."
-            npx wrangler pages project create font-generator-preview --production-branch main
+            npx wrangler pages project create font-generator --production-branch main
           else
             echo "Project exists, skipping creation."
-          fi
-          sed -i 's/font-generator/font-generator-preview/' wrangler.toml
-          npm run pages:build && npx wrangler pages deploy --branch main
+          fi 
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          preview: true
+ 

@@ -44,23 +44,23 @@ export const Sidebar =( )=>{
   const NavIcon=({slug}:{slug: StyleKey}): React.ReactNode =>{
     switch(slug){ 
       case "bold-text":
-        return <BoldIcon />;
+        return <BoldIcon size={18} />;
       case "fancy":
-        return <FeatherIcon />;
+        return <FeatherIcon size={18}  />;
       case "italic":
-        return <ItalicIcon />;
+        return <ItalicIcon size={18}  />;
       case "cool":
-        return <StarsIcon />;
+        return <StarsIcon size={18}  />;
       case "bold-italic":
-        return <ItalicIcon strokeWidth={3}/>;
+        return <ItalicIcon size={18}  strokeWidth={3}/>;
       case "small":
-        return <ALargeSmallIcon />; 
+        return <ALargeSmallIcon size={18}  />; 
       case "underline":
-        return <UnderlineIcon />; 
+        return <UnderlineIcon size={18}  />; 
       case "bubble-text":
-        return <CircleDot />; 
+        return <CircleDot size={18}  />; 
       case "square-text":
-        return <SquareDot />; 
+        return <SquareDot size={18}  />; 
       default:
         return null;
     }

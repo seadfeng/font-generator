@@ -46,7 +46,7 @@ export const Fonts = ({
     
     return (
       <div className="mb-5 pb-4 border-b leading-7 flex flex-col md:flex-row md:items-center justify-start gap-5">
-        <div className="text-muted-foreground text-sm md:w-[130px]">{fonts[fontKey]}</div>
+        <div className="text-muted-foreground text-xs md:w-[200px] lg:w-[300px]">{fonts[fontKey]}</div>
         <div className="relative flex justify-between w-full items-center">
           <div>{transformedContent}</div>
           <Copy className="text-sm">{transformedContent}</Copy>

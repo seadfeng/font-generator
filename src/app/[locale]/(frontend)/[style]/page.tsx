@@ -29,15 +29,11 @@ export default async function  Style({
     })
   }
 
-  const items: CrumbItem[] = [
-    {
-      name: "Style",
-      href: "/"
-    },
+  const items: CrumbItem[] = [ 
     {
       name: style,
       type: "style",
-      href: `/style/${style}`
+      href: `/${style}`
     },
   ]
  

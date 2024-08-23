@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { styleFonts, StyleKey } from "@/slugs";
 import { fontKeys } from "@/transforms";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Fonts } from "./fonts";
 import { Sidebar } from "./sidebar";
@@ -20,9 +21,12 @@ export function StyleMain({
 }>) {
   const { block1, block2 } = markdownContents; 
   const [content, setContent] = useState<string>(text ? text : "Hello my old friend"); 
- 
+  const pathname = usePathname();  
+  const router = useRouter();  
+
   const onChange=(e: React.ChangeEvent<HTMLTextAreaElement>)=>{
     setContent(e.target.value);
+    router.replace(`${pathname}?text=${e.target.value}`);
   }
 
   const currentFonts = style === "all" ? fontKeys : styleFonts[style];

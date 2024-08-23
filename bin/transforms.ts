@@ -1,4 +1,4 @@
-import fonts from "@/fonts";
+import { fonts, superFonts } from "@/fonts";
 import fs from 'fs';
 import path from 'path';
 
@@ -17,6 +17,13 @@ Object.keys(fonts).forEach((fontKey) => {
     Array.from(normalChars).map((char, index) => {
       transforms[fontKey][char] = Array.from(currentChars)[index]
     })
+    if (fontKey in superFonts) {
+      transforms[fontKey] = {
+        ...transforms[fontKey],
+        ...superFonts[fontKey]
+      }
+    }
+
   }
 });
 

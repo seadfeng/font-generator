@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Vetgedrukte tekstgeneratoren | \n𝗩𝗲𝘁𝗴𝗲𝗱𝗿𝘂𝗸𝘁𝗲 𝘁𝗲𝗸𝘀𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗻"
+          "title": "Vetgedrukte tekstgeneratoren | 𝗩𝗲𝘁𝗴𝗲𝗱𝗿𝘂𝗸𝘁𝗲 𝘁𝗲𝗸𝘀𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗻",
+          "description": "Een Bold Text Generator is een online tool die is ontworpen om uw standaardtekst om te zetten in vetgedrukte tekens. \nIn tegenstelling tot het simpelweg wijzigen van de lettertypestijl, genereert deze tool vetgedrukte tekst met behulp van een specifieke set Unicode-symbolen die vetgedrukte letters nabootsen. \nDeze symbolen kunnen vervolgens in verschillende digitale platforms worden gekopieerd en geplakt, waardoor uw inhoud opvallender en impactvoller wordt."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Cool lettertype symbool persoonlijke stijl",
+          "description": "De Cool Text Generator gaat niet alleen over vooraf ingestelde lettertypen; \nhet biedt ook een zekere mate van maatwerk. \nJe kunt experimenteren met verschillende stijlen om een ​​tekst te creëren die perfect aansluit bij jouw merk of persoonlijke stijl. \nOf u nu op zoek bent naar iets gewaagds, elegants of eigenzinnigs, er is altijd een lettertype in de generator dat aan uw behoeften kan voldoen."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

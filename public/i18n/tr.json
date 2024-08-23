@@ -1,36 +1,22 @@
 {
   "frontend": {
-    "go_to_homepage": "Go to homepage",
-    "page_not_found": "Page not found",
     "style": {
-      "h1": "Yazı tipi",
-      "sidebar": {
-        "all": "TÜM"
-      },
       "bold": {
         "meta": {
-          "title": "Kalın Metin Oluşturucular | \n𝐁𝐨𝐥𝐝 𝒂𝒏𝒅 𝑖𝑡𝑎𝑙𝑖𝑐𝑠"
+          "title": "Kalın Metin Oluşturucular | 𝐊𝐚𝐥𝐀𝐧 𝐌𝐞𝐭𝐢𝐧 𝐎𝐥𝐮𝐲𝐭𝐮𝐫𝐮𝐜𝐮𝐥𝐚𝐫",
+          "description": "Kalın Metin Oluşturucu, standart metninizi kalın karakterlere dönüştürmek için tasarlanmış çevrimiçi bir araçtır. \nBasitçe yazı tipi stilini değiştirmenin aksine, bu araç, kalın harfleri taklit eden belirli bir Unicode sembolleri kümesini kullanarak kalın metinler oluşturur. \nBu semboller daha sonra çeşitli dijital platformlara kopyalanıp yapıştırılabilir, böylece içeriğiniz daha dikkat çekici ve etkili hale getirilebilir."
         }
-      }
-    },
-    "slug": {
-      "menu": {
-        "bold": "Gözü pek",
-        "fancy": "Süslü",
-        "italic": "İtalik",
-        "cool": "Serin",
-        "bold-italic": "Kalın İtalik",
-        "small": "Küçük",
-        "normal": "Normal",
-        "underline": "Altı çizili",
-        "bubble-text": "Kabarcık Metni",
-        "square-text": "Kare Metin"
-      }
-    },
-    "meta": {
-      "default": {
-        "title": "Facebook için Şık Metin Oluşturucu, X (Twitter)",
-        "description": "Facebook, X (eski adıyla Twitter) ve diğer sosyal medya platformları için kolayca şık metinler oluşturun. \nGönderilerinizin öne çıkmasını sağlamak için yazı tiplerini kalın, italik, süslü ve havalı stillerle özelleştirin."
+      },
+      "cool": {
+        "meta": {
+          "title": "Havalı Yazı Tipi Sembolü Kişisel Stil",
+          "description": "Harika Metin Oluşturucu yalnızca önceden ayarlanmış yazı tiplerinden ibaret değildir; \naynı zamanda bir dereceye kadar kişiselleştirme sunar. \nMarkanıza veya kişisel tarzınıza mükemmel şekilde uyum sağlayan bir metin oluşturmak için farklı stilleri deneyebilirsiniz. \nİster cesur, ister zarif veya ilginç bir şey arıyor olun, jeneratörde ihtiyaçlarınızı karşılayabilecek bir yazı tipi vardır."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Süslü Yazı Tipi Oluşturucu (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+        }
       }
     }
   }

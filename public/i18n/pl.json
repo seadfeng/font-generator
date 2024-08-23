@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Generatory pogrubionego tekstu | \n𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝘆 𝗽𝗼𝗴𝗿𝘂𝗯𝗶𝗼𝗻𝗲𝗴𝗼 𝘁𝗲𝗸𝘀𝘁𝘂"
+          "title": "Generatory pogrubionego tekstu | 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝘆 𝗽𝗼𝗴𝗿𝘂𝗯𝗶𝗼𝗻𝗲𝗴𝗼 𝘁𝗲𝗸𝘀𝘁𝘂",
+          "description": "Generator pogrubionego tekstu to narzędzie online zaprojektowane do konwersji standardowego tekstu na pogrubione znaki. \nW przeciwieństwie do zwykłej zmiany stylu czcionki, to narzędzie generuje pogrubiony tekst przy użyciu określonego zestawu symboli Unicode imitujących pogrubione litery. \nSymbole te można następnie kopiować i wklejać na różne platformy cyfrowe, dzięki czemu Twoje treści będą bardziej zauważalne i wywierają wpływ."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Fajny symbol czcionki, osobisty styl",
+          "description": "Generator fajnego tekstu to nie tylko wstępnie ustawione czcionki; \noferuje również pewien stopień dostosowania. \nMożesz eksperymentować z różnymi stylami, aby stworzyć tekst idealnie pasujący do Twojej marki lub osobistego stylu. \nNiezależnie od tego, czy szukasz czegoś odważnego, eleganckiego czy dziwacznego, w generatorze znajdziesz czcionkę, która spełni Twoje potrzeby."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Generator fantazyjnych czcionek (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

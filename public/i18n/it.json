@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Generatori di testo in grassetto | \n𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗶 𝗱𝗶 𝘁𝗲𝘀𝘁𝗼"
+          "title": "Generatori di testo in grassetto | 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗶 𝗱𝗶 𝘁𝗲𝘀𝘁𝗼",
+          "description": "Un generatore di testo in grassetto è uno strumento online progettato per convertire il testo standard in caratteri in grassetto. \nA differenza della semplice modifica dello stile del carattere, questo strumento genera testo in grassetto utilizzando un set specifico di simboli Unicode che imitano le lettere in grassetto. \nQuesti simboli possono quindi essere copiati e incollati su varie piattaforme digitali, rendendo i tuoi contenuti più evidenti e di maggiore impatto."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Stile personale del simbolo del carattere interessante",
+          "description": "Il Cool Text Generator non riguarda solo i caratteri preimpostati; \noffre anche un certo grado di personalizzazione. \nPuoi sperimentare stili diversi per creare un testo che si allinei perfettamente al tuo marchio o al tuo stile personale. \nChe tu stia cercando qualcosa di audace, elegante o eccentrico, c'è un carattere nel generatore che può soddisfare le tue esigenze."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Generatore di caratteri fantasiosi (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

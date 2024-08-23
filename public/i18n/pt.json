@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Geradores de texto em negrito | \n𝗚𝗲𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼 "
+          "title": "Geradores de texto em negrito | 𝗚𝗲𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼 ",
+          "description": "Um Gerador de Texto em Negrito é uma ferramenta online projetada para converter seu texto padrão em caracteres em negrito. \nAo contrário de simplesmente alterar o estilo da fonte, esta ferramenta gera texto em negrito usando um conjunto específico de símbolos Unicode que imitam letras em negrito. \nEsses símbolos podem então ser copiados e colados em diversas plataformas digitais, tornando seu conteúdo mais perceptível e impactante."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Estilo pessoal do símbolo de fonte legal",
+          "description": "O Cool Text Generator não trata apenas de fontes predefinidas; \ntambém oferece um certo grau de personalização. \nVocê pode experimentar diferentes estilos para criar um texto que se alinhe perfeitamente com sua marca ou estilo pessoal. \nEsteja você procurando algo ousado, elegante ou peculiar, há uma fonte no gerador que pode atender às suas necessidades."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Gerador de fontes extravagantes (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

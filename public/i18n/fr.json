@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Générateurs de texte gras | \n𝗚́𝗻́𝗿𝗮𝘁𝗲𝘂𝗿𝘀 𝗱𝗲 𝘁𝗲𝘅𝘁𝗲"
+          "title": "Générateurs de texte gras | 𝗚́𝗻́𝗿𝗮𝘁𝗲𝘂𝗿𝘀 𝗱𝗲 𝘁𝗲𝘅𝘁𝗲",
+          "description": "Un générateur de texte gras est un outil en ligne conçu pour convertir votre texte standard en caractères gras. \nContrairement à la simple modification du style de police, cet outil génère du texte en gras à l'aide d'un ensemble spécifique de symboles Unicode qui imitent les lettres en gras. \nCes symboles peuvent ensuite être copiés et collés sur diverses plateformes numériques, rendant votre contenu plus visible et plus percutant."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Style personnel de symbole de police cool",
+          "description": "Le Cool Text Generator ne concerne pas seulement les polices prédéfinies ; \nil offre également un certain degré de personnalisation. \nVous pouvez expérimenter différents styles pour créer un texte qui correspond parfaitement à votre marque ou à votre style personnel. \nQue vous recherchiez quelque chose d'audacieux, d'élégant ou de décalé, il existe une police dans le générateur qui peut répondre à vos besoins."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Générateur de polices fantaisie (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

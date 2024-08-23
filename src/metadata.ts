@@ -2,8 +2,6 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleType } from "./config";
 import { StyleKey } from "./slugs";
-
-
 /**
  * Metadata for src/app/[locale]/(frontend)/[style]/page.tsx
  * 
@@ -12,6 +10,8 @@ import { StyleKey } from "./slugs";
 export const styleMetadata = async ({ params }: { params: { locale: LocaleType, style: StyleKey } }): Promise<Metadata> => {
   const t = await getTranslations(params);
   const { style } = params;
+
+
   let title = "";
   let description = "";
   switch (style) {

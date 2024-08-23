@@ -10,7 +10,19 @@
       "bold": {
         "name": "Bold",
         "meta": {
-          "title": "Bold Text Generators | 𝐁𝐨𝐥𝐝 𝐓𝐞𝐱𝐭"
+          "title": "Bold Text Generators | 𝐁𝐨𝐥𝐝 𝐓𝐞𝐱𝐭",
+          "description": "A Bold Text Generator is an online tool designed to convert your standard text into bold characters. Unlike simply changing the font style, this tool generates bold text using a specific set of Unicode symbols that mimic bold letters. These symbols can then be copied and pasted into various digital platforms, making your content more noticeable and impactful."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Cool Font Symbol Personal Style",
+          "description": "The Cool Text Generator isn’t just about pre-set fonts; it also offers a degree of customization. You can experiment with different styles to create a text that aligns perfectly with your brand or personal style. Whether you’re looking for something bold, elegant, or quirky, there’s a font in the generator that can meet your needs. "
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

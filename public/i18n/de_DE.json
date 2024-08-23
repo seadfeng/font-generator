@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Fettgedruckte Textgeneratoren | \n𝐁𝗙𝗲𝘁𝘁𝗴𝗲𝗱𝗿𝘂𝗰𝗸𝘁𝗲 𝗧𝗲𝘅𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗻"
+          "title": "Fettgedruckte Textgeneratoren | 𝐁𝗙𝗲𝘁𝘁𝗴𝗲𝗱𝗿𝘂𝗰𝗸𝘁𝗲 𝗧𝗲𝘅𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗻",
+          "description": "Ein Bold Text Generator ist ein Online-Tool, mit dem Sie Ihren Standardtext in Fettschrift umwandeln können. \nIm Gegensatz zur einfachen Änderung des Schriftstils generiert dieses Tool fetten Text mithilfe eines bestimmten Satzes von Unicode-Symbolen, die fette Buchstaben imitieren. \nDiese Symbole können dann kopiert und in verschiedene digitale Plattformen eingefügt werden, wodurch Ihre Inhalte auffälliger und wirkungsvoller werden."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Cooles Schriftsymbol, persönlicher Stil",
+          "description": "Beim Cool Text Generator geht es nicht nur um voreingestellte Schriftarten; \nEs bietet auch ein gewisses Maß an Anpassungsmöglichkeiten. \nSie können mit verschiedenen Stilen experimentieren, um einen Text zu erstellen, der perfekt zu Ihrer Marke oder Ihrem persönlichen Stil passt. \nEgal, ob Sie etwas Mutiges, Elegantes oder Skurriles suchen, im Generator gibt es eine Schriftart, die Ihren Anforderungen entspricht."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Ausgefallener Schriftartengenerator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

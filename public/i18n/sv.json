@@ -9,7 +9,19 @@
       },
       "bold": {
         "meta": {
-          "title": "Fet textgeneratorer | \n𝗙𝗲𝘁 𝘁𝗲𝘅𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗿"
+          "title": "Fet textgeneratorer | 𝗙𝗲𝘁 𝘁𝗲𝘅𝘁𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿𝗲𝗿",
+          "description": "En fet textgenerator är ett onlineverktyg utformat för att konvertera din standardtext till fetstilta tecken. \nTill skillnad från att bara ändra teckensnittsstilen genererar det här verktyget fet text med hjälp av en specifik uppsättning Unicode-symboler som efterliknar feta bokstäver. \nDessa symboler kan sedan kopieras och klistras in i olika digitala plattformar, vilket gör ditt innehåll mer märkbart och slagkraftigt."
+        }
+      },
+      "cool": {
+        "meta": {
+          "title": "Cool teckensnittssymbol personlig stil",
+          "description": "Cool Text Generator handlar inte bara om förinställda typsnitt; \ndet erbjuder också en viss grad av anpassning. \nDu kan experimentera med olika stilar för att skapa en text som passar perfekt med ditt varumärke eller personliga stil. \nOavsett om du letar efter något djärvt, elegant eller udda, finns det ett typsnitt i generatorn som kan möta dina behov."
+        }
+      },
+      "fancy": {
+        "meta": {
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
         }
       }
     },

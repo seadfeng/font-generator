@@ -1,4 +1,4 @@
 services:
   app:
-    image: ghcr.io/seadfeng/font-generator:latest
+    image: font-generator:latest
     env_file: .env

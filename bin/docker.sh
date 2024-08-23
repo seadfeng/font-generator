@@ -13,3 +13,7 @@ docker buildx build \
   .
 
 docker tag ${APP}:$VERSION ${APP}:latest
+
+
+echo "${APP}:${VERSION}" 
+echo "${APP}:latest"

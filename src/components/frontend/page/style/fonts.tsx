@@ -1,29 +1,28 @@
 "use client";
 import Copy from "@/components/shared/copy";
+import { Button } from "@/components/ui/button";
 import { addDoubleUnderline, addStrikethrough, addUnderline, addWavyUnderline } from "@/lib/utils";
 import { FontKey, fonts, transforms } from "@/transforms";
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, useState } from "react";
  
 type TransformMap = { [key: string]: string };
 
 export const Fonts = ({
   className,
   content,
-  currentFonts,
-  underline = false,
-  strikethrough = false,
-  doubleUnderline = false,
-  wavyUnderline = false,
+  currentFonts
 }: {
   className?: HTMLAttributes<HTMLDivElement>["className"];
   currentFonts: Readonly<FontKey[]>;
-  content: string;
-  underline?: boolean;
-  strikethrough?: boolean;
-  doubleUnderline?: boolean;
-  wavyUnderline?: boolean;
+  content: string; 
   
 }) => { 
+
+  const [underline, setUnderline] = useState(false);
+  const [strikethrough, setStrikethrough] = useState(false);
+  const [doubleUnderline, setDoubleUnderline] = useState(false);
+  const [wavyUnderline, setWavyUnderline] = useState(false);
+
   const FontItem = ({ fontKey }: { fontKey: FontKey }) => { 
     const chars = transforms[fontKey] as TransformMap;
 
@@ -50,9 +49,29 @@ export const Fonts = ({
       </div>
     );
   };
-  
+  console.log("underline", underline)
   return (
     <div className={className}>
+      <div className="flex pb-4 mb-5 border-b">
+        <div className="flex gap-3">
+          <Button aria-label="Underline" size="icon" data-underline={underline} variant="outline" onClick={()=> setUnderline(!underline) } 
+            className="data-[underline='true']:font-extrabold data-[underline='true']:bg-primary/25 underline underline-offset-3 rounded-lg dark:border-white/10">
+            {"U"} 
+          </Button>
+          <Button aria-label="Double Underline" size="icon" data-doubleUnderline={doubleUnderline} variant="outline" onClick={()=>  setDoubleUnderline(!doubleUnderline) } 
+            className="data-[doubleUnderline='true']:font-extrabold data-[doubleUnderline='true']:bg-primary/25 rounded-lg dark:border-white/10">
+            {"U" + '\u0333'} 
+          </Button> 
+          <Button aria-label="WavyUnderline" size="icon" data-wavyUnderline={wavyUnderline} variant="outline" onClick={()=>  setWavyUnderline(!wavyUnderline) } 
+            className="data-[wavyUnderline='true']:font-extrabold data-[wavyUnderline='true']:bg-primary/25 rounded-lg dark:border-white/10">
+            {"U" + '\u0330'} 
+          </Button>
+          <Button aria-label="Strikethrough" size="icon" data-strikethrough={strikethrough} variant="outline" onClick={()=>  setStrikethrough(!strikethrough) } 
+            className="data-[strikethrough='true']:font-extrabold data-[strikethrough='true']:bg-primary/25 rounded-lg dark:border-white/10">
+            {"U" + '\u0336'} 
+          </Button>
+        </div>
+      </div>
       {currentFonts.map(key => <FontItem key={key} fontKey={key} />)}
     </div>
   );

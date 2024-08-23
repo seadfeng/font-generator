@@ -17,17 +17,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install dependencies
         run: npm install
-      - name: Deploy to Cloudflare Pages
+      - name: Build
         run: |
           response=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/font-generator" \
             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}")
           if [ $response -eq 404 ]; then
             echo "Project does not exist, creating..."
-            npm run pages:build && npx wrangler pages deploy --production-branch main
+            npx wrangler pages project create font-generator --production-branch main
           else
             echo "Project exists, skipping creation."
           fi
-          npm run pages:build && npx wrangler pages deploy --branch ${{ github.ref_name }}
+          npm run pages:build
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy --branch main

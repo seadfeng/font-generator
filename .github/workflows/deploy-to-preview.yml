@@ -29,14 +29,15 @@ jobs:
         run: npm install
       - name: Build
         run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/font-generator" \
+          response=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/font-generator-preview" \
             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}")
           if [ $response -eq 404 ]; then
             echo "Project does not exist, creating..."
-            npx wrangler pages project create font-generator --production-branch main
+            npx wrangler pages project create font-generator-preview --production-branch main
           else
             echo "Project exists, skipping creation."
           fi
+          sed -i 's/font-generator/font-generator-preview/' wrangler.toml
           npm run pages:build
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -48,9 +49,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy --branch dev
-
-      - name: Print Deployment Url
-        env:
-          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
-        run: echo $DEPLOYMENT_URL
+          command: pages deploy --branch main

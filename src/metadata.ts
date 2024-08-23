@@ -88,6 +88,8 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
       return t("frontend.slug.menu.underline");
     case "bubble-text":
       return t("frontend.slug.menu.bubble-text");
+    case "square-text":
+      return t("frontend.slug.menu.square-text");
     default:
       return "";
   }

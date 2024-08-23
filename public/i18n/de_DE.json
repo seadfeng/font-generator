@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Ausgefallener Schriftartengenerator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Ausgefallener Schriftartengenerator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Ausgefallene Schriftarten sind im Wesentlichen eine Sammlung von Unicode-Symbolen, die stilisierten Versionen von Standardbuchstaben und -zahlen ähneln. \nObwohl sie als unterschiedliche Schriftarten erscheinen, handelt es sich tatsächlich um unterschiedliche Zeichen innerhalb des Unicode-Standards. \nDas bedeutet, dass sie auf verschiedenen Plattformen kopiert und eingefügt werden können, von Social-Media-Profilen bis hin zu Messaging-Apps, sodass Ihre Inhalte aus der Masse hervorstechen."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Kursiver Text hat eine lange Geschichte in der Typografie und wurde ursprünglich in gedruckter Form verwendet, um bestimmte Wörter oder Phrasen hervorzuheben. \nAuch im digitalen Zeitalter erfüllt kursiver Text diesen Zweck, bietet aber noch viel mehr. \nKursivschrift kann auf den Tonfall hinweisen, Fremdwörter oder Phrasen unterscheiden oder Titel von Werken kennzeichnen. \nBeim kreativen Schreiben kann Kursivschrift Gedanken, interne Dialoge oder subtile Nuancen vermitteln und dem Text Tiefe verleihen. \nIm Wesentlichen ist kursiver Text ein leistungsstarkes Werkzeug, um die Lesbarkeit zu verbessern und Ihren Wörtern Bedeutung zu verleihen.",
+          "title": "Kursiver Textgenerator [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Winziger Textgenerator (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Bei kleinem Text, oft auch als winziger Text bezeichnet, geht es nicht nur darum, Ihren Text zu verkleinern. \nDabei wird Ihr Text in eine bestimmte Teilmenge von Unicode-Zeichen konvertiert, die von Natur aus kleiner aussehen. \nBei diesen Zeichen handelt es sich nicht lediglich um verkleinerte Versionen normaler Buchstaben; \nEs handelt sich dabei um eindeutige Symbole innerhalb des Unicode-Standards, die so konzipiert sind, dass sie weniger vertikalen Platz beanspruchen. \nDiese Unterscheidung ist wichtig, da sie bedeutet, dass kleiner Text auf verschiedenen Plattformen kopiert und eingefügt werden kann, ohne dass seine Formatierung verloren geht, im Gegensatz zu Text, dessen Größe einfach in einem Textverarbeitungsprogramm geändert wird."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Fett-kursiver Text ist ein hybrider Stil, der die Wirkung von Fett mit der Betonung von Kursivschrift verbindet. \nIn der Vergangenheit wurde fetter Text verwendet, um wichtige Wörter oder Phrasen hervorzuheben und sie so hervorzuheben, während kursiver Text eine subtile Betonung hinzufügte oder auf eine Tonänderung hinweist. \nDurch die Kombination dieser beiden Stile erreicht Fett-Kursiv-Text beides und ist somit eine hervorragende Wahl, um die Aufmerksamkeit auf kritische Inhalte zu lenken, ohne den Leser zu überfordern.",
+          "title": "Generatoren für fetten und kursiven Text (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Unterstreichungstextgenerator | 𝗨̲𝗻̲𝘁̲𝗲̲𝗿̲𝘀̲𝘁̲𝗿̲𝗲̲𝗶̲𝗰̲𝗵̲𝘂̲𝗻̲𝗴̲𝘀̲𝘁̲𝗲̲𝘅̲𝘁̲𝗴̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝘁̲𝗼̲𝗿̲"
         }
       }
     },

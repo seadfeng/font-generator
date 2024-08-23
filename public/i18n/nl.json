@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Fancy-lettertypen zijn in wezen een verzameling Unicode-symbolen die lijken op gestileerde versies van standaardletters en cijfers. \nHoewel ze als verschillende lettertypen verschijnen, zijn het in feite verschillende tekens binnen de Unicode-standaard. \nDit betekent dat ze op verschillende platforms kunnen worden gekopieerd en geplakt, van socialemediaprofielen tot berichtenapps, waardoor uw inhoud opvalt in de massa."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Cursieve tekst heeft een rijke geschiedenis in de typografie en werd oorspronkelijk in druk gebruikt om bepaalde woorden of zinsneden te benadrukken. \nIn het digitale tijdperk blijft cursieve tekst dit doel dienen, maar het biedt ook veel meer. \nCursief kan de toon van de stem aangeven, vreemde woorden of zinsneden onderscheiden, of titels van werken aanduiden. \nBij creatief schrijven kan cursief gedachten, een interne dialoog of subtiele nuances overbrengen, waardoor diepte aan de tekst wordt toegevoegd. \nIn wezen is cursieve tekst een krachtig hulpmiddel om de leesbaarheid te verbeteren en betekenis aan uw woorden toe te voegen.",
+          "title": "Cursieve tekstgenerator [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Kleine tekstgenerator (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Kleine tekst, ook wel kleine tekst genoemd, gaat niet alleen over het kleiner maken van uw tekst. \nHet gaat om het converteren van uw tekst naar een specifieke subset van Unicode-tekens die van nature kleiner van uiterlijk zijn. \nDeze karakters zijn niet slechts verkleinde versies van gewone letters; \nhet zijn afzonderlijke symbolen binnen de Unicode-standaard, ontworpen om minder verticale ruimte in beslag te nemen. \nDit onderscheid is belangrijk omdat het betekent dat kleine tekst op verschillende platforms kan worden gekopieerd en geplakt zonder de opmaak te verliezen, in tegenstelling tot tekst die eenvoudigweg wordt vergroot of verkleind in een tekstverwerker."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Vetgedrukte, cursieve tekst is een hybride stijl die de impact van vetgedrukte tekst combineert met de nadruk van cursief. \nHistorisch gezien werd vetgedrukte tekst gebruikt om belangrijke woorden of zinsneden te benadrukken, waardoor ze opvallen, terwijl cursieve tekst een subtiele nadruk legt of een verschuiving in toon aangeeft. \nDoor deze twee stijlen te combineren, bereikt vetgedrukte cursieve tekst beide, waardoor het een uitstekende keuze is om de aandacht te vestigen op kritische inhoud zonder de lezer te overweldigen.",
+          "title": "Vetgedrukte en cursieve tekstgeneratoren (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Onderstreep tekstgenerator | 𝑶̲𝒏̲𝒅̲𝒆̲𝒓̲𝒔̲𝒕̲𝒓̲𝒆̲𝒆̲𝒑̲ ̲𝒕̲𝒆̲𝒌̲𝒔̲𝒕̲𝒈̲𝒆̲𝒏̲𝒆̲𝒓̲𝒂̲𝒕̲𝒐̲𝒓̲"
         }
       }
     },

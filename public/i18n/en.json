@@ -22,7 +22,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Fancy fonts are essentially a collection of Unicode symbols that resemble stylized versions of standard letters and numbers. While they appear as different fonts, they are, in fact, distinct characters within the Unicode standard. This means they can be copied and pasted across various platforms, from social media profiles to messaging apps, making your content stand out in the crowd."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Italic text has a rich history in typography, originally used in print to emphasize certain words or phrases. In the digital age, italic text continues to serve this purpose, but it also offers much more. Italics can indicate a tone of voice, distinguish foreign words or phrases, or denote titles of works. In creative writing, italics can convey thoughts, internal dialogue, or subtle nuances, adding depth to the text. Essentially, italic text is a powerful tool for enhancing readability and adding meaning to your words.",
+          "title": "Italic Text Generator [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Tiny Text Generator (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Small text, often referred to as tiny text, isn't just about making your text smaller in size. It involves converting your text into a specific subset of Unicode characters that are naturally smaller in appearance. These characters are not merely scaled-down versions of regular letters; they are distinct symbols within the Unicode standard, designed to occupy less vertical space. This distinction is important because it means that small text can be copied and pasted across different platforms without losing its formatting, unlike text that is simply resized in a word processor."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Bold italic text is a hybrid style that merges the impact of bold with the emphasis of italics. Historically, bold text has been used to highlight important words or phrases, making them stand out, while italic text adds a subtle emphasis or indicates a shift in tone. By combining these two styles, bold italic text achieves both, making it an excellent choice for drawing attention to critical content without overwhelming the reader.",
+          "title": "Bold and Italic Text Generators (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Underline Text Generator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐥̲𝐢̲𝐧̲𝐞̲ ̲𝐓̲𝐞̲𝐱̲𝐭̲ ̲𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲"
         }
       }
     },

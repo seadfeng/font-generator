@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Générateur de polices fantaisie (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Générateur de polices fantaisie (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Les polices fantaisie sont essentiellement une collection de symboles Unicode qui ressemblent à des versions stylisées de lettres et de chiffres standard. \nBien qu'ils apparaissent comme des polices différentes, il s'agit en fait de caractères distincts au sein de la norme Unicode. \nCela signifie qu'ils peuvent être copiés et collés sur diverses plateformes, des profils de réseaux sociaux aux applications de messagerie, permettant ainsi à votre contenu de se démarquer."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Le texte italique a une riche histoire en typographie, utilisé à l’origine sous forme imprimée pour souligner certains mots ou expressions. \nÀ l’ère du numérique, le texte en italique continue de remplir cet objectif, mais il offre aussi bien plus. \nL'italique peut indiquer un ton de voix, distinguer des mots ou des phrases étrangères ou désigner des titres d'œuvres. \nDans l’écriture créative, l’italique peut transmettre des pensées, un dialogue interne ou des nuances subtiles, ajoutant ainsi de la profondeur au texte. \nEssentiellement, le texte en italique est un outil puissant pour améliorer la lisibilité et ajouter du sens à vos mots.",
+          "title": "Générateur de texte italique [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Petit générateur de texte (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Le petit texte, souvent appelé petit texte, ne consiste pas seulement à réduire la taille de votre texte. \nCela implique de convertir votre texte en un sous-ensemble spécifique de caractères Unicode qui sont naturellement plus petits en apparence. \nCes caractères ne sont pas simplement des versions réduites de lettres ordinaires ; \nce sont des symboles distincts au sein de la norme Unicode, conçus pour occuper moins d'espace vertical. \nCette distinction est importante car elle signifie qu'un petit texte peut être copié et collé sur différentes plates-formes sans perdre sa mise en forme, contrairement au texte qui est simplement redimensionné dans un traitement de texte."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Le texte italique gras est un style hybride qui fusionne l’impact du gras avec l’accentuation de l’italique. \nHistoriquement, le texte en gras a été utilisé pour mettre en évidence des mots ou des phrases importants, les faisant ressortir, tandis que le texte en italique ajoute une emphase subtile ou indique un changement de ton. \nEn combinant ces deux styles, le texte italique gras réalise les deux, ce qui en fait un excellent choix pour attirer l'attention sur un contenu critique sans surcharger le lecteur.",
+          "title": "Générateurs de texte gras et italique (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Générateur de texte souligné | 𝗚̲̲́𝗻̲̲́𝗿̲𝗮̲𝘁̲𝗲̲𝘂̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗲̲"
         }
       }
     },

@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Generador de fuentes elegantes (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Generador de fuentes elegantes (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Las fuentes elegantes son esencialmente una colección de símbolos Unicode que se asemejan a versiones estilizadas de letras y números estándar. \nSi bien aparecen como fuentes diferentes, en realidad son caracteres distintos dentro del estándar Unicode. \nEsto significa que se pueden copiar y pegar en varias plataformas, desde perfiles de redes sociales hasta aplicaciones de mensajería, haciendo que su contenido se destaque entre la multitud."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "El texto en cursiva tiene una rica historia en tipografía y se utilizó originalmente en forma impresa para enfatizar ciertas palabras o frases. \nEn la era digital, el texto en cursiva sigue cumpliendo este propósito, pero también ofrece mucho más. \nLa cursiva puede indicar un tono de voz, distinguir palabras o frases extranjeras o indicar títulos de obras. \nEn la escritura creativa, la cursiva puede transmitir pensamientos, diálogos internos o matices sutiles, añadiendo profundidad al texto. \nBásicamente, el texto en cursiva es una herramienta poderosa para mejorar la legibilidad y agregar significado a sus palabras.",
+          "title": "Generador de texto en cursiva [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Pequeño generador de texto (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "El texto pequeño, a menudo denominado texto pequeño, no se trata solo de reducir el tamaño del texto. \nImplica convertir su texto en un subconjunto específico de caracteres Unicode que son naturalmente más pequeños en apariencia. \nEstos caracteres no son simplemente versiones reducidas de letras normales; \nson símbolos distintos dentro del estándar Unicode, diseñados para ocupar menos espacio vertical. \nEsta distinción es importante porque significa que el texto pequeño se puede copiar y pegar en diferentes plataformas sin perder su formato, a diferencia del texto al que simplemente se le cambia el tamaño en un procesador de textos."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "El texto en negrita y cursiva es un estilo híbrido que combina el impacto de la negrita con el énfasis de la cursiva. \nHistóricamente, el texto en negrita se ha utilizado para resaltar palabras o frases importantes, haciéndolas resaltar, mientras que el texto en cursiva agrega un énfasis sutil o indica un cambio de tono. \nAl combinar estos dos estilos, el texto en negrita y cursiva logra ambos, lo que lo convierte en una excelente opción para llamar la atención sobre contenido crítico sin abrumar al lector.",
+          "title": "Generadores de texto en negrita y cursiva (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Generador de texto subrayado | 𝗚̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝗱̲𝗼̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗼̲"
         }
       }
     },

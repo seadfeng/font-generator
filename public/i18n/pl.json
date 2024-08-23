@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Generator fantazyjnych czcionek (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Generator fantazyjnych czcionek (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Fantazyjne czcionki to w zasadzie zbiór symboli Unicode, które przypominają stylizowane wersje standardowych liter i cyfr. \nChoć wyglądają jak różne czcionki, w rzeczywistości są to odrębne znaki w standardzie Unicode. \nOznacza to, że można je kopiować i wklejać na różnych platformach, od profili w mediach społecznościowych po aplikacje do przesyłania wiadomości, dzięki czemu Twoje treści będą wyróżniać się w tłumie."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Tekst kursywą ma bogatą historię w typografii i pierwotnie był używany w druku w celu podkreślenia pewnych słów lub wyrażeń. \nW epoce cyfrowej kursywa nadal służy temu celowi, ale oferuje także znacznie więcej. \nKursywa może wskazywać ton głosu, rozróżniać obce słowa lub wyrażenia lub oznaczać tytuły dzieł. \nW kreatywnym pisaniu kursywa może przekazywać myśli, wewnętrzny dialog lub subtelne niuanse, dodając głębi tekstowi. \nZasadniczo kursywa jest potężnym narzędziem zwiększającym czytelność i dodającym znaczenia słowom.",
+          "title": "Generator tekstu kursywą [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Mały generator tekstu (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Mały tekst, często nazywany drobnym tekstem, nie polega tylko na zmniejszeniu rozmiaru tekstu. \nPolega na konwersji tekstu na określony podzbiór znaków Unicode, które są naturalnie mniejsze. \nZnaki te nie są jedynie pomniejszonymi wersjami zwykłych liter; \nsą to odrębne symbole w standardzie Unicode, zaprojektowane tak, aby zajmowały mniej miejsca w pionie. \nTo rozróżnienie jest ważne, ponieważ oznacza, że ​​mały tekst można kopiować i wklejać na różnych platformach bez utraty formatowania, w przeciwieństwie do tekstu, którego rozmiar po prostu zmienia się w edytorze tekstu."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Tekst pogrubiony kursywą to styl hybrydowy, który łączy wpływ pogrubienia z podkreśleniem kursywy. \nHistorycznie rzecz biorąc, pogrubiony tekst był używany do wyróżniania ważnych słów lub fraz, podczas gdy tekst kursywą subtelnie podkreślał lub wskazywał na zmianę tonu. \nŁącząc te dwa style, pogrubiony tekst kursywy pozwala osiągnąć oba te cele, co czyni go doskonałym wyborem do zwrócenia uwagi na krytyczne treści bez przytłaczania czytelnika.",
+          "title": "Generatory tekstu pogrubionego i kursywy (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Generator podkreślenia tekstu | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲ ̲𝐩̲𝐨̲𝐝̲𝐤̲𝐫̲𝐞̲ś̲𝐥̲𝐞̲𝐧̲𝐢̲𝐚̲ ̲𝐭̲𝐞̲𝐤̲𝐬̲𝐭̲𝐮̲"
         }
       }
     },

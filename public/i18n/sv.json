@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Fancy Font Generator (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Fancy typsnitt är i huvudsak en samling Unicode-symboler som liknar stiliserade versioner av standardbokstäver och siffror. \nÄven om de visas som olika typsnitt, är de i själva verket distinkta tecken inom Unicode-standarden. \nDet betyder att de kan kopieras och klistras in på olika plattformar, från sociala medieprofiler till meddelandeappar, vilket gör att ditt innehåll sticker ut i mängden."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Kursiv text har en rik historia inom typografi, som ursprungligen användes i tryck för att betona vissa ord eller fraser. \nI den digitala tidsåldern fortsätter kursiv text att tjäna detta syfte, men den erbjuder också mycket mer. \nKursiv stil kan indikera ett tonfall, särskilja främmande ord eller fraser, eller beteckna titlar på verk. \nI kreativt skrivande kan kursiv stil förmedla tankar, intern dialog eller subtila nyanser, vilket ger djup till texten. \nKursiv text är i huvudsak ett kraftfullt verktyg för att förbättra läsbarheten och lägga till mening till dina ord.",
+          "title": "Kursiv textgenerator [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Tiny Text Generator (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Liten text, ofta kallad liten text, handlar inte bara om att göra din text mindre i storlek. \nDet innebär att konvertera din text till en specifik delmängd av Unicode-tecken som är naturligt mindre till utseendet. \nDessa tecken är inte bara förminskade versioner av vanliga bokstäver; \nde är distinkta symboler inom Unicode-standarden, designade för att uppta mindre vertikalt utrymme. \nDenna distinktion är viktig eftersom den innebär att liten text kan kopieras och klistras in på olika plattformar utan att förlora sin formatering, till skillnad från text som helt enkelt ändras storlek i en ordbehandlare."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Fet kursiv text är en hybridstil som kombinerar effekten av fet stil med betoningen av kursiv stil. \nHistoriskt sett har fet text använts för att markera viktiga ord eller fraser, vilket gör att de sticker ut, medan kursiv text lägger till en subtil betoning eller indikerar en förändring i ton. \nGenom att kombinera dessa två stilar uppnår fet kursiv text båda, vilket gör den till ett utmärkt val för att uppmärksamma kritiskt innehåll utan att överväldiga läsaren.",
+          "title": "Fet och kursiv textgeneratorer (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Understruken textgenerator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐬̲𝐭̲𝐫̲𝐮̲𝐤̲𝐞̲𝐧̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐠̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲"
         }
       }
     },

@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Gerador de fontes extravagantes (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Gerador de fontes extravagantes (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Fontes sofisticadas são essencialmente uma coleção de símbolos Unicode que lembram versões estilizadas de letras e números padrão. \nEmbora apareçam como fontes diferentes, são, na verdade, caracteres distintos dentro do padrão Unicode. \nIsso significa que eles podem ser copiados e colados em diversas plataformas, desde perfis de redes sociais até aplicativos de mensagens, fazendo com que seu conteúdo se destaque na multidão."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "O texto em itálico tem uma rica história na tipografia, originalmente usada na impressão para enfatizar certas palavras ou frases. \nNa era digital, o texto em itálico continua a servir este propósito, mas também oferece muito mais. \nItálico pode indicar um tom de voz, distinguir palavras ou frases estrangeiras ou denotar títulos de obras. \nNa escrita criativa, o itálico pode transmitir pensamentos, diálogos internos ou nuances sutis, acrescentando profundidade ao texto. \nEssencialmente, o texto em itálico é uma ferramenta poderosa para melhorar a legibilidade e adicionar significado às suas palavras.",
+          "title": "Gerador de texto em itálico [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Gerador de texto minúsculo (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Texto pequeno, geralmente chamado de texto minúsculo, não significa apenas diminuir o tamanho do texto. \nEnvolve a conversão do seu texto em um subconjunto específico de caracteres Unicode que têm aparência naturalmente menor. \nEsses caracteres não são apenas versões reduzidas de letras normais; \nsão símbolos distintos dentro do padrão Unicode, projetados para ocupar menos espaço vertical. \nEsta distinção é importante porque significa que pequenos textos podem ser copiados e colados em diferentes plataformas sem perder a formatação, ao contrário do texto que é simplesmente redimensionado em um processador de texto."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "O texto em negrito e itálico é um estilo híbrido que mescla o impacto do negrito com a ênfase do itálico. \nHistoricamente, o texto em negrito tem sido usado para destacar palavras ou frases importantes, destacando-as, enquanto o texto em itálico adiciona uma ênfase sutil ou indica uma mudança de tom. \nAo combinar esses dois estilos, o texto em negrito e itálico alcança ambos, tornando-se uma excelente escolha para chamar a atenção para conteúdo crítico sem sobrecarregar o leitor.",
+          "title": "Geradores de texto em negrito e itálico (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Gerador de texto sublinhado | 𝐆̲𝐞̲𝐫̲𝐚̲𝐝̲𝐨̲𝐫̲ ̲𝐝̲𝐞̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐨̲"
         }
       }
     },

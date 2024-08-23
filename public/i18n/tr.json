@@ -15,7 +15,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Süslü Yazı Tipi Oluşturucu (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Süslü Yazı Tipi Oluşturucu (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "Süslü yazı tipleri, esasen standart harf ve sayıların stilize edilmiş versiyonlarına benzeyen bir Unicode sembolleri koleksiyonudur. \nFarklı yazı tipleri olarak görünseler de aslında Unicode standardında farklı karakterlerdirler. \nBu, bunların sosyal medya profillerinden mesajlaşma uygulamalarına kadar çeşitli platformlara kopyalanıp yapıştırılabileceği ve içeriğinizin kalabalığın içinde öne çıkabileceği anlamına gelir."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "İtalik metnin tipografi açısından zengin bir geçmişi vardır ve orijinal olarak basılı olarak belirli kelimeleri veya cümleleri vurgulamak için kullanılır. \nDijital çağda italik metinler bu amaca hizmet etmeye devam ediyor ama aynı zamanda çok daha fazlasını da sunuyor. \nİtalik, bir ses tonunu belirtebilir, yabancı sözcük veya ifadeleri ayırt edebilir veya eserlerin başlıklarını belirtebilir. \nYaratıcı yazımda italik, düşünceleri, iç diyaloğu veya ince nüansları aktararak metne derinlik katabilir. \nTemel olarak italik metin, okunabilirliği artırmak ve kelimelerinize anlam katmak için güçlü bir araçtır.",
+          "title": "İtalik Metin Oluşturucu [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Küçük Metin Oluşturucu (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Genellikle küçük metin olarak adlandırılan küçük metin, yalnızca metninizin boyutunu küçültmekle ilgili değildir. \nMetninizi, görünüşte doğal olarak daha küçük olan belirli bir Unicode karakter alt kümesine dönüştürmeyi içerir. \nBu karakterler yalnızca normal harflerin küçültülmüş versiyonları değildir; \nbunlar Unicode standardında daha az dikey yer kaplayacak şekilde tasarlanmış farklı sembollerdir. \nBu ayrım önemlidir çünkü bu, bir kelime işlemcide basitçe yeniden boyutlandırılan metnin aksine, küçük metnin farklı platformlara formatını kaybetmeden kopyalanıp yapıştırılabileceği anlamına gelir."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Kalın italik metin, kalının etkisini italik vurguyla birleştiren melez bir stildir. \nTarihsel olarak, kalın metin önemli kelimeleri veya cümleleri vurgulamak ve onları öne çıkarmak için kullanılırken, italik metin ince bir vurgu ekler veya tonda bir değişikliği belirtir. \nKalın italik metin bu iki stili birleştirerek her ikisini de başarır ve okuyucuyu bunaltmadan kritik içeriğe dikkat çekmek için mükemmel bir seçimdir.",
+          "title": "Kalın ve İtalik Metin Oluşturucular (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Altı Çizili Metin Oluşturucu | "
         }
       }
     }

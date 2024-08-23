@@ -21,7 +21,31 @@
       },
       "fancy": {
         "meta": {
-          "title": "Generatore di caratteri fantasiosi (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)"
+          "title": "Generatore di caratteri fantasiosi (𝒞𝑜𝓅𝓎 𝒶𝓃𝒹 𝒫𝒶𝓈𝓉𝑒)",
+          "description": "I caratteri fantasiosi sono essenzialmente una raccolta di simboli Unicode che assomigliano a versioni stilizzate di lettere e numeri standard. \nSebbene appaiano come caratteri diversi, in realtà sono caratteri distinti all'interno dello standard Unicode. \nCiò significa che possono essere copiati e incollati su varie piattaforme, dai profili di social media alle app di messaggistica, facendo risaltare i tuoi contenuti tra la massa."
+        }
+      },
+      "italic": {
+        "meta": {
+          "description": "Il testo corsivo ha una ricca storia tipografica, originariamente utilizzato nella stampa per enfatizzare determinate parole o frasi. \nNell’era digitale il testo in corsivo continua a servire a questo scopo, ma offre anche molto di più. \nIl corsivo può indicare un tono di voce, distinguere parole o frasi straniere o denotare titoli di opere. \nNella scrittura creativa, il corsivo può trasmettere pensieri, dialoghi interni o sottili sfumature, aggiungendo profondità al testo. \nIn sostanza, il testo in corsivo è un potente strumento per migliorare la leggibilità e aggiungere significato alle tue parole.",
+          "title": "Generatore di testo corsivo [𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦]"
+        }
+      },
+      "small": {
+        "meta": {
+          "title": "Piccolo generatore di testo (ˢᵐᵃˡˡ ᶠᵒⁿᵗ)",
+          "description": "Il testo piccolo, spesso definito testo minuscolo, non significa solo ridurne le dimensioni. \nImplica la conversione del testo in un sottoinsieme specifico di caratteri Unicode che sono naturalmente più piccoli nell'aspetto. \nQuesti caratteri non sono semplicemente versioni ridotte delle lettere normali; \nsono simboli distinti all'interno dello standard Unicode, progettati per occupare meno spazio verticale. \nQuesta distinzione è importante perché significa che il testo di piccole dimensioni può essere copiato e incollato su piattaforme diverse senza perdere la formattazione, a differenza del testo che viene semplicemente ridimensionato in un elaboratore di testi."
+        }
+      },
+      "bold-italic": {
+        "meta": {
+          "description": "Il testo grassetto corsivo è uno stile ibrido che unisce l'impatto del grassetto con l'enfasi del corsivo. \nStoricamente, il testo in grassetto è stato utilizzato per evidenziare parole o frasi importanti, facendole risaltare, mentre il testo in corsivo aggiunge un'enfasi sottile o indica un cambiamento di tono. \nCombinando questi due stili, il testo in grassetto corsivo li ottiene entrambi, rendendolo una scelta eccellente per attirare l'attenzione su contenuti critici senza sopraffare il lettore.",
+          "title": "Generatori di testo in grassetto e corsivo (𝘾𝙤𝙥𝙮 𝙖𝙣𝙙 𝙋𝙖𝙨𝙩𝙚)"
+        }
+      },
+      "underline": {
+        "meta": {
+          "title": "Generatore di testo sottolineato | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲𝐞̲ ̲𝐝̲𝐢̲ ̲𝐭̲𝐞̲𝐬̲𝐭̲𝐨̲"
         }
       }
     },

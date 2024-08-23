@@ -11,7 +11,7 @@ export const canonicalLink = (domain: string, pathname: string) => {
   return `${isProduction ? "https" : "http"}://${domain}${pathname}`;
 }
 
-export const origin = ({ headers }: { headers: Headers }) => {
+export const getOrigin = ({ headers }: { headers: Headers }) => {
   const host = headers.get('host') || appConfig.appDomain;
 
   const protocol = ['localhost', '127.0.0.1'].includes(host.split(":")[0]) ? 'http' : 'https';
@@ -26,12 +26,26 @@ type appendChar = {
 
 export const addUnderline = ({ char, fontKey }: appendChar) => {
   switch (fontKey) {
+    case "smallCaps":
+    case "boldScript":
+    case "boldFraktur":
     case "superscript":
+    case "doubleStruck":
+    case "serifBoldItalic":
+    case "serifBold":
+    case "serifItalic":
+    case "sansSerif":
+    case "sansItalic":
+    case "sansBoldItalic":
+    case "sansBold":
+    case "monospace":
+    case "inverted":
+    case "mirrored":
     case "script":
     case "subscript":
-      return char + '\u035f';
+      return char + '\u0332';
     default:
-      return char;
+      return char + '\u0332';
   }
 }
 export const addDoubleUnderline = ({ char, oldChar, fontKey }: appendChar) => {

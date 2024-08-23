@@ -2,9 +2,13 @@ import { Link } from "@/lib/i18n";
 import { styleFonts, StyleKey } from "@/slugs";
 import { ALargeSmallIcon, BoldIcon, FeatherIcon, ItalicIcon, StarsIcon, UnderlineIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 import { ClassNameValue } from "tailwind-merge";
 
-export const Sidebar =( )=>{   
+export const Sidebar =( )=>{    
+  let search = useSearchParams().toString();
+  if(search) search = `?${search}`;
+  
   const t = useTranslations();
   const linkCls: ClassNameValue = "border w-full h-12 flex rounded-lg items-center gap-3 px-5 font-semibold mb-5";
 
@@ -52,19 +56,19 @@ export const Sidebar =( )=>{
       default:
         return null;
     }
-  }
+  } 
 
   return(
     <>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-1 gap-x-3  md:flex-row">
-        <Link href="/" className={linkCls}>
+        <Link href={`/${search}`} className={linkCls}>
           <span>{t('frontend.style.sidebar.all')}</span> 
         </Link>
         { Object.entries(styleFonts).map(([slug]) =>{ 
           const name = i18nName(slug as StyleKey); 
           if(!name) return;
           return(
-            <Link href={`/${slug}`} key={slug} className={linkCls}>
+            <Link href={`/${slug}${search}`} key={slug} className={linkCls}>
               <NavIcon slug={slug as StyleKey} />
               <span className="text-sm">{name}</span>
             </Link>

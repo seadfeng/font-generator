@@ -31,8 +31,9 @@ export const Fonts = ({
     const transformAndAdjust = (text: string) => {
       return Array.from(text).map(char => {
         let newChar = chars[char] || char; 
+
         if(style === "underline"){
-          if(underline) newChar = addUnderline({char: newChar, fontKey});
+          if(underline) newChar = addUnderline({char: newChar, fontKey}); 
           if(strikethrough) newChar = addStrikethrough({char: newChar, fontKey});
           if(doubleUnderline) newChar = addDoubleUnderline({char: newChar, oldChar: char, fontKey});
           if(wavyUnderline) newChar = addWavyUnderline({char: newChar, oldChar: char, fontKey}); 
@@ -61,12 +62,12 @@ export const Fonts = ({
             className="data-[underline='true']:font-extrabold data-[underline='true']:bg-primary/25 underline underline-offset-3 rounded-lg dark:border-white/10">
             {"U"} 
           </Button>
-          <Button aria-label="Double Underline" size="icon" data-doubleUnderline={doubleUnderline} variant="outline" onClick={()=>  setDoubleUnderline(!doubleUnderline) } 
-            className="data-[doubleUnderline='true']:font-extrabold data-[doubleUnderline='true']:bg-primary/25 rounded-lg dark:border-white/10">
+          <Button aria-label="Double Underline" size="icon" data-double-underline={doubleUnderline} variant="outline" onClick={()=>  setDoubleUnderline(!doubleUnderline) } 
+            className="data-[doubleu-underline='true']:font-extrabold data-[double-underline='true']:bg-primary/25 rounded-lg dark:border-white/10">
             {"U" + '\u0333'} 
           </Button> 
-          <Button aria-label="WavyUnderline" size="icon" data-wavyUnderline={wavyUnderline} variant="outline" onClick={()=>  setWavyUnderline(!wavyUnderline) } 
-            className="data-[wavyUnderline='true']:font-extrabold data-[wavyUnderline='true']:bg-primary/25 rounded-lg dark:border-white/10">
+          <Button aria-label="Wavy nderline" size="icon" data-wavy-underline={wavyUnderline} variant="outline" onClick={()=>  setWavyUnderline(!wavyUnderline) } 
+            className="data-[wavy-underline='true']:font-extrabold data-[wavy-underline='true']:bg-primary/25 rounded-lg dark:border-white/10">
             {"U" + '\u0330'} 
           </Button>
           <Button aria-label="Strikethrough" size="icon" data-strikethrough={strikethrough} variant="outline" onClick={()=>  setStrikethrough(!strikethrough) } 

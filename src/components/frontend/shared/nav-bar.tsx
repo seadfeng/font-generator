@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Link } from "@/lib/i18n";
-import { useTranslations } from "next-intl";
 
 import { appConfig } from "@/config";
 import {
@@ -11,7 +10,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 export function NavBar() {
-  const t = useTranslations();
+
   const memu = [
     {
       name: appConfig.appName,

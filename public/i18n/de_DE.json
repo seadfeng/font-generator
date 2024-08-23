@@ -21,7 +21,8 @@
         "cool": "Cool",
         "bold-italic": "Fett und kursiv",
         "small": "Klein",
-        "normal": "Normal"
+        "normal": "Normal",
+        "underline": "Unterstreichen"
       }
     },
     "meta": {

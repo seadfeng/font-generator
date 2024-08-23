@@ -2,6 +2,7 @@
 import Copy from "@/components/shared/copy";
 import { Button } from "@/components/ui/button";
 import { addDoubleUnderline, addStrikethrough, addUnderline, addWavyUnderline } from "@/lib/utils";
+import { StyleKey } from "@/slugs";
 import { FontKey, fonts, transforms } from "@/transforms";
 import { HTMLAttributes, useState } from "react";
  
@@ -10,12 +11,13 @@ type TransformMap = { [key: string]: string };
 export const Fonts = ({
   className,
   content,
-  currentFonts
+  currentFonts,
+  style
 }: {
   className?: HTMLAttributes<HTMLDivElement>["className"];
   currentFonts: Readonly<FontKey[]>;
-  content: string; 
-  
+  content: string;  
+  style: StyleKey
 }) => { 
 
   const [underline, setUnderline] = useState(false);
@@ -28,11 +30,13 @@ export const Fonts = ({
 
     const transformAndAdjust = (text: string) => {
       return Array.from(text).map(char => {
-        let newChar = chars[char] || char;
-        if(underline) newChar = addUnderline({char: newChar, fontKey});
-        if(strikethrough) newChar = addStrikethrough({char: newChar, fontKey});
-        if(doubleUnderline) newChar = addDoubleUnderline({char: newChar, oldChar: char, fontKey});
-        if(wavyUnderline) newChar = addWavyUnderline({char: newChar, oldChar: char, fontKey});
+        let newChar = chars[char] || char; 
+        if(style === "underline"){
+          if(underline) newChar = addUnderline({char: newChar, fontKey});
+          if(strikethrough) newChar = addStrikethrough({char: newChar, fontKey});
+          if(doubleUnderline) newChar = addDoubleUnderline({char: newChar, oldChar: char, fontKey});
+          if(wavyUnderline) newChar = addWavyUnderline({char: newChar, oldChar: char, fontKey}); 
+        } 
         return newChar;
       }).join('');
     };
@@ -48,11 +52,10 @@ export const Fonts = ({
         </div>
       </div>
     );
-  };
-  console.log("underline", underline)
+  }; 
   return (
     <div className={className}>
-      <div className="flex pb-4 mb-5 border-b">
+      {style === "underline" && <div className="flex pb-4 mb-5 border-b">
         <div className="flex gap-3">
           <Button aria-label="Underline" size="icon" data-underline={underline} variant="outline" onClick={()=> setUnderline(!underline) } 
             className="data-[underline='true']:font-extrabold data-[underline='true']:bg-primary/25 underline underline-offset-3 rounded-lg dark:border-white/10">
@@ -71,7 +74,7 @@ export const Fonts = ({
             {"U" + '\u0336'} 
           </Button>
         </div>
-      </div>
+      </div>}
       {currentFonts.map(key => <FontItem key={key} fontKey={key} />)}
     </div>
   );

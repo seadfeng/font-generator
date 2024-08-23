@@ -21,7 +21,8 @@
         "cool": "Cool",
         "bold-italic": "Gras italique",
         "small": "Petit",
-        "normal": "Normale"
+        "normal": "Normale",
+        "underline": "Souligner"
       }
     },
     "meta": {

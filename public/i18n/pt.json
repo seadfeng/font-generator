@@ -21,7 +21,8 @@
         "cool": "Legal",
         "bold-italic": "Negrito Itálico",
         "small": "Pequeno",
-        "normal": "Normal"
+        "normal": "Normal",
+        "underline": "Sublinhado"
       }
     },
     "meta": {

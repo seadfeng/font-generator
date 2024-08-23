@@ -38,7 +38,7 @@ export function StyleMain({
           <Sidebar />
         </div>
         <div className="w-full rounded-lg dark:bg-secondary px-8 py-5 border">
-          <Fonts currentFonts={currentFonts} className="mb-10" content={content} />
+          <Fonts currentFonts={currentFonts} className="mb-10" content={content} style={style} />
           {block2 && <Markdown content={block2} className="mt-10" />}   
         </div>
       </div>

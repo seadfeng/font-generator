@@ -101,5 +101,15 @@
     "locales": [
       "en"
     ]
+  },
+  "style/underline/block1": {
+    "locales": [
+      "en"
+    ]
+  },
+  "style/underline/block2": {
+    "locales": [
+      "en"
+    ]
   }
 }

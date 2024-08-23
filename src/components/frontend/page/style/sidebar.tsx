@@ -1,6 +1,6 @@
 import { Link } from "@/lib/i18n";
 import { styleFonts, StyleKey } from "@/slugs";
-import { ALargeSmallIcon, BoldIcon, FeatherIcon, ItalicIcon, StarsIcon } from "lucide-react";
+import { ALargeSmallIcon, BoldIcon, FeatherIcon, ItalicIcon, StarsIcon, UnderlineIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ClassNameValue } from "tailwind-merge";
 
@@ -26,6 +26,8 @@ export const Sidebar =( )=>{
         return "Sans Serif";
       case "serif":
         return "Serif";
+      case "underline":
+        return t("frontend.slug.menu.underline"); 
       default:
         return null;
     }
@@ -45,6 +47,8 @@ export const Sidebar =( )=>{
         return <ItalicIcon strokeWidth={3}/>;
       case "small":
         return <ALargeSmallIcon />; 
+      case "underline":
+        return <UnderlineIcon />; 
       default:
         return null;
     }

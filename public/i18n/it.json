@@ -21,7 +21,8 @@
         "cool": "Freddo",
         "bold-italic": "Grassetto corsivo",
         "small": "Piccolo",
-        "normal": "Normale"
+        "normal": "Normale",
+        "underline": "Sottolineare"
       }
     },
     "meta": {

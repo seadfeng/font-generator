@@ -22,7 +22,8 @@
         "cool": "Cool",
         "bold-italic": "Bold Italic",
         "small": "Small",
-        "normal": "Normal"
+        "normal": "Normal",
+        "underline": "Underline"
       }
     },
     "meta": {

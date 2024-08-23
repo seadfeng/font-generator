@@ -21,7 +21,8 @@
         "cool": "Sval",
         "bold-italic": "Fet kursiv",
         "small": "Små",
-        "normal": "Normal"
+        "normal": "Normal",
+        "underline": "Betona"
       }
     },
     "meta": {

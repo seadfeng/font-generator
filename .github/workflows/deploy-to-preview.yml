@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: preview
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.deployment-url }}
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
@@ -42,8 +42,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Deploy to Cloudflare Pages
-        uses: actions/deploy-pages@v4
+        uses: cloudflare/wrangler-action@v3
         with:
-          token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preview: true
- 
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy --branch dev

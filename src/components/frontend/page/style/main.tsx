@@ -36,7 +36,7 @@ export function StyleMain({
       {block1 && <Markdown classNames={{
         h1: "scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl mb-5",
         h2: "scroll-m-20 pb-2 text-2xl lg:text-3xl font-semibold tracking-tight mt-5 text-primary",
-      }} content={block1} className="mt-10" />}   
+      }} content={block1} />}   
       <Textarea defaultValue={content} className="rounded-md h-20 text-xl" onChange={(e) => onChange(e)}/>
       <div className="flex flex-col md:flex-row py-10 gap-10">
         <div className="md:w-[200px] flex-shrink-0">

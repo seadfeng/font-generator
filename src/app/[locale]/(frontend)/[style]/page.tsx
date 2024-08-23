@@ -1,12 +1,10 @@
  
 import { StyleMain } from "@/components/frontend/page/style/main";
-import { Crumb } from "@/components/frontend/shared/crumb";
 import { LocaleType } from "@/config";
 import { getComponentMarkdown } from "@/i18n";
 import { getOrigin } from "@/lib/utils";
 import { styleMetadata } from "@/metadata";
 import { StyleKey } from "@/slugs";
-import { CrumbItem } from "@/types";
 import { headers } from "next/headers";
 
 export const runtime = 'edge';
@@ -30,18 +28,10 @@ export default async function  Style({
       origin
     })
   } 
-  const url = new URL(headersList.get('x-request-url')!);
-  const items: CrumbItem[] = [ 
-    {
-      name: style,
-      type: "style",
-      href: `/${style}`
-    },
-  ]
+  const url = new URL(headersList.get('x-request-url')!); 
  
   return ( 
-    <div className="px-8">
-      <Crumb items={items} className="" params={params} /> 
+    <div className="px-8"> 
       <StyleMain markdownContents={markdownContents} style={style} text={url.searchParams.get("text")} />
     </div> 
   );

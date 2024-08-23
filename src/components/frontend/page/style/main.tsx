@@ -2,11 +2,9 @@
 
 import { Markdown } from "@/components/shared/markdown";
 import { Textarea } from "@/components/ui/textarea";
-import { usePathname } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 import { styleFonts, StyleKey } from "@/slugs";
 import { fontKeys } from "@/transforms";
-import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { Fonts } from "./fonts";
 import { Sidebar } from "./sidebar";
@@ -14,20 +12,15 @@ import { Sidebar } from "./sidebar";
 export function StyleMain({
   markdownContents,
   style = "all",
-  text = "Hello my old friend",
+  text,
 }: Readonly<{  
   markdownContents: Record<string, string | undefined>;
   style: StyleKey;
   text?: string | null;
 }>) {
   const { block1, block2 } = markdownContents; 
-  const [content, setContent] = useState<string>(text ? text : "");
-  const pathname = usePathname();
-  const search = useSearchParams().toString();
-
-  console.log("text", text)
-  console.log("search", search)
-   
+  const [content, setContent] = useState<string>(text ? text : "Hello my old friend"); 
+ 
   const onChange=(e: React.ChangeEvent<HTMLTextAreaElement>)=>{
     setContent(e.target.value);
   }

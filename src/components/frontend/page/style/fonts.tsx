@@ -1,5 +1,6 @@
 "use client";
 import Copy from "@/components/shared/copy";
+import { addDoubleUnderline, addStrikethrough, addUnderline, addWavyUnderline } from "@/lib/utils";
 import { FontKey, fonts, transforms } from "@/transforms";
 import { HTMLAttributes } from "react";
  
@@ -8,40 +9,44 @@ type TransformMap = { [key: string]: string };
 export const Fonts = ({
   className,
   content,
-  currentFonts
+  currentFonts,
+  underline = false,
+  strikethrough = false,
+  doubleUnderline = false,
+  wavyUnderline = false,
 }: {
   className?: HTMLAttributes<HTMLDivElement>["className"];
   currentFonts: Readonly<FontKey[]>;
   content: string;
+  underline?: boolean;
+  strikethrough?: boolean;
+  doubleUnderline?: boolean;
+  wavyUnderline?: boolean;
+  
 }) => { 
   const FontItem = ({ fontKey }: { fontKey: FontKey }) => { 
     const chars = transforms[fontKey] as TransformMap;
 
-    // const adjustUnicode = (char: string) => {
-    //   const code = char.charCodeAt(0); 
-    //   if (code >= 0x2000 && code <= 0x2FFF) {
-    //     return char + '\u034F\u0308';  
-    //   }
-    //   return char;
-    // };
-
     const transformAndAdjust = (text: string) => {
       return Array.from(text).map(char => {
-        return chars[char] || char;
-        // const transformedChar = chars[char] || char;
-        // return adjustUnicode(transformedChar); 
+        let newChar = chars[char] || char;
+        if(underline) newChar = addUnderline({char: newChar, fontKey});
+        if(strikethrough) newChar = addStrikethrough({char: newChar, fontKey});
+        if(doubleUnderline) newChar = addDoubleUnderline({char: newChar, oldChar: char, fontKey});
+        if(wavyUnderline) newChar = addWavyUnderline({char: newChar, oldChar: char, fontKey});
+        return newChar;
       }).join('');
     };
 
     const transformedContent = transformAndAdjust(content); 
     
     return (
-      <div className="mb-5 pb-4 border-b leading-8">
-        <div className="mb-3 relative flex justify-between">
+      <div className="mb-5 pb-4 border-b leading-7 flex flex-col md:flex-row md:items-center justify-start gap-5">
+        <div className="text-muted-foreground text-sm md:w-[130px]">{fonts[fontKey]}</div>
+        <div className="relative flex justify-between w-full items-center">
           <div>{transformedContent}</div>
-          <Copy>{transformedContent}</Copy>
+          <Copy className="text-sm">{transformedContent}</Copy>
         </div>
-        <div className="text-muted-foreground text-sm">{fonts[fontKey]}</div>
       </div>
     );
   };

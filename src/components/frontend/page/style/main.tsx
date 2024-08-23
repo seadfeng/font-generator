@@ -18,7 +18,7 @@ export function StyleMain({
  
 }>) {
   const { block1, block2 } = markdownContents; 
-  const [content, setContent] = useState<string>("Hello My old Friend");   
+  const [content, setContent] = useState<string>("Hello my old friend");   
 
   const onChange=(e: React.ChangeEvent<HTMLTextAreaElement>)=>{
     setContent(e.target.value);

@@ -21,6 +21,7 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
   ],
   "cool": [
     "circled", "circledNegative", "fullwidth", "squared",
+    "vaiLetterlike", "bamumLetterlike", "smallCherokeeLetterlike", "canadianAboriginalLetterlike1", "canadianAboriginalLetterlike2",
     "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
   ],
   "small": [

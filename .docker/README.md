@@ -1,14 +1,19 @@
 
-## Docker Build
+## Docker Build For Local
 
 ```sh
 sh ./bin/docker.sh
+
+# Start
+docker run -p 3000:3000 font-generator:latest
 ```
 
-## Start
+## Start with online image
 
 ```sh
-docker run -p 3000:3000 font-generator:latest
+
+docker pull seadfeng/favicon-downloader
+docker run -p 3000:3000 seadfeng/favicon-downloader
 
 # or
 

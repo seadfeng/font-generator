@@ -32,11 +32,12 @@ jobs:
              --push \
             --no-cache \
             --build-arg VERSION=$VERSION \
-            -t ${APP}:$VERSION \
+            -t ${{ github.actor }}/${APP}:$VERSION \
             -f .docker/Dockerfile \
             .
 
-          docker tag ${APP}:$VERSION ${APP}:latest
+          docker tag ${{ github.actor }}/${APP}:$VERSION ${{ github.actor }}/${APP}:latest
+          docker push ${{ github.actor }}/${APP}:latest
 
-          echo "${APP}:${VERSION}" 
-          echo "${APP}:latest"
+          echo "${{ github.actor }}/${APP}:${VERSION}" 
+          echo "${{ github.actor }}/${APP}:latest"

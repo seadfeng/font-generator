@@ -11,6 +11,7 @@ on:
       - doc/**
       - bin/**
       - .vscode/**
+      - .docker/**
       - .gitignore
 jobs:
   deploy:

@@ -1,4 +1,4 @@
 services:
   app:
-    image: font-generator:latest
+    image: seadfeng/font-generator:latest
     env_file: .env

@@ -12,8 +12,8 @@ docker run -p 3000:3000 font-generator:latest
 
 ```sh
 
-docker pull seadfeng/favicon-downloader
-docker run -p 3000:3000 seadfeng/favicon-downloader
+docker pull seadfeng/font-generator
+docker run -p 3000:3000 seadfeng/font-generator
 
 # or
 

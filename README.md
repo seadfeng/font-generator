@@ -57,6 +57,13 @@ wrangler login
 npm run deploy
 ```
 
+
+## Docker Image
+
+```sh
+docker pull seadfeng/favicon-downloader
+docker run -p 3000:3000 seadfeng/favicon-downloader
+```
 ## Contributing
 
 We welcome contributions to the Font Generator project. Please feel free to submit issues, feature requests, or pull requests.

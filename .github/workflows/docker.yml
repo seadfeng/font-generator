@@ -1,9 +1,9 @@
 
 name: "Docker CI"
 on:
-  release:
-    types:
-      - published
+  push:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,4 +23,20 @@ jobs:
           echo ${{ secrets.DOCKER_LOGIN }} | docker login -u ${{ github.actor }} --password-stdin
           docker buildx create --use
           docker buildx inspect --bootstrap
-          docker buildx build --push -t ${{ github.repository }}:latest -f .docker/Dockerfile .
+          VERSION=$(node -p "require('./package.json').version")
+          APP=$(node -p "require('./package.json').name")
+
+          echo "Build: ${APP}.${VERSION}" 
+
+          docker buildx build \
+             --push \
+            --no-cache \
+            --build-arg VERSION=$VERSION \
+            -t ${APP}:$VERSION \
+            -f .docker/Dockerfile \
+            .
+
+          docker tag ${APP}:$VERSION ${APP}:latest
+
+          echo "${APP}:${VERSION}" 
+          echo "${APP}:latest"

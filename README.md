@@ -64,6 +64,14 @@ npm run deploy
 docker pull seadfeng/font-generator
 docker run -p 3000:3000 seadfeng/font-generator
 ```
+
+## Resource
+ 
+`src/fonts.ts` Source of Unicode font:
+
+- [unicode-formatter](https://github.com/DenverCoder1/unicode-formatter)
+- [yaytext.com](https://yaytext.com/)
+
 ## Contributing
 
 We welcome contributions to the Font Generator project. Please feel free to submit issues, feature requests, or pull requests.

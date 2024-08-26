@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Gerador de texto sublinhado | 𝐆̲𝐞̲𝐫̲𝐚̲𝐝̲𝐨̲𝐫̲ ̲𝐝̲𝐞̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐨̲"
+          "title": "Gerador de texto sublinhado | 𝐆̲𝐞̲𝐫̲𝐚̲𝐝̲𝐨̲𝐫̲ ̲𝐝̲𝐞̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐨̲",
+          "description": "O texto sublinhado em itálico é uma combinação de dois estilos de texto tradicionais: sublinhado, que costuma ser usado para enfatizar pontos-chave ou indicar hiperlinks, e itálico, que adiciona uma ênfase sutil ou distingue títulos, frases estrangeiras ou pensamentos. \nAo mesclar esses dois estilos, o texto sublinhado em itálico fornece uma maneira distinta de destacar informações importantes, tornando-o mais atraente visualmente e mais fácil de ser notado pelos leitores."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Gerador de fonte de bolha | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "O texto em bolha é uma forma única de apresentar texto que envolve cada caractere em um formato arredondado ou quadrado, semelhante a uma bolha. \nEsse efeito é obtido usando caracteres Unicode específicos que foram originalmente planejados para uso como marcadores numerados e com letras em listas ordenadas. \nCom o tempo, esses caracteres foram reaproveitados para aplicações criativas, dando origem ao popular estilo de texto em bolha."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Gerador de fonte serifada (𝐜𝐨𝐩𝘆",
+          "description": "As fontes serif têm uma longa história enraizada nas primeiras formas de comunicação escrita. \nO uso de serifas em fontes ajuda a guiar o olhar do leitor de uma letra para outra, melhorando o fluxo de leitura e facilitando a digestão de longos blocos de texto. \nÉ por isso que as fontes serifadas permaneceram um elemento básico na mídia impressa e ainda hoje são amplamente utilizadas em formatos digitais e impressos."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Gerador de texto quadrado | 🅂🅀🅄🄰🅁🄴",
+          "description": "O texto quadrado é uma forma criativa de apresentar texto, colocando cada caractere em uma forma quadrada ou retangular. \nEsse estilo é obtido usando caracteres Unicode específicos que foram originalmente planejados para uso em listas, tabelas ou como marcadores estilizados. \nNo entanto, esses caracteres foram reaproveitados de forma criativa para dar ao texto uma aparência distinta e em blocos que lembra tijolos, janelas ou elementos pixelados."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Gerador de texto sem serifa | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "As fontes sem serifa têm uma rica história na tipografia, evoluindo desde suas origens no século 19 para se tornarem um elemento básico do design moderno. \nAo contrário das fontes serifadas, que possuem traços decorativos no final das letras, as fontes sem serifa são caracterizadas pela simplicidade e pela falta de adornos. \nEste design minimalista torna-os altamente legíveis, especialmente em ecrãs, onde a clareza e a legibilidade são fundamentais."
         }
       }
     },

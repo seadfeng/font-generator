@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Générateur de texte souligné | 𝗚̲̲́𝗻̲̲́𝗿̲𝗮̲𝘁̲𝗲̲𝘂̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗲̲"
+          "title": "Générateur de texte souligné | 𝗚̲̲́𝗻̲̲́𝗿̲𝗮̲𝘁̲𝗲̲𝘂̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗲̲",
+          "description": "Le texte italique souligné est une combinaison de deux styles de texte traditionnels : le soulignement, qui est souvent utilisé pour souligner des points clés ou indiquer des hyperliens, et l'italique, qui ajoute une emphase subtile ou distingue des titres, des expressions étrangères ou des pensées. \nEn fusionnant ces deux styles, le texte italique souligné offre un moyen distinct de mettre en évidence les informations importantes, les rendant plus attrayantes visuellement et plus faciles à remarquer pour les lecteurs."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Générateur de polices à bulles | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Le texte à bulles est une manière unique de présenter du texte qui entoure chaque caractère dans une forme arrondie ou carrée, ressemblant à une bulle. \nCet effet est obtenu en utilisant des caractères Unicode spécifiques qui étaient initialement destinés à être utilisés comme puces numérotées et lettrées dans des listes ordonnées. \nAu fil du temps, ces caractères ont été réutilisés pour des applications créatives, donnant naissance au style de texte à bulles populaire."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Générateur de polices Serif (𝐜𝐨𝐩𝘆",
+          "description": "Les polices Serif ont une longue histoire ancrée dans les premières formes de communication écrite. \nL'utilisation d'empattements dans les polices de caractères aide à guider l'œil du lecteur d'une lettre à l'autre, améliorant ainsi le flux de lecture et rendant les longs blocs de texte plus faciles à digérer. \nC’est pourquoi les polices serif sont restées un incontournable des médias imprimés et sont encore largement utilisées aujourd’hui dans les formats numériques et imprimés."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Générateur de texte carré | 🅂🅀🅄🄰🅁🄴",
+          "description": "Le texte carré est une manière créative de présenter du texte en enfermant chaque caractère dans une forme carrée ou rectangulaire. \nCe style est obtenu à l'aide de caractères Unicode spécifiques initialement destinés à être utilisés dans des listes, des tableaux ou sous forme de puces stylisées. \nCependant, ces caractères ont été réutilisés de manière créative pour donner au texte un aspect distinct et en bloc qui ressemble à des briques, des fenêtres ou des éléments pixellisés."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Générateur de texte sans empattement | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Les polices sans empattement ont une riche histoire en matière de typographie, évoluant depuis leurs origines au 19e siècle pour devenir un incontournable du design moderne. \nContrairement aux polices avec empattement, qui comportent des traits décoratifs aux extrémités des lettres, les polices sans empattement se caractérisent par leur simplicité et leur manque d'ornements. \nCe design minimaliste les rend très lisibles, notamment sur les écrans, où la clarté et la lisibilité sont primordiales."
         }
       }
     },

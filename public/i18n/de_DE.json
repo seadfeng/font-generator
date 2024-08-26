@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Unterstreichungstextgenerator | 𝗨̲𝗻̲𝘁̲𝗲̲𝗿̲𝘀̲𝘁̲𝗿̲𝗲̲𝗶̲𝗰̲𝗵̲𝘂̲𝗻̲𝗴̲𝘀̲𝘁̲𝗲̲𝘅̲𝘁̲𝗴̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝘁̲𝗼̲𝗿̲"
+          "title": "Unterstreichungstextgenerator | 𝗨̲𝗻̲𝘁̲𝗲̲𝗿̲𝘀̲𝘁̲𝗿̲𝗲̲𝗶̲𝗰̲𝗵̲𝘂̲𝗻̲𝗴̲𝘀̲𝘁̲𝗲̲𝘅̲𝘁̲𝗴̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝘁̲𝗼̲𝗿̲",
+          "description": "Unterstrichener kursiver Text ist eine Kombination aus zwei traditionellen Textstilen: Unterstreichung, die oft verwendet wird, um wichtige Punkte hervorzuheben oder auf Hyperlinks hinzuweisen, und Kursivschrift, die eine subtile Hervorhebung hinzufügt oder Titel, Fremdphrasen oder Gedanken hervorhebt. \nDurch die Kombination dieser beiden Stile bietet die Unterstreichung von kursivem Text eine besondere Möglichkeit, wichtige Informationen hervorzuheben, wodurch sie optisch ansprechender und für den Leser leichter erkennbar wird."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Blasenschriftgenerator | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Blasentext ist eine einzigartige Art der Textdarstellung, die jedes Zeichen in einer abgerundeten oder quadratischen Form umschließt und so einer Blase ähnelt. \nDieser Effekt wird durch die Verwendung bestimmter Unicode-Zeichen erreicht, die ursprünglich für die Verwendung als nummerierte und mit Buchstaben versehene Aufzählungszeichen in geordneten Listen gedacht waren. \nIm Laufe der Zeit wurden diese Zeichen für kreative Anwendungen umfunktioniert, wodurch der beliebte Blasentextstil entstand."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Serifenschriftgenerator (𝐜𝐨𝐩𝘆",
+          "description": "Serifenschriften haben eine lange Geschichte, die in den frühesten Formen der schriftlichen Kommunikation verwurzelt ist. \nDie Verwendung von Serifen in Schriftarten hilft, den Blick des Lesers von einem Buchstaben zum nächsten zu leiten, wodurch der Lesefluss verbessert und lange Textblöcke leichter verständlich gemacht werden. \nAus diesem Grund sind Serifenschriften in Printmedien nach wie vor ein fester Bestandteil und werden auch heute noch häufig sowohl in digitalen als auch in gedruckten Formaten verwendet."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Quadratischer Textgenerator | 🅂🅀🅄🄰🅁🄴",
+          "description": "Quadratischer Text ist eine kreative Möglichkeit, Text zu präsentieren, indem jedes Zeichen in eine quadratische oder rechteckige Form eingeschlossen wird. \nDieser Stil wird durch die Verwendung bestimmter Unicode-Zeichen erreicht, die ursprünglich für die Verwendung in Listen, Tabellen oder als stilisierte Aufzählungszeichen gedacht waren. \nAllerdings wurden diese Zeichen kreativ umgestaltet, um dem Text ein eindeutiges, blockartiges Aussehen zu verleihen, das an Ziegel, Fenster oder pixelige Elemente erinnert."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Sans Serif-Textgenerator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Serifenlose Schriftarten haben eine lange Geschichte in der Typografie und haben sich von ihren Ursprüngen im 19. Jahrhundert zu einem festen Bestandteil des modernen Designs entwickelt. \nIm Gegensatz zu Serifenschriften, die dekorative Striche am Ende der Buchstaben aufweisen, zeichnen sich serifenlose Schriftarten durch ihre Einfachheit und den Verzicht auf Verzierungen aus. \nDurch dieses minimalistische Design sind sie gut lesbar, insbesondere auf Bildschirmen, wo Klarheit und Lesbarkeit von größter Bedeutung sind."
         }
       }
     },

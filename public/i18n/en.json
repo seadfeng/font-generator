@@ -46,7 +46,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Underline Text Generator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐥̲𝐢̲𝐧̲𝐞̲ ̲𝐓̲𝐞̲𝐱̲𝐭̲ ̲𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲"
+          "title": "Underline Text Generator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐥̲𝐢̲𝐧̲𝐞̲ ̲𝐓̲𝐞̲𝐱̲𝐭̲ ̲𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲",
+          "description": "Underline italic text is a combination of two traditional text styles: underlining, which is often used to emphasize key points or indicate hyperlinks, and italics, which adds a subtle emphasis or distinguishes titles, foreign phrases, or thoughts. By merging these two styles, underline italic text provides a distinct way to highlight important information, making it more visually appealing and easier for readers to notice."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Bubble font Generator | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Bubble text is a unique way of presenting text that encloses each character in a rounded or square shape, resembling a bubble. This effect is achieved by using specific Unicode characters that were originally intended for use as numbered and lettered bullets in ordered lists. Over time, these characters have been repurposed for creative applications, giving rise to the popular bubble text style."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Serif Font Generator (𝐜𝐨𝐩𝘆 & 𝐩𝐚𝘀𝘁𝐞)",
+          "description": "Serif fonts have a long history rooted in the earliest forms of written communication. The use of serifs in typefaces helps to guide the reader's eye from one letter to the next, improving the flow of reading and making long blocks of text easier to digest. This is why serif fonts have remained a staple in print media and are still widely used in both digital and print formats today.\n"
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Square Text Generator | 🅂🅀🅄🄰🅁🄴",
+          "description": "Square text is a creative way to present text by enclosing each character within a square or rectangular shape. This style is achieved using specific Unicode characters that were originally intended for use in lists, tables, or as stylized bullets. However, these characters have been creatively repurposed to give text a distinct, blocky look that resembles bricks, windows, or pixelated elements. "
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Sans Serif Text Generator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Sans serif fonts have a rich history in typography, evolving from their origins in the 19th century to become a staple of modern design. Unlike serif fonts, which have decorative strokes at the ends of letters, sans serif fonts are characterized by their simplicity and lack of adornment. This minimalist design makes them highly legible, especially on screens, where clarity and readability are paramount."
         }
       }
     },

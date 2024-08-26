@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Understruken textgenerator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐬̲𝐭̲𝐫̲𝐮̲𝐤̲𝐞̲𝐧̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐠̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲"
+          "title": "Understruken textgenerator | 𝐔̲𝐧̲𝐝̲𝐞̲𝐫̲𝐬̲𝐭̲𝐫̲𝐮̲𝐤̲𝐞̲𝐧̲ ̲𝐭̲𝐞̲𝐱̲𝐭̲𝐠̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲",
+          "description": "Understruken kursiv text är en kombination av två traditionella textstilar: understrykning, som ofta används för att betona nyckelpunkter eller indikera hyperlänkar, och kursiv stil, som lägger till en subtil betoning eller särskiljer titlar, främmande fraser eller tankar. \nGenom att slå samman dessa två stilar ger understruken kursiv text ett distinkt sätt att markera viktig information, vilket gör den mer visuellt tilltalande och lättare för läsarna att lägga märke till."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Bubble font Generator | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Bubbeltext är ett unikt sätt att presentera text som omsluter varje tecken i en rundad eller fyrkantig form, som liknar en bubbla. \nDenna effekt uppnås genom att använda specifika Unicode-tecken som ursprungligen var avsedda att användas som siffror och bokstäver i ordnade listor. \nMed tiden har dessa karaktärer återanvänts för kreativa applikationer, vilket har gett upphov till den populära bubbeltextstilen."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Serif Font Generator (𝐜𝐨𝐩𝘆",
+          "description": "Serif-teckensnitt har en lång historia med rötter i de tidigaste formerna av skriftlig kommunikation. \nAnvändningen av seriffer i typsnitt hjälper till att vägleda läsarens öga från en bokstav till nästa, vilket förbättrar läsflödet och gör långa textblock lättare att smälta. \nDet är därför serif-teckensnitt har förblivit en stapelvara i tryckta medier och används fortfarande i stor utsträckning i både digitala och tryckta format idag."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Fyrkantig textgenerator | 🅂🅀🅄🄰🅁🄴",
+          "description": "Fyrkantig text är ett kreativt sätt att presentera text genom att omsluta varje tecken i en kvadratisk eller rektangulär form. \nDenna stil uppnås med hjälp av specifika Unicode-tecken som ursprungligen var avsedda att användas i listor, tabeller eller som stiliserade punkter. \nDessa karaktärer har dock återanvänts på ett kreativt sätt för att ge text ett distinkt, blockigt utseende som liknar tegelstenar, fönster eller pixlade element."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Sans Serif Text Generator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Sans serif-teckensnitt har en rik historia inom typografi, och har utvecklats från sitt ursprung på 1800-talet till att bli en stapelvara i modern design. \nTill skillnad från serif-teckensnitt, som har dekorativa streck i ändarna av bokstäver, kännetecknas sans serif-teckensnitt av sin enkelhet och brist på utsmyckning. \nDenna minimalistiska design gör dem mycket läsbara, särskilt på skärmar, där tydlighet och läsbarhet är av största vikt."
         }
       }
     },

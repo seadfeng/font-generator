@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Generator podkreślenia tekstu | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲ ̲𝐩̲𝐨̲𝐝̲𝐤̲𝐫̲𝐞̲ś̲𝐥̲𝐞̲𝐧̲𝐢̲𝐚̲ ̲𝐭̲𝐞̲𝐤̲𝐬̲𝐭̲𝐮̲"
+          "title": "Generator podkreślenia tekstu | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲ ̲𝐩̲𝐨̲𝐝̲𝐤̲𝐫̲𝐞̲ś̲𝐥̲𝐞̲𝐧̲𝐢̲𝐚̲ ̲𝐭̲𝐞̲𝐤̲𝐬̲𝐭̲𝐮̲",
+          "description": "Tekst podkreślony kursywą to połączenie dwóch tradycyjnych stylów tekstu: podkreślenia, które jest często używane do podkreślenia kluczowych punktów lub wskazania hiperłączy, oraz kursywy, która dodaje subtelne podkreślenie lub wyróżnia tytuły, obce zwroty lub myśli. \nŁącząc te dwa style, podkreślenie tekstu kursywą zapewnia wyraźny sposób wyróżnienia ważnych informacji, czyniąc je bardziej atrakcyjnymi wizualnie i łatwiejszymi do zauważenia przez czytelników."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Generator czcionek bąbelkowych | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Tekst bąbelkowy to unikalny sposób prezentacji tekstu, który otacza każdy znak w zaokrąglony lub kwadratowy kształt przypominający bąbelek. \nEfekt ten osiąga się poprzez użycie określonych znaków Unicode, które pierwotnie były przeznaczone do stosowania jako punktory numerowane i literowane na uporządkowanych listach. \nZ biegiem czasu znaki te zostały ponownie wykorzystane do zastosowań kreatywnych, dając początek popularnemu stylowi tekstu bąbelkowego."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Generator czcionek szeryfowych (𝐜𝐨𝐩𝘆",
+          "description": "Czcionki szeryfowe mają długą historię zakorzenioną w najwcześniejszych formach komunikacji pisemnej. \nStosowanie szeryfów w krojach pisma pomaga poprowadzić wzrok czytelnika od jednej litery do drugiej, poprawiając płynność czytania i ułatwiając przyswajanie długich bloków tekstu. \nWłaśnie dlatego czcionki szeryfowe pozostają podstawą w mediach drukowanych i nadal są szeroko stosowane zarówno w formatach cyfrowych, jak i drukowanych."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Generator tekstu kwadratowego | 🅂🅀🅄🄰🅁🄴",
+          "description": "Tekst kwadratowy to kreatywny sposób prezentacji tekstu poprzez umieszczenie każdego znaku w kształcie kwadratu lub prostokąta. \nTen styl osiąga się za pomocą określonych znaków Unicode, które pierwotnie były przeznaczone do stosowania na listach, tabelach lub jako stylizowane punktory. \nJednakże znaki te zostały twórczo przekształcone, aby nadać tekstowi wyraźny, blokowy wygląd przypominający cegły, okna lub elementy pikselowane."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Generator tekstu bezszeryfowego  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Czcionki bezszeryfowe mają bogatą historię w typografii, ewoluując od XIX wieku, aby stać się podstawą nowoczesnego designu. \nW odróżnieniu od czcionek szeryfowych, które posiadają ozdobne kreski na końcach liter, czcionki bezszeryfowe charakteryzują się prostotą i brakiem ozdób. \nMinimalistyczny design sprawia, że ​​są one bardzo czytelne, zwłaszcza na ekranach, gdzie przejrzystość i czytelność są najważniejsze."
         }
       }
     },

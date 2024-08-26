@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Generador de texto subrayado | 𝗚̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝗱̲𝗼̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗼̲"
+          "title": "Generador de texto subrayado | 𝗚̲𝗲̲𝗻̲𝗲̲𝗿̲𝗮̲𝗱̲𝗼̲𝗿̲ ̲𝗱̲𝗲̲ ̲𝘁̲𝗲̲𝘅̲𝘁̲𝗼̲",
+          "description": "El subrayado de texto en cursiva es una combinación de dos estilos de texto tradicionales: subrayado, que a menudo se usa para enfatizar puntos clave o indicar hipervínculos, y cursiva, que agrega un énfasis sutil o distingue títulos, frases extranjeras o pensamientos. \nAl fusionar estos dos estilos, el texto subrayado en cursiva proporciona una forma distinta de resaltar información importante, haciéndolo más atractivo visualmente y más fácil de notar para los lectores."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Generador de fuentes de burbujas | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "El texto de burbuja es una forma única de presentar texto que encierra cada carácter en una forma redondeada o cuadrada, parecida a una burbuja. \nEste efecto se logra mediante el uso de caracteres Unicode específicos que originalmente estaban destinados a usarse como viñetas numeradas y con letras en listas ordenadas. \nCon el tiempo, estos caracteres se han reutilizado para aplicaciones creativas, dando lugar al popular estilo de texto de burbujas."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Generador de fuentes Serif (𝐜𝐨𝐩𝘆",
+          "description": "Las fuentes serif tienen una larga historia arraigada en las primeras formas de comunicación escrita. \nEl uso de serifas en tipos de letra ayuda a guiar la vista del lector de una letra a la siguiente, mejorando el flujo de lectura y haciendo que los bloques largos de texto sean más fáciles de digerir. \nEsta es la razón por la que las fuentes serif siguen siendo un elemento básico en los medios impresos y todavía se utilizan ampliamente en formatos digitales e impresos en la actualidad."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Generador de texto cuadrado | 🅂🅀🅄🄰🅁🄴",
+          "description": "El texto cuadrado es una forma creativa de presentar texto encerrando cada carácter dentro de una forma cuadrada o rectangular. \nEste estilo se logra utilizando caracteres Unicode específicos que originalmente fueron pensados ​​para usarse en listas, tablas o como viñetas estilizadas. \nSin embargo, estos caracteres se han reutilizado creativamente para darle al texto una apariencia distintiva de bloques que se asemeja a ladrillos, ventanas o elementos pixelados."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Generador de texto Sans Serif | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Las fuentes sans serif tienen una rica historia en tipografía, evolucionando desde sus orígenes en el siglo XIX hasta convertirse en un elemento básico del diseño moderno. \nA diferencia de las fuentes serif, que tienen trazos decorativos al final de las letras, las fuentes sans serif se caracterizan por su sencillez y falta de adornos. \nEste diseño minimalista los hace muy legibles, especialmente en pantallas, donde la claridad y la legibilidad son primordiales."
         }
       }
     },

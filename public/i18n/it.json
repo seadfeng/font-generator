@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Generatore di testo sottolineato | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲𝐞̲ ̲𝐝̲𝐢̲ ̲𝐭̲𝐞̲𝐬̲𝐭̲𝐨̲"
+          "title": "Generatore di testo sottolineato | 𝐆̲𝐞̲𝐧̲𝐞̲𝐫̲𝐚̲𝐭̲𝐨̲𝐫̲𝐞̲ ̲𝐝̲𝐢̲ ̲𝐭̲𝐞̲𝐬̲𝐭̲𝐨̲",
+          "description": "Il testo corsivo sottolineato è una combinazione di due stili di testo tradizionali: il sottolineato, spesso utilizzato per enfatizzare punti chiave o indicare collegamenti ipertestuali, e il corsivo, che aggiunge un'enfasi sottile o distingue titoli, frasi straniere o pensieri. \nUnendo questi due stili, il testo sottolineato in corsivo fornisce un modo distinto per evidenziare informazioni importanti, rendendole visivamente più accattivanti e più facili da notare per i lettori."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Generatore di caratteri a bolle | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Il testo a bolle è un modo unico di presentare il testo che racchiude ogni carattere in una forma arrotondata o quadrata, simile a una bolla. \nQuesto effetto si ottiene utilizzando caratteri Unicode specifici originariamente destinati a essere utilizzati come punti elenco numerati e con lettere negli elenchi ordinati. \nNel corso del tempo, questi caratteri sono stati riproposti per applicazioni creative, dando origine al popolare stile di testo a bolle."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Generatore di caratteri Serif (𝐜𝐨𝐩𝘆",
+          "description": "I caratteri Serif hanno una lunga storia che affonda le sue radici nelle prime forme di comunicazione scritta. \nL'uso dei caratteri serif nei caratteri tipografici aiuta a guidare l'occhio del lettore da una lettera a quella successiva, migliorando il flusso di lettura e rendendo più facili da digerire lunghi blocchi di testo. \nQuesto è il motivo per cui i caratteri serif sono rimasti un punto fermo nei supporti di stampa e sono ancora ampiamente utilizzati oggi sia nei formati digitali che in quelli stampati."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Generatore di testo quadrato | 🅂🅀🅄🄰🅁🄴",
+          "description": "Il testo quadrato rappresenta un modo creativo per presentare il testo racchiudendo ogni carattere in una forma quadrata o rettangolare. \nQuesto stile si ottiene utilizzando caratteri Unicode specifici originariamente destinati all'uso in elenchi, tabelle o come punti elenco stilizzati. \nTuttavia, questi caratteri sono stati riproposti in modo creativo per conferire al testo un aspetto distinto e a blocchi che ricorda mattoni, finestre o elementi pixelati."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Generatore di testo Sans Serif | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "I caratteri sans serif hanno una ricca storia nella tipografia, evolvendosi dalle loro origini nel 19° secolo fino a diventare un punto fermo del design moderno. \nA differenza dei caratteri serif, che hanno tratti decorativi alle estremità delle lettere, i caratteri sans serif sono caratterizzati dalla loro semplicità e mancanza di ornamenti. \nQuesto design minimalista li rende altamente leggibili, soprattutto sugli schermi, dove la chiarezza e la leggibilità sono fondamentali."
         }
       }
     },

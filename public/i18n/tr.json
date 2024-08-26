@@ -39,7 +39,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Altı Çizili Metin Oluşturucu | "
+          "title": "Altı Çizili Metin Oluşturucu | 𝗔𝗹𝘁ı 𝗖̧𝗶𝘇𝗶𝗹𝗶 𝗠𝗲𝘁𝗶𝗻 𝗢𝗹𝘂𝘀̧𝘁𝘂𝗿𝘂𝗰𝘂",
+          "description": "Altı çizili italik metin, iki geleneksel metin stilinin birleşimidir: genellikle önemli noktaları vurgulamak veya köprüleri belirtmek için kullanılan altını çizme ve ince bir vurgu ekleyen veya başlıkları, yabancı ifadeleri veya düşünceleri ayırt eden italik. \nBu iki stili birleştirerek, altı çizili italik metin, önemli bilgileri vurgulamanın farklı bir yolunu sağlayarak metni görsel olarak daha çekici hale getirir ve okuyucuların fark etmesini kolaylaştırır."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Kabarcık Yazı Tipi Oluşturucu | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Kabarcık metni, her karakteri bir balonu andıran yuvarlak veya kare şeklinde çevreleyen metni sunmanın benzersiz bir yoludur. \nBu etki, başlangıçta sıralı listelerde numaralı ve harfli madde işaretleri olarak kullanılması amaçlanan belirli Unicode karakterleri kullanılarak elde edilir. \nZamanla bu karakterler yaratıcı uygulamalar için yeniden tasarlandı ve popüler baloncuklu metin stilinin ortaya çıkmasına neden oldu."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Serif Yazı Tipi Oluşturucu (𝐜𝐨𝐩𝘆)",
+          "description": "Serif yazı tipleri, yazılı iletişimin en eski biçimlerine dayanan uzun bir geçmişe sahiptir. \nYazı tiplerinde seriflerin kullanılması okuyucunun gözünü bir harften diğerine yönlendirmeye yardımcı olur, okuma akışını iyileştirir ve uzun metin bloklarının sindirilmesini kolaylaştırır. \nSerif yazı tiplerinin basılı medyada temel bir malzeme olarak kalmasının ve günümüzde hem dijital hem de basılı formatlarda hala yaygın olarak kullanılmasının nedeni budur."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Kare Metin Oluşturucu | 🅂🅀🅄🄰🅁🄴",
+          "description": "Kare metin, her karakteri kare veya dikdörtgen bir şekil içine alarak metni sunmanın yaratıcı bir yoludur. \nBu stil, başlangıçta listelerde, tablolarda veya stilize madde işaretleri olarak kullanılması amaçlanan belirli Unicode karakterleri kullanılarak elde edilir. \nAncak bu karakterler, metne tuğlaları, pencereleri veya pikselli öğeleri andıran farklı, bloklu bir görünüm kazandırmak üzere yaratıcı bir şekilde yeniden tasarlandı."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Sans Serif Metin Oluşturucu  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Sans serif yazı tipleri, 19. yüzyıldaki kökenlerinden modern tasarımın temel unsuru haline gelen, tipografide zengin bir geçmişe sahiptir. \nHarflerin sonlarında dekoratif çizgiler bulunan serif yazı tiplerinin aksine, sans serif yazı tipleri sadelikleri ve süslemeden yoksun olmaları ile karakterize edilir. \nBu minimalist tasarım, özellikle netlik ve okunabilirliğin çok önemli olduğu ekranlarda onları oldukça okunaklı hale getiriyor."
         }
       }
     }

@@ -45,7 +45,32 @@
       },
       "underline": {
         "meta": {
-          "title": "Onderstreep tekstgenerator | 𝑶̲𝒏̲𝒅̲𝒆̲𝒓̲𝒔̲𝒕̲𝒓̲𝒆̲𝒆̲𝒑̲ ̲𝒕̲𝒆̲𝒌̲𝒔̲𝒕̲𝒈̲𝒆̲𝒏̲𝒆̲𝒓̲𝒂̲𝒕̲𝒐̲𝒓̲"
+          "title": "Onderstreep tekstgenerator | 𝑶̲𝒏̲𝒅̲𝒆̲𝒓̲𝒔̲𝒕̲𝒓̲𝒆̲𝒆̲𝒑̲ ̲𝒕̲𝒆̲𝒌̲𝒔̲𝒕̲𝒈̲𝒆̲𝒏̲𝒆̲𝒓̲𝒂̲𝒕̲𝒐̲𝒓̲",
+          "description": "Cursieve tekst onderstrepen is een combinatie van twee traditionele tekststijlen: onderstrepen, wat vaak wordt gebruikt om belangrijke punten te benadrukken of hyperlinks aan te geven, en cursief, wat een subtiele nadruk legt of titels, vreemde zinsneden of gedachten onderscheidt. \nDoor deze twee stijlen samen te voegen, biedt cursieve tekst onderstrepen een duidelijke manier om belangrijke informatie te benadrukken, waardoor deze visueel aantrekkelijker wordt en gemakkelijker op te merken is voor de lezers."
+        }
+      },
+      "bubble-text": {
+        "meta": {
+          "title": "Bubble-lettertypegenerator | ⓑⓤⓑⓑⓛⓔ 🅣🅔🅧🅣",
+          "description": "Bellentekst is een unieke manier om tekst weer te geven, waarbij elk teken in een ronde of vierkante vorm wordt omsloten, wat lijkt op een bel. \nDit effect wordt bereikt door specifieke Unicode-tekens te gebruiken die oorspronkelijk bedoeld waren voor gebruik als opsommingstekens met cijfers en letters in geordende lijsten. \nIn de loop van de tijd zijn deze karakters hergebruikt voor creatieve toepassingen, waardoor de populaire bubbeltekststijl is ontstaan."
+        }
+      },
+      "serif": {
+        "meta": {
+          "title": "Serif-lettertypegenerator (𝐜𝐨𝐩𝘆",
+          "description": "Serif-lettertypen hebben een lange geschiedenis, geworteld in de vroegste vormen van schriftelijke communicatie. \nHet gebruik van schreefletters in lettertypen helpt het oog van de lezer van de ene letter naar de andere te leiden, waardoor de leesstroom wordt verbeterd en lange blokken tekst gemakkelijker verteerbaar worden. \nDit is de reden waarom serif-lettertypen een belangrijk onderdeel zijn gebleven in gedrukte media en vandaag de dag nog steeds veel worden gebruikt in zowel digitale als gedrukte formaten."
+        }
+      },
+      "square-text": {
+        "meta": {
+          "title": "Vierkante tekstgenerator | 🅂🅀🅄🄰🅁🄴",
+          "description": "Vierkante tekst is een creatieve manier om tekst te presenteren door elk teken in een vierkante of rechthoekige vorm te plaatsen. \nDeze stijl wordt bereikt met behulp van specifieke Unicode-tekens die oorspronkelijk bedoeld waren voor gebruik in lijsten, tabellen of als gestileerde opsommingstekens. \nDeze tekens zijn echter op een creatieve manier hergebruikt om de tekst een duidelijk, blokachtig uiterlijk te geven dat lijkt op bakstenen, vensters of gepixelde elementen."
+        }
+      },
+      "sans-serif": {
+        "meta": {
+          "title": "Sans Serif-tekstgenerator  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
+          "description": "Sans-serif-lettertypen hebben een rijke geschiedenis in typografie en evolueren van hun oorsprong in de 19e eeuw naar een hoofdbestanddeel van modern design. \nIn tegenstelling tot schreeflettertypen, die decoratieve strepen aan de uiteinden van letters hebben, worden schreefloze lettertypen gekenmerkt door hun eenvoud en gebrek aan versiering. \nDoor dit minimalistische ontwerp zijn ze zeer goed leesbaar, vooral op schermen, waar helderheid en leesbaarheid voorop staan."
         }
       }
     },

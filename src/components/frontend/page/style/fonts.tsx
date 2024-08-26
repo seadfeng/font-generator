@@ -1,6 +1,7 @@
 "use client";
 import Copy from "@/components/shared/copy";
 import { Button } from "@/components/ui/button";
+import { appConfig } from "@/config";
 import { addDoubleUnderline, addStrikethrough, addUnderline, addWavyUnderline } from "@/lib/utils";
 import { StyleKey } from "@/slugs";
 import { FontKey, fonts, transforms } from "@/transforms";
@@ -49,7 +50,10 @@ export const Fonts = ({
         <div className="text-muted-foreground text-xs md:w-[200px] lg:w-[300px]">{fonts[fontKey]}</div>
         <div className="relative flex justify-between w-full items-center">
           <div>{transformedContent}</div>
-          <Copy className="text-sm">{transformedContent}</Copy>
+          <div className="flex items-center gap-3">
+            <Copy className="text-sm h-8 rounded-lg">{transformedContent}</Copy>
+            <Button className="h-8 rounded-lg" variant="outline"><a target="_blank" href={`https://x.com/intent/post?text=${encodeURIComponent(transformedContent)}&utm_source=${appConfig.appDomain}`}>Twitter</a></Button>
+          </div>
         </div>
       </div>
     );

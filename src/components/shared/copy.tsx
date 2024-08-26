@@ -2,6 +2,7 @@
  
 import { cn } from "@/lib/utils";
 import React, { ReactNode } from "react";
+import { Button } from "../ui/button";
 
 interface CopyProps {
   children: ReactNode;
@@ -10,7 +11,7 @@ interface CopyProps {
 
 export default function Copy({ children, className }: CopyProps) {
   const [copyOk, setCopyOk] = React.useState(false); 
-  const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
+  const handleClick = (e: React.MouseEvent<HTMLElement>) => {
     if (typeof children === 'string') {
       navigator.clipboard.writeText(children);
       console.log('Copied!');
@@ -23,8 +24,8 @@ export default function Copy({ children, className }: CopyProps) {
   };
 
   return (
-    <div className={cn(  "code-copy-btn cursor-pointer", className ?? "" )} onClick={handleClick}>
+    <Button variant="outline" className={cn(  "code-copy-btn cursor-pointer", className ?? "" )} onClick={handleClick}>
       {copyOk ? "Copyed!" : "Copy"}
-    </div>
+    </Button>
   );
 }

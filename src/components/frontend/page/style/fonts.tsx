@@ -46,9 +46,9 @@ export const Fonts = ({
     const transformedContent = transformAndAdjust(content); 
     
     return (
-      <div className="mb-5 pb-4 border-b leading-7 flex flex-col md:flex-row md:items-center justify-start gap-5">
+      <div className="mb-5 pb-4 border-b leading-7 flex flex-col lg:flex-row lg:items-center justify-start gap-5">
         <div className="text-muted-foreground text-xs md:w-[200px] lg:w-[300px]">{fonts[fontKey]}</div>
-        <div className="relative flex justify-between w-full items-center">
+        <div className="relative flex flex-col lg:flex-row lg:justify-between w-full lg:items-center gap-3">
           <div>{transformedContent}</div>
           <div className="flex items-center gap-3">
             <Copy className="text-sm h-8 rounded-lg">{transformedContent}</Copy>

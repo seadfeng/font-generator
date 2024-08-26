@@ -39,7 +39,7 @@ export function StyleMain({
         p: "text-sm",
         blockquote: "mb-6 mt-0 border-l-2 pl-6 italic"
       }} content={block1} />}   
-      <Textarea defaultValue={content} className="rounded-md h-20 text-xl" onChange={(e) => onChange(e)}/>
+      <Textarea defaultValue={content} className="rounded-md h-32 text-xl p-5" onChange={(e) => onChange(e)}/>
       <div className="flex flex-col md:flex-row py-10 gap-10">
         <div className="md:w-[200px] flex-shrink-0">
           <Sidebar />

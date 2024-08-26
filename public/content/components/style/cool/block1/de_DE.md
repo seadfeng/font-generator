@@ -1,5 +1,5 @@
-# Blasentext-Generator
+# Cooler Textgenerator
 
 > Erstellen Sie einzigartige ästhetische Schriftarten online
 
-Verwandeln Sie Ihren Text mit unserem **Blasentext-Generator**! Erstellen Sie auffällige, blasenartige Schriftarten, die herausstechen und Ihren Inhalt zum Platzen bringen. Egal, ob Sie Ihren Social-Media-Beiträgen eine spielerische Note verleihen oder ansprechende Grafiken gestalten möchten, unser Tool macht es einfach, Blasentext in nur wenigen Schritten zu generieren.
+Entfesseln Sie Ihre Kreativität mit unserem **Coolen Textgenerator**! Verwandeln Sie Ihren gewöhnlichen Text in auffällige, stilvolle Schriftarten, die Ihren Inhalt hervorheben. Perfekt für soziale Medien, Blogs und digitale Designs bietet unser Tool eine Vielzahl von coolen Textstilen, um Ihr visuelles Inhalt zu verbessern.

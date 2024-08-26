@@ -5,11 +5,11 @@ const defaultLocale = "en" as const;
 export type LocaleType = typeof locales[number];
 
 export const appConfig = {
-  appDomain: "font-generator.pages.dev",
-  appRootDomain: "font-generator.pages.dev",
-  appName: "Font Generator",
+  appDomain: "www.fontgenerator.dev",
+  appRootDomain: "fontgenerator.dev",
+  appName: "FontGenerator",
   appDescription: "font-generator",
-  gaId: process.env.NEXT_PUBLIC_GA_ID,
+  gaId: process.env.NEXT_PUBLIC_GA_ID || 'G-GEKRPVPFPD',
   i18n: {
     locales,
     defaultLocale,

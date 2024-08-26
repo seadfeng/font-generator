@@ -1,5 +1,5 @@
-# Small Text Generator
+# Serifenschrift-Generator
 
-> Create Unique Aesthetic Fonts Online
+> Erstellen Sie einzigartige ästhetische Schriften online
 
-Discover the charm of minimalism with our **Small Text Generator**! Perfect for adding a subtle touch to your digital content, this tool transforms your text into stylish, small-sized fonts that enhance your designs with elegance and precision.
+Heben Sie Ihr Design mit unserem **Serifenschrift-Generator** auf ein neues Niveau! Ideal, um Ihrem Text einen Hauch klassischer Eleganz zu verleihen. Dieses Tool hilft Ihnen, stilvolle Serifenschriften zu erstellen, die Ihren Projekten einen Hauch von Tradition und Raffinesse verleihen.

@@ -1,5 +1,5 @@
-# Kursivschrift-Generator
+# Cursive Font Generator
 
-> Erstellen Sie einzigartige ästhetische Schriften online
+> Create Unique Aesthetic Fonts Online
 
-Verleihen Sie Ihrem Text eine elegante Note mit unserem **Kursivschrift-Generator**! Dieses Tool verwandelt Ihre Worte in fließende, handschriftähnliche Schriften und verleiht Ihren digitalen Inhalten einen Hauch von Raffinesse und persönlichem Stil.
+Add a touch of elegance to your text with our **Cursive Font Generator**! This tool transforms your words into flowing, handwriting-like scripts, bringing a hint of sophistication and personal flair to your digital content.

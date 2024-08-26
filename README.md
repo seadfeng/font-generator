@@ -61,8 +61,8 @@ npm run deploy
 ## Docker Image
 
 ```sh
-docker pull seadfeng/favicon-downloader
-docker run -p 3000:3000 seadfeng/favicon-downloader
+docker pull seadfeng/font-generator
+docker run -p 3000:3000 seadfeng/font-generator
 ```
 ## Contributing
 

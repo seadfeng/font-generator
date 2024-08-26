@@ -1,5 +1,5 @@
-# Cool Text Generator
+# Cooler Textgenerator
 
-> Create Unique Aesthetic Fonts Online
+> Erstellen Sie einzigartige ästhetische Schriftarten online
 
-Unleash your creativity with our **Cool Text Generator**! Transform your ordinary text into striking, stylish fonts that make your content stand out. Perfect for social media, blogs, and digital designs, our tool offers a variety of cool text styles to enhance your visual content.
+Entfesseln Sie Ihre Kreativität mit unserem **Coolen Textgenerator**! Verwandeln Sie Ihren gewöhnlichen Text in auffällige, stilvolle Schriftarten, die Ihren Inhalt hervorheben. Perfekt für soziale Medien, Blogs und digitale Designs bietet unser Tool eine Vielzahl von coolen Textstilen, um Ihr visuelles Inhalt zu verbessern.

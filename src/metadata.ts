@@ -11,7 +11,6 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
   const t = await getTranslations(params);
   const { style } = params;
 
-
   let title = "";
   let description = "";
   switch (style) {
@@ -42,21 +41,28 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
     case "sans-serif":
       title = t('frontend.style.sans-serif.meta.title');
       description = t('frontend.style.sans-serif.meta.description');
+      break;
     case "serif":
       title = t('frontend.style.serif.meta.title');
       description = t('frontend.style.serif.meta.description');
+      break;
     case "underline":
       title = t('frontend.style.underline.meta.title');
+      console.log("title", title)
       description = t('frontend.style.underline.meta.description');
+      break;
     case "bubble-text":
       title = t('frontend.style.bubble-text.meta.title');
       description = t('frontend.style.bubble-text.meta.description');
+      break;
     case "square-text":
       title = t('frontend.style.square-text.meta.title');
       description = t('frontend.style.square-text.meta.description');
+      break;
     default:
       title = "";
   }
+
   return {
     title,
     description

@@ -1,5 +1,5 @@
-# Gerador de Fontes Serifadas
+# Gerador de Texto Pequeno
 
 > Crie Fontes Estéticas Únicas Online
 
-Eleve seu design com nosso **Gerador de Fontes Serifadas**! Ideal para adicionar um toque de elegância clássica ao seu texto, esta ferramenta ajuda você a criar fontes serifadas estilosas que trazem um senso de tradição e sofisticação aos seus projetos.
+Descubra o charme do minimalismo com nosso **Gerador de Texto Pequeno**! Perfeito para adicionar um toque sutil ao seu conteúdo digital, esta ferramenta transforma seu texto em fontes elegantes de tamanho pequeno que aprimoram seus designs com elegância e precisão.

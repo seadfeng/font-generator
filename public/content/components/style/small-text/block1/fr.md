@@ -1,5 +1,5 @@
-# Générateur de Polices Serif
+# Générateur de Petit Texte
 
 > Créez des Polices Esthétiques Uniques en Ligne
 
-Élevez votre design avec notre **Générateur de Polices Serif** ! Idéal pour ajouter une touche d'élégance classique à votre texte, cet outil vous aide à créer des polices serif stylées qui apportent un sens de tradition et de sophistication à vos projets.
+Découvrez le charme du minimalisme avec notre **Générateur de Petit Texte** ! Parfait pour ajouter une touche subtile à votre contenu numérique, cet outil transforme votre texte en polices élégantes de petite taille qui améliorent vos designs avec élégance et précision.

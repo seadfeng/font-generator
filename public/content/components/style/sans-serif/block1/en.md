@@ -1,5 +1,5 @@
-# Serifenloser Schriftgenerator
+# Sans-serif Font Generator
 
-> Erstellen Sie einzigartige ästhetische Schriften online
+> Create Unique Aesthetic Fonts Online
 
-Verwandeln Sie Ihren Text mit einem klaren und modernen Look mithilfe unseres **Serifenlosen Schriftgenerators**! Dieses Tool ermöglicht es Ihnen, einzigartige, ästhetische Schriften ohne die dekorativen Elemente von Serifenschriften zu erstellen und verleiht Ihrem Text ein schlankes, professionelles Erscheinungsbild.
+Transform your text with a clean and modern look using our **Sans-serif Fonts Generator**! This tool allows you to create unique, aesthetic fonts without the decorative elements of serif fonts, giving your text a sleek, professional appearance.

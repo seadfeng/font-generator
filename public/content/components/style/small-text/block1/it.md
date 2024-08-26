@@ -1,5 +1,5 @@
-# Generatore di Font Serif
+# Generatore di Testo Piccolo
 
 > Crea Font Estetici Unici Online
 
-Eleva il tuo design con il nostro **Generatore di Font Serif**! Ideale per aggiungere un tocco di eleganza classica al tuo testo, questo strumento ti aiuta a creare font serif eleganti che portano un senso di tradizione e sofisticatezza ai tuoi progetti.
+Scopri il fascino del minimalismo con il nostro **Generatore di Testo Piccolo**! Perfetto per aggiungere un tocco sottile ai tuoi contenuti digitali, questo strumento trasforma il tuo testo in font eleganti di piccole dimensioni che migliorano i tuoi design con eleganza e precisione.

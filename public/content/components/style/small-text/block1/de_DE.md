@@ -1,5 +1,5 @@
-# Kursivschrift-Generator
+# Kleiner Text-Generator
 
 > Erstellen Sie einzigartige ästhetische Schriften online
 
-Verwandeln Sie Ihren einfachen Text in stilvolle Kursivschrift mit unserem **Kursivschrift-Generator**. Perfekt zur Aufwertung Ihrer Social-Media-Beiträge, Biografien und Online-Inhalte. Erstellen Sie einzigartigen und auffälligen Text, der sich abhebt!
+Entdecken Sie den Charme des Minimalismus mit unserem **Kleinen Text-Generator**! Perfekt geeignet, um Ihren digitalen Inhalten eine subtile Note zu verleihen. Dieses Tool verwandelt Ihren Text in stilvolle, kleinformatige Schriften, die Ihre Designs mit Eleganz und Präzision aufwerten.

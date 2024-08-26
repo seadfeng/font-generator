@@ -1,5 +1,5 @@
-# Serif Lettertype Generator
+# Kleine Tekstgenerator
 
 > Creëer Unieke Esthetische Lettertypen Online
 
-Til je ontwerp naar een hoger niveau met onze **Serif Lettertype Generator**! Ideaal voor het toevoegen van een vleugje klassieke elegantie aan je tekst, deze tool helpt je stijlvolle serif lettertypen te creëren die een gevoel van traditie en verfijning aan je projecten geven.
+Ontdek de charme van minimalisme met onze **Kleine Tekstgenerator**! Perfect voor het toevoegen van een subtiele touch aan je digitale content, dit hulpmiddel transformeert je tekst in stijlvolle, kleine lettertypen die je ontwerpen verbeteren met elegantie en precisie.

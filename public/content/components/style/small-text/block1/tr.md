@@ -1,5 +1,5 @@
-# Serif Yazı Tipi Oluşturucu
+# Küçük Metin Oluşturucu
 
 > Benzersiz Estetik Yazı Tiplerini Çevrimiçi Oluşturun
 
-Tasarımınızı **Serif Yazı Tipi Oluşturucumuz** ile yükseltin! Metninize klasik bir zarafet katmak için ideal olan bu araç, projelerinize gelenek ve incelik duygusu katan şık serif yazı tipleri oluşturmanıza yardımcı olur.
+**Küçük Metin Oluşturucumuz** ile minimalizmin cazibesini keşfedin! Dijital içeriğinize ince bir dokunuş katmak için mükemmel olan bu araç, metninizi zarif ve hassasiyetle tasarımlarınızı geliştiren şık, küçük boyutlu yazı tiplerine dönüştürür.

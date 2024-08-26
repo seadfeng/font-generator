@@ -1,5 +1,5 @@
-# Generador de Fuentes Serif
+# Generador de Texto Pequeño
 
 > Crea Fuentes Estéticas Únicas en Línea
 
-¡Eleva tu diseño con nuestro **Generador de Fuentes Serif**! Ideal para añadir un toque de elegancia clásica a tu texto, esta herramienta te ayuda a crear fuentes serif elegantes que aportan un sentido de tradición y sofisticación a tus proyectos.
+¡Descubre el encanto del minimalismo con nuestro **Generador de Texto Pequeño**! Perfecto para añadir un toque sutil a tu contenido digital, esta herramienta transforma tu texto en fuentes elegantes de tamaño pequeño que realzan tus diseños con elegancia y precisión.

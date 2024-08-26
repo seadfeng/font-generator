@@ -1,5 +1,5 @@
-# Kursivschrift-Generator
+# Serifenloser Schriftgenerator
 
 > Erstellen Sie einzigartige ästhetische Schriften online
 
-Verwandeln Sie Ihren einfachen Text in stilvolle Kursivschrift mit unserem **Kursivschrift-Generator**. Perfekt zur Aufwertung Ihrer Social-Media-Beiträge, Biografien und Online-Inhalte. Erstellen Sie einzigartigen und auffälligen Text, der sich abhebt!
+Verwandeln Sie Ihren Text mit einem klaren und modernen Look mithilfe unseres **Serifenlosen Schriftgenerators**! Dieses Tool ermöglicht es Ihnen, einzigartige, ästhetische Schriften ohne die dekorativen Elemente von Serifenschriften zu erstellen und verleiht Ihrem Text ein schlankes, professionelles Erscheinungsbild.

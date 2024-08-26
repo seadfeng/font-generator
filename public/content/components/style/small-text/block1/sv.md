@@ -1,5 +1,5 @@
-# Generator för Serif-typsnitt
+# Generator för Liten Text
 
 > Skapa Unika Estetiska Typsnitt Online
 
-Lyft din design med vår **Generator för Serif-typsnitt**! Perfekt för att lägga till en touch av klassisk elegans till din text, detta verktyg hjälper dig att skapa stilfulla serif-typsnitt som ger en känsla av tradition och sofistikering till dina projekt.
+Upptäck charmen med minimalism med vår **Generator för Liten Text**! Perfekt för att lägga till en subtil touch till ditt digitala innehåll, detta verktyg förvandlar din text till stilfulla, små typsnitt som förbättrar dina designer med elegans och precision.

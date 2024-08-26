@@ -4,7 +4,7 @@ export const styleKeys = [
   "all",
   "cool",
   "fancy",
-  "small",
+  "small-text",
   "bold-text",
   "italic",
   "bold-italic",
@@ -27,7 +27,7 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "vaiLetterlike", "bamumLetterlike", "smallCherokeeLetterlike", "canadianAboriginalLetterlike1", "canadianAboriginalLetterlike2",
     "squaredNegative", "inverted", "mirrored", "rotatedLeft", "rotatedRight"
   ],
-  "small": [
+  "small-text": [
     "smallCaps", "superscript", "subscript", "sansItalic", "serifItalic"
   ],
   "bold-text": [

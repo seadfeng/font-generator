@@ -30,7 +30,7 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
       title = t('frontend.style.italic.meta.title');
       description = t('frontend.style.italic.meta.description');
       break;
-    case "small":
+    case "small-text":
       title = t('frontend.style.small.meta.title');
       description = t('frontend.style.small.meta.description');
       break;
@@ -82,7 +82,7 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
       return t('frontend.slug.menu.fancy');
     case "italic":
       return t('frontend.slug.menu.italic');
-    case "small":
+    case "small-text":
       return t('frontend.slug.menu.small');
     case "bold-italic":
       return t('frontend.slug.menu.bold-italic');

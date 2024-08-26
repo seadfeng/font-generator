@@ -24,7 +24,7 @@ export const Sidebar =( )=>{
         return t("frontend.slug.menu.cool");
       case "bold-italic":
         return t("frontend.slug.menu.bold-italic");
-      case "small":
+      case "small-text":
         return t("frontend.slug.menu.small"); 
       case "sans-serif":
         return "Sans Serif";
@@ -53,7 +53,7 @@ export const Sidebar =( )=>{
         return <StarsIcon size={18}  />;
       case "bold-italic":
         return <ItalicIcon size={18}  strokeWidth={3}/>;
-      case "small":
+      case "small-text":
         return <ALargeSmallIcon size={18}  />; 
       case "underline":
         return <UnderlineIcon size={18}  />; 

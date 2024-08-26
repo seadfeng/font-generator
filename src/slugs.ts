@@ -12,12 +12,14 @@ export const styleKeys = [
   "serif",
   "underline",
   "bubble-text",
-  "square-text"
+  "square-text",
+  "cursive-font"
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
 export const styleFonts: Record<StyleKey, FontKey[]> = {
   "all": [], // keep it empty 
+  "cursive-font": ["script", "boldScript", "subscript"],
   "fancy": [
     "script", "boldScript", "fraktur", "boldFraktur",
     "doubleStruck", "smallCaps"

@@ -72,6 +72,12 @@
           "title": "Generatore di testo Sans Serif | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "I caratteri sans serif hanno una ricca storia nella tipografia, evolvendosi dalle loro origini nel 19° secolo fino a diventare un punto fermo del design moderno. \nA differenza dei caratteri serif, che hanno tratti decorativi alle estremità delle lettere, i caratteri sans serif sono caratterizzati dalla loro semplicità e mancanza di ornamenti. \nQuesto design minimalista li rende altamente leggibili, soprattutto sugli schermi, dove la chiarezza e la leggibilità sono fondamentali."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Generatore di caratteri corsivi | \nCrea caratteri di scrittura eleganti online",
+          "description": "Trasforma il tuo testo in bellissimi caratteri corsivi con il nostro generatore di caratteri corsivi gratuito. \nCrea testo unico in stile calligrafico per social media, design e altro ancora. \nProvalo adesso!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normale",
         "underline": "Sottolineare",
         "bubble-text": "Testo a bolle",
-        "square-text": "Testo quadrato"
+        "square-text": "Testo quadrato",
+        "cursive": "Corsivo"
       }
     },
     "meta": {

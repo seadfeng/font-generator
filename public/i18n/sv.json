@@ -72,6 +72,12 @@
           "title": "Sans Serif Text Generator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Sans serif-teckensnitt har en rik historia inom typografi, och har utvecklats från sitt ursprung på 1800-talet till att bli en stapelvara i modern design. \nTill skillnad från serif-teckensnitt, som har dekorativa streck i ändarna av bokstäver, kännetecknas sans serif-teckensnitt av sin enkelhet och brist på utsmyckning. \nDenna minimalistiska design gör dem mycket läsbara, särskilt på skärmar, där tydlighet och läsbarhet är av största vikt."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Cursive Font Generator | \nSkapa eleganta handskriftsteckensnitt online",
+          "description": "Förvandla din text till vackra kursiva teckensnitt med vår gratis Cursive Font Generator. \nSkapa unik text i handstil för sociala medier, design och mer. \nProva nu!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normal",
         "underline": "Betona",
         "bubble-text": "Bubbla text",
-        "square-text": "Fyrkantig text"
+        "square-text": "Fyrkantig text",
+        "cursive": "Kursiv"
       }
     },
     "meta": {

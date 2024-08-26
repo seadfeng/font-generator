@@ -66,6 +66,17 @@
           "title": "Sans Serif Metin Oluşturucu  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Sans serif yazı tipleri, 19. yüzyıldaki kökenlerinden modern tasarımın temel unsuru haline gelen, tipografide zengin bir geçmişe sahiptir. \nHarflerin sonlarında dekoratif çizgiler bulunan serif yazı tiplerinin aksine, sans serif yazı tipleri sadelikleri ve süslemeden yoksun olmaları ile karakterize edilir. \nBu minimalist tasarım, özellikle netlik ve okunabilirliğin çok önemli olduğu ekranlarda onları oldukça okunaklı hale getiriyor."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "El Yazısı Yazı Tipi Oluşturucu | \nÇevrimiçi Zarif El Yazısı Fontları Oluşturun",
+          "description": "Ücretsiz El Yazısı Yazı Tipi Oluşturucumuzla metninizi güzel el yazısı yazı tiplerine dönüştürün. \nSosyal medya, tasarımlar ve daha fazlası için benzersiz, el yazısı stilinde metinler oluşturun. \nŞimdi deneyin!"
+        }
+      }
+    },
+    "slug": {
+      "menu": {
+        "cursive": "El yazısı"
       }
     }
   }

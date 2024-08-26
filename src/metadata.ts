@@ -59,6 +59,10 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
       title = t('frontend.style.square-text.meta.title');
       description = t('frontend.style.square-text.meta.description');
       break;
+    case "cursive-font":
+      title = t('frontend.style.cursive-font.meta.title');
+      description = t('frontend.style.cursive-font.meta.description');
+      break;
     default:
       title = "";
   }

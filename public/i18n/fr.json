@@ -72,6 +72,12 @@
           "title": "Générateur de texte sans empattement | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Les polices sans empattement ont une riche histoire en matière de typographie, évoluant depuis leurs origines au 19e siècle pour devenir un incontournable du design moderne. \nContrairement aux polices avec empattement, qui comportent des traits décoratifs aux extrémités des lettres, les polices sans empattement se caractérisent par leur simplicité et leur manque d'ornements. \nCe design minimaliste les rend très lisibles, notamment sur les écrans, où la clarté et la lisibilité sont primordiales."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Générateur de polices cursives | \nCréez des polices d'écriture manuscrites élégantes en ligne",
+          "description": "Transformez votre texte en superbes polices cursives avec notre générateur de polices cursives gratuit. \nCréez un texte unique de style manuscrit pour les réseaux sociaux, les designs et bien plus encore. \nEssayez-le maintenant !"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normale",
         "underline": "Souligner",
         "bubble-text": "Texte à bulles",
-        "square-text": "Texte carré"
+        "square-text": "Texte carré",
+        "cursive": "Cursive"
       }
     },
     "meta": {

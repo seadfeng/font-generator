@@ -72,6 +72,12 @@
           "title": "Sans Serif-Textgenerator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Serifenlose Schriftarten haben eine lange Geschichte in der Typografie und haben sich von ihren Ursprüngen im 19. Jahrhundert zu einem festen Bestandteil des modernen Designs entwickelt. \nIm Gegensatz zu Serifenschriften, die dekorative Striche am Ende der Buchstaben aufweisen, zeichnen sich serifenlose Schriftarten durch ihre Einfachheit und den Verzicht auf Verzierungen aus. \nDurch dieses minimalistische Design sind sie gut lesbar, insbesondere auf Bildschirmen, wo Klarheit und Lesbarkeit von größter Bedeutung sind."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Generator für kursive Schriftarten | \nErstellen Sie online elegante Handschriftschriften",
+          "description": "Verwandeln Sie Ihren Text mit unserem kostenlosen Generator für kursive Schriftarten in wunderschöne kursive Schriftarten. \nErstellen Sie einzigartige Texte im Handschriftstil für soziale Medien, Designs und mehr. \nProbieren Sie es jetzt aus!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normal",
         "underline": "Unterstreichen",
         "bubble-text": "Blasentext",
-        "square-text": "Quadratischer Text"
+        "square-text": "Quadratischer Text",
+        "cursive": "Kursiv"
       }
     },
     "meta": {

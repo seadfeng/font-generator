@@ -32,6 +32,8 @@ export const Sidebar =( )=>{
         return "Serif";
       case "underline":
         return t("frontend.slug.menu.underline"); 
+      case "cursive-font":
+        return t("frontend.slug.menu.cursive"); 
       case "bubble-text":
         return t("frontend.slug.menu.bubble-text");
       case "square-text":
@@ -54,7 +56,7 @@ export const Sidebar =( )=>{
       case "bold-italic":
         return <ItalicIcon size={18}  strokeWidth={3}/>;
       case "small-text":
-        return <ALargeSmallIcon size={18}  />; 
+        return <ALargeSmallIcon size={18}  />;
       case "underline":
         return <UnderlineIcon size={18}  />; 
       case "bubble-text":

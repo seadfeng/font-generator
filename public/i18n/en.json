@@ -73,6 +73,12 @@
           "title": "Sans Serif Text Generator | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Sans serif fonts have a rich history in typography, evolving from their origins in the 19th century to become a staple of modern design. Unlike serif fonts, which have decorative strokes at the ends of letters, sans serif fonts are characterized by their simplicity and lack of adornment. This minimalist design makes them highly legible, especially on screens, where clarity and readability are paramount."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Cursive Font Generator | Create Elegant Handwriting Fonts Online",
+          "description": "Transform your text into beautiful cursive fonts with our free Cursive Font Generator. Create unique, handwriting-style text for social media, designs, and more. Try it now!"
+        }
       }
     },
     "slug": {
@@ -86,7 +92,8 @@
         "normal": "Normal",
         "underline": "Underline",
         "bubble-text": "Bubble Text",
-        "square-text": "Square Text"
+        "square-text": "Square Text",
+        "cursive": "Cursive"
       }
     },
     "meta": {

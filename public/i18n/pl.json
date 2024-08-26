@@ -72,6 +72,12 @@
           "title": "Generator tekstu bezszeryfowego  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Czcionki bezszeryfowe mają bogatą historię w typografii, ewoluując od XIX wieku, aby stać się podstawą nowoczesnego designu. \nW odróżnieniu od czcionek szeryfowych, które posiadają ozdobne kreski na końcach liter, czcionki bezszeryfowe charakteryzują się prostotą i brakiem ozdób. \nMinimalistyczny design sprawia, że ​​są one bardzo czytelne, zwłaszcza na ekranach, gdzie przejrzystość i czytelność są najważniejsze."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Generator czcionek kursywnych | \nTwórz eleganckie czcionki pisma ręcznego online",
+          "description": "Przekształć swój tekst w piękne kursywne czcionki za pomocą naszego bezpłatnego generatora czcionek kursywnych. \nTwórz unikalny tekst w stylu pisma odręcznego na potrzeby mediów społecznościowych, projektów i nie tylko. \nWypróbuj teraz!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normalna",
         "underline": "Podkreślać",
         "bubble-text": "Tekst bąbelkowy",
-        "square-text": "Kwadratowy tekst"
+        "square-text": "Kwadratowy tekst",
+        "cursive": "Kursywny"
       }
     },
     "meta": {

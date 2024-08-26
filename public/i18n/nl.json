@@ -72,6 +72,12 @@
           "title": "Sans Serif-tekstgenerator  | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Sans-serif-lettertypen hebben een rijke geschiedenis in typografie en evolueren van hun oorsprong in de 19e eeuw naar een hoofdbestanddeel van modern design. \nIn tegenstelling tot schreeflettertypen, die decoratieve strepen aan de uiteinden van letters hebben, worden schreefloze lettertypen gekenmerkt door hun eenvoud en gebrek aan versiering. \nDoor dit minimalistische ontwerp zijn ze zeer goed leesbaar, vooral op schermen, waar helderheid en leesbaarheid voorop staan."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Cursieve lettertypegenerator | \nMaak online elegante handschriftlettertypen",
+          "description": "Transformeer uw tekst in prachtige cursieve lettertypen met onze gratis Cursive Font Generator. \nCreëer unieke tekst in handschriftstijl voor sociale media, ontwerpen en meer. \nProbeer het nu!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normaal",
         "underline": "Onderstrepen",
         "bubble-text": "Bellentekst",
-        "square-text": "Vierkante tekst"
+        "square-text": "Vierkante tekst",
+        "cursive": "Cursief"
       }
     },
     "meta": {

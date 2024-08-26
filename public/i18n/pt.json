@@ -72,6 +72,12 @@
           "title": "Gerador de texto sem serifa | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "As fontes sem serifa têm uma rica história na tipografia, evoluindo desde suas origens no século 19 para se tornarem um elemento básico do design moderno. \nAo contrário das fontes serifadas, que possuem traços decorativos no final das letras, as fontes sem serifa são caracterizadas pela simplicidade e pela falta de adornos. \nEste design minimalista torna-os altamente legíveis, especialmente em ecrãs, onde a clareza e a legibilidade são fundamentais."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Gerador de fontes cursivas | \nCrie fontes elegantes de caligrafia online",
+          "description": "Transforme seu texto em belas fontes cursivas com nosso Cursive Font Generator gratuito. \nCrie textos exclusivos em estilo manuscrito para mídias sociais, designs e muito mais. \nExperimente agora!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normal",
         "underline": "Sublinhado",
         "bubble-text": "Texto de bolha",
-        "square-text": "Texto Quadrado"
+        "square-text": "Texto Quadrado",
+        "cursive": "Cursiva"
       }
     },
     "meta": {

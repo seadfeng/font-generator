@@ -72,6 +72,12 @@
           "title": "Generador de texto Sans Serif | [𝖢𝗈𝗉𝗒 & 𝖯𝖺𝗌𝗍𝖾]",
           "description": "Las fuentes sans serif tienen una rica historia en tipografía, evolucionando desde sus orígenes en el siglo XIX hasta convertirse en un elemento básico del diseño moderno. \nA diferencia de las fuentes serif, que tienen trazos decorativos al final de las letras, las fuentes sans serif se caracterizan por su sencillez y falta de adornos. \nEste diseño minimalista los hace muy legibles, especialmente en pantallas, donde la claridad y la legibilidad son primordiales."
         }
+      },
+      "cursive-font": {
+        "meta": {
+          "title": "Generador de fuentes cursivas | \nCree fuentes elegantes para escribir a mano en línea",
+          "description": "Transforme su texto en hermosas fuentes cursivas con nuestro generador de fuentes cursivas gratuito. \nCree texto único con estilo de escritura a mano para redes sociales, diseños y más. \n¡Pruébalo ahora!"
+        }
       }
     },
     "slug": {
@@ -85,7 +91,8 @@
         "normal": "Normal",
         "underline": "Subrayar",
         "bubble-text": "Texto de burbuja",
-        "square-text": "Texto cuadrado"
+        "square-text": "Texto cuadrado",
+        "cursive": "Cursivo"
       }
     },
     "meta": {

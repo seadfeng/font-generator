@@ -139,7 +139,20 @@
   },
   "style/italic/block1": {
     "locales": [
-      "en"
+      "de_DE",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
     ]
   },
   "style/italic/block2": {

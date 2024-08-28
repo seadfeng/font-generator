@@ -40,7 +40,7 @@ export const fonts = {
   canadianAboriginalLetterlike2: "\"\\ !#$%&'()*+,-./0123456789:;<=>?@ᗩᗷᑕᗞᕮᒋᕋᖺᑊᒎᕙᘂᘻᘯᗜᑭᘝᖇᔕᘕᕞᕓᘺ᙮ᒉᓯ[]^_`ᗩᗷᑕᗞᕮᒋᕋᖺᑊᒎᕙᘂᘻᘯᗜᑭᘝᖇᔕᘕᕞᕓᘺ᙮ᒉᓯ{|}~",
 }
 
-// áéíóúÁÉÍÓÚàâæçèêëîïôœùûüÿÀÂÆÇÈÊËÎÏÔŒÙÛÜŸğĞöÖşŞıİ
+// áäÄéíóúÁÉÍÓÚàâæçèêëîïôœùûüÿÀÂÆÇÈÊËÎÏÔŒÙÛÜŸğĞöÖşŞıİ
 export const superFonts = {
   sansSerif: {
     "á": "𝖺́",

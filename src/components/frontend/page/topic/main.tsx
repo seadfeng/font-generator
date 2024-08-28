@@ -7,7 +7,6 @@ import { topicFonts, TopicKey } from "@/slugs";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Fonts } from "./fonts";
-import { Sidebar } from "./sidebar";
 
 export function TopicMain({
   markdownContents,
@@ -39,10 +38,7 @@ export function TopicMain({
         blockquote: "mb-6 mt-0 border-l-2 pl-6 italic"
       }} content={block1} />}   
       <Textarea defaultValue={content} className="rounded-md h-32 text-xl p-5" onChange={(e) => onChange(e)}/>
-      <div className="flex flex-col md:flex-row py-10 gap-10">
-        <div className="md:w-[200px] flex-shrink-0">
-          <Sidebar />
-        </div>
+      <div className="flex flex-col py-10 gap-10"> 
         <div className="w-full rounded-lg dark:bg-secondary px-8 py-5 border">
           <Fonts currentFonts={currentFonts} className="mb-10" content={content} />
           {block2 && <Markdown content={block2} className="mt-10" />}   

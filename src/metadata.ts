@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { LocaleType } from "./config";
-import { StyleKey } from "./slugs";
+import { StyleKey, TopicKey } from "./slugs";
 /**
  * Metadata for src/app/[locale]/(frontend)/[style]/page.tsx
  * 
@@ -105,3 +105,34 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
   }
 }
 
+export const topicMetadata = async ({ params }: { params: { topic: TopicKey } }): Promise<Metadata> => {
+  const t = await getTranslations(params);
+  const { topic } = params;
+
+  let title = "";
+  let description = "";
+  switch (topic) {
+    case "facebook":
+      title = t('frontend.topic.facebook.meta.title');
+      description = t('frontend.topic.facebook.meta.description');
+      break;
+    default:
+      title = "";
+  }
+
+  return {
+    title,
+    description
+  };
+}
+
+export const getTopicName = async ({ params }: Readonly<{ params: { topic: TopicKey } }>): Promise<string> => {
+  const t = await getTranslations(params);
+  const { topic } = params;
+  switch (topic) {
+    case "facebook":
+      return "FaceBook";
+    default:
+      return "";
+  }
+}

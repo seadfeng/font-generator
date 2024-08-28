@@ -5,16 +5,16 @@ import { Crumb } from "@/components/frontend/shared/crumb";
 import { LocaleType } from "@/config";
 import { getComponentMarkdown } from "@/i18n";
 import { getOrigin } from "@/lib/utils";
-import { getTopicName, styleMetadata } from "@/metadata";
+import { getTopicName, topicMetadata } from "@/metadata";
 import { TopicKey } from "@/slugs";
 import { CrumbItem } from "@/types";
 import { headers } from "next/headers";
 
 export const runtime = 'edge';
 
-export { styleMetadata as generateMetadata };
+export { topicMetadata as generateMetadata };
 
-export default async function  Style({
+export default async function  Topic({
   params
 }: Readonly<{ 
   params: { locale: LocaleType; topic: TopicKey; };

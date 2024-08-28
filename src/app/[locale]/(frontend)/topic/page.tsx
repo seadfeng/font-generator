@@ -14,7 +14,7 @@ export const runtime = 'edge';
 
 export { topicMetadata as generateMetadata };
 
-export default async function  Style({
+export default async function  Index({
   params
 }: Readonly<{ 
   params: { locale: LocaleType; };

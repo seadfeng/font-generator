@@ -105,7 +105,7 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
   }
 }
 
-export const topicMetadata = async ({ params }: { params: { topic: TopicKey } }): Promise<Metadata> => {
+export const topicMetadata = async ({ params }: { params: { topic?: TopicKey } }): Promise<Metadata> => {
   const t = await getTranslations(params);
   const { topic } = params;
 
@@ -117,7 +117,7 @@ export const topicMetadata = async ({ params }: { params: { topic: TopicKey } })
       description = t('frontend.topic.facebook.meta.description');
       break;
     default:
-      title = "";
+      title = t('frontend.topic.index.meta.title');
   }
 
   return {

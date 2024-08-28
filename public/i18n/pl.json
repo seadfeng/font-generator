@@ -107,6 +107,11 @@
           "description": "Ulepsz swoje posty na Facebooku za pomocą naszego generatora czcionek! \nZamień swój tekst w przyciągające wzrok czcionki na Facebooku, w tym pogrubienie, kursywę, kursywę i stylowe symbole. \nWyróżnij się w komentarzach, postach i biografiach dzięki unikalnym stylom tekstu, które przyciągają uwagę. \nŁatwy w użyciu, bezpłatny i kompatybilny ze wszystkimi urządzeniami. \nZwiększ swoją obecność w mediach społecznościowych już dziś dzięki naszemu generatorowi czcionek na Facebooku!",
           "title": "Generator czcionek na Facebooku"
         }
+      },
+      "index": {
+        "meta": {
+          "title": "Tematy dla generatora czcionek"
+        }
       }
     }
   }

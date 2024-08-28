@@ -107,6 +107,11 @@
           "description": "¡Mejora tus publicaciones de Facebook con nuestro generador de fuentes! \nTransforme su texto en fuentes llamativas para Facebook, incluidos símbolos en negrita, cursiva, cursiva y elegantes. \nDestaca en comentarios, publicaciones y biografías con estilos de texto únicos que llamen la atención. \nFácil de usar, gratuito y compatible con todos los dispositivos. \n¡Eleva tu presencia en las redes sociales hoy con nuestro generador de fuentes de Facebook!",
           "title": "Generador de fuentes de Facebook"
         }
+      },
+      "index": {
+        "meta": {
+          "title": "Temas para el generador de fuentes"
+        }
       }
     }
   }

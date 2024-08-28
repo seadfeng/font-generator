@@ -107,6 +107,11 @@
           "description": "Werten Sie Ihre Facebook-Beiträge mit unserem Schriftartengenerator auf! \nVerwandeln Sie Ihren Text in auffällige Schriftarten für Facebook, einschließlich Fett-, Kursiv-, Kursivschrift und stilvoller Symbole. \nHeben Sie sich in Kommentaren, Beiträgen und Biografien mit einzigartigen Textstilen hervor, die Aufmerksamkeit erregen. \nEinfach zu bedienen, kostenlos und mit allen Geräten kompatibel. \nSteigern Sie noch heute Ihre Social-Media-Präsenz mit unserem Facebook-Schriftgenerator!",
           "title": "Facebook-Schriftgenerator"
         }
+      },
+      "index": {
+        "meta": {
+          "title": "Themen für den Schriftartengenerator"
+        }
       }
     }
   }

@@ -107,6 +107,11 @@
           "description": "Migliora i tuoi post su Facebook con il nostro generatore di caratteri! \nTrasforma il tuo testo in caratteri accattivanti per Facebook, inclusi simboli in grassetto, corsivo, corsivo ed eleganti. \nDistinguiti nei commenti, nei post e nelle biografie con stili di testo unici che attirano l'attenzione. \nFacile da usare, gratuito e compatibile con tutti i dispositivi. \nMigliora oggi la tua presenza sui social media con il nostro generatore di caratteri Facebook!",
           "title": "Generatore di caratteri di Facebook"
         }
+      },
+      "index": {
+        "meta": {
+          "title": "Argomenti per il generatore di caratteri"
+        }
       }
     }
   }

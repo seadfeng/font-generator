@@ -107,6 +107,11 @@
           "description": "Förbättra dina Facebook-inlägg med vår teckensnittsgenerator! \nFörvandla din text till iögonfallande typsnitt för Facebook, inklusive fetstil, kursiv, kursiv och stilfulla symboler. \nStick ut i kommentarer, inlägg och bios med unika textstilar som fångar uppmärksamhet. \nLätt att använda, gratis och kompatibel med alla enheter. \nÖka din närvaro på sociala medier idag med vår Facebook Font Generator!",
           "title": "Facebook Font Generator"
         }
+      },
+      "index": {
+        "meta": {
+          "title": "Ämnen för teckensnittsgenerator"
+        }
       }
     }
   }

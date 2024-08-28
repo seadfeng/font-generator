@@ -100,6 +100,14 @@
         "title": "Générateur de texte élégant pour Facebook, X (Twitter)",
         "description": "Générez facilement du texte élégant pour Facebook, X (anciennement Twitter) et d'autres plateformes de médias sociaux. \nPersonnalisez les polices avec des styles gras, italique, fantaisie et sympa pour faire ressortir vos publications."
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Améliorez vos publications Facebook avec notre générateur de polices ! \nTransformez votre texte en polices accrocheuses pour Facebook, comprenant des symboles gras, italiques, cursifs et élégants. \nDémarquez-vous dans les commentaires, les publications et les biographies grâce à des styles de texte uniques qui attirent l'attention. \nFacile à utiliser, gratuit et compatible avec tous les appareils. \nAméliorez votre présence sur les réseaux sociaux dès aujourd'hui avec notre générateur de polices Facebook !",
+          "title": "Générateur de polices Facebook"
+        }
+      }
     }
   }
 }

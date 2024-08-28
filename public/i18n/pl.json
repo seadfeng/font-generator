@@ -100,6 +100,14 @@
         "title": "Stylowy generator tekstu dla Facebooka, X (Twitter)",
         "description": "Z łatwością generuj stylowy tekst dla Facebooka, X (dawniej Twittera) i innych platform mediów społecznościowych. \nDostosuj czcionki za pomocą pogrubienia, kursywy, fantazyjnych i fajnych stylów, aby Twoje posty wyróżniały się."
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Ulepsz swoje posty na Facebooku za pomocą naszego generatora czcionek! \nZamień swój tekst w przyciągające wzrok czcionki na Facebooku, w tym pogrubienie, kursywę, kursywę i stylowe symbole. \nWyróżnij się w komentarzach, postach i biografiach dzięki unikalnym stylom tekstu, które przyciągają uwagę. \nŁatwy w użyciu, bezpłatny i kompatybilny ze wszystkimi urządzeniami. \nZwiększ swoją obecność w mediach społecznościowych już dziś dzięki naszemu generatorowi czcionek na Facebooku!",
+          "title": "Generator czcionek na Facebooku"
+        }
+      }
     }
   }
 }

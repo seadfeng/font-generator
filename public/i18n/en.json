@@ -101,6 +101,14 @@
         "title": "Stylish Text Generator for Facebook, X (Twitter) & Social Media",
         "description": "Easily generate stylish text for Facebook, X (formerly Twitter), and other social media platforms. Customize fonts with bold, italic, fancy, and cool styles to make your posts stand out."
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Enhance Your Facebook Posts with Our Font Generator! Transform your text into eye-catching fonts for Facebook, including bold, italic, cursive, and stylish symbols. Stand out in comments, posts, and bios with unique text styles that grab attention. Easy to use, free, and compatible with all devices. Elevate your social media presence today with our Facebook Font Generator!",
+          "title": "Facebook Font Generator"
+        }
+      }
     }
   }
 }

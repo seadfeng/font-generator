@@ -100,6 +100,14 @@
         "title": "Snygg textgenerator för Facebook, X (Twitter)",
         "description": "Skapa enkelt snygg text för Facebook, X (tidigare Twitter) och andra sociala medieplattformar. \nAnpassa typsnitt med fetstil, kursiv, snygg och cool stil för att få dina inlägg att sticka ut."
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Förbättra dina Facebook-inlägg med vår teckensnittsgenerator! \nFörvandla din text till iögonfallande typsnitt för Facebook, inklusive fetstil, kursiv, kursiv och stilfulla symboler. \nStick ut i kommentarer, inlägg och bios med unika textstilar som fångar uppmärksamhet. \nLätt att använda, gratis och kompatibel med alla enheter. \nÖka din närvaro på sociala medier idag med vår Facebook Font Generator!",
+          "title": "Facebook Font Generator"
+        }
+      }
     }
   }
 }

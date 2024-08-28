@@ -78,6 +78,14 @@
       "menu": {
         "cursive": "El yazısı"
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Yazı Tipi Oluşturucumuzla Facebook Gönderilerinizi Geliştirin! \nMetninizi Facebook için kalın, italik, el yazısı ve şık semboller içeren göz alıcı yazı tiplerine dönüştürün. \nDikkat çeken benzersiz metin stilleriyle yorumlarda, gönderilerde ve biyografilerde öne çıkın. \nKullanımı kolay, ücretsiz ve tüm cihazlarla uyumludur. \nFacebook Yazı Tipi Oluşturucumuzla sosyal medyadaki varlığınızı bugün yükseltin!",
+          "title": "Facebook Yazı Tipi Oluşturucu"
+        }
+      }
     }
   }
 }

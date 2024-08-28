@@ -100,6 +100,14 @@
         "title": "Gerador de texto elegante para Facebook, X (Twitter)",
         "description": "Gere facilmente textos elegantes para Facebook, X (antigo Twitter) e outras plataformas de mídia social. \nPersonalize fontes com estilos em negrito, itálico, sofisticado e legal para destacar suas postagens."
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "Aprimore suas postagens no Facebook com nosso gerador de fontes! \nTransforme seu texto em fontes atraentes para o Facebook, incluindo símbolos em negrito, itálico, cursivo e elegantes. \nDestaque-se em comentários, postagens e biografias com estilos de texto exclusivos que chamam a atenção. \nFácil de usar, gratuito e compatível com todos os dispositivos. \nEleve sua presença nas redes sociais hoje com nosso Gerador de Fontes do Facebook!",
+          "title": "Gerador de fontes do Facebook"
+        }
+      }
     }
   }
 }

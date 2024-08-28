@@ -102,6 +102,14 @@
         "title": "适用于 Facebook、X (Twitter) 的时尚文本生成器",
         "description": "轻松为 Facebook、X（以前称为 Twitter）和其他社交媒体平台生成时尚文本。\n使用粗体、斜体、花式和酷炫风格自定义字体，让您的帖子脱颖而出。"
       }
+    },
+    "topic": {
+      "facebook": {
+        "meta": {
+          "description": "使用我们的字体生成器增强您的 Facebook 帖子！\n将您的文本转换为 Facebook 引人注目的字体，包括粗体、斜体、草书和时尚符号。\n使用吸引注意力的独特文本样式在评论、帖子和简介中脱颖而出。\n易于使用、免费且与所有设备兼容。\n立即使用我们的 Facebook 字体生成器提升您的社交媒体形象！",
+          "title": "Facebook 字体生成器"
+        }
+      }
     }
   }
 }

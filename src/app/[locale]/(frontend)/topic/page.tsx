@@ -1,14 +1,18 @@
  
  
+import { TopicIndex } from "@/components/frontend/page/topic";
+import { Crumb } from "@/components/frontend/shared/crumb";
 import { LocaleType } from "@/config";
 import { getComponentMarkdown } from "@/i18n";
 import { getOrigin } from "@/lib/utils";
-import { styleMetadata } from "@/metadata";
+import { getTopicName, topicMetadata } from "@/metadata";
+import { topicKeys } from "@/slugs";
+import { CrumbItem, TopicLink } from "@/types";
 import { headers } from "next/headers";
 
 export const runtime = 'edge';
 
-export { styleMetadata as generateMetadata };
+export { topicMetadata as generateMetadata };
 
 export default async function  Style({
   params
@@ -19,6 +23,15 @@ export default async function  Style({
   const headersList = headers(); 
   const origin = getOrigin({headers: headersList});
 
+  const topics: TopicLink[] = [];
+
+  {topicKeys.forEach( async key =>{
+    topics.push({
+      href: `/topic/${key}`,
+      label: await getTopicName({params:{ topic: key }})
+    })
+  })}
+
   // Load by key: public/data/generated/components-markdown.json
   const markdownContents = {
     block1: await getComponentMarkdown({
@@ -26,12 +39,17 @@ export default async function  Style({
       componentPathName: `topic/block1`,
       origin
     })
-  } 
-  const url = new URL(headersList.get('x-request-url')!); 
- 
+  }  
+  const items: CrumbItem[] = [
+    {
+      name: "Topic",
+      href:  `/topic`,
+    }
+  ]
   return ( 
     <div className="px-8"> 
-       
+      <Crumb items={items} params={params} className="max-w-6xl mx-auto mb-5" />
+      <TopicIndex markdownContents={markdownContents} topics={topics}/>
     </div> 
   );
 }

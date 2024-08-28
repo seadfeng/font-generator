@@ -21,6 +21,12 @@ export type Faq = {
 
 export type CrumbItem = {
   name: string;
-  type?: "style"
+  type?: "topic"
   href?: string;
+}
+
+
+export type TopicLink = {
+  href: string;
+  label: string;
 }

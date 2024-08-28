@@ -7,8 +7,8 @@ import {
 } from "@/components/ui/breadcrumb";
 import { LocaleType } from "@/config";
 import { Link } from "@/lib/i18n";
-import { getStyleName } from "@/metadata";
-import { StyleKey } from "@/slugs";
+import { getTopicName } from "@/metadata";
+import { TopicKey } from "@/slugs";
 // import { Link } from "@/lib/i18n";
 import { CrumbItem } from "@/types";
 
@@ -22,14 +22,14 @@ export function Crumb({
   className?: string;
   params: Readonly<{ 
     locale: LocaleType;
-    style?: StyleKey; 
+    topic?: TopicKey;  
   }>
 }) {
 
   const Item = async ({item}:{item: CrumbItem})=>{ 
     let newName = item.name;
-    if(item?.type === "style" && params.style){
-      newName = await getStyleName({params}) 
+    if(item?.type === "topic" && params.topic){
+      newName = await getTopicName({params:{ topic: params.topic }}) 
     }
     return(
       <>

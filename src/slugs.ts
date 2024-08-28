@@ -17,6 +17,14 @@ export const styleKeys = [
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
+export const topicKeys = [
+  "facebook",
+  "twitter",
+  "whatsapp"
+] as const;
+
+export type TopicKey = typeof topicKeys[number];
+
 export const styleFonts: Record<StyleKey, FontKey[]> = {
   "all": [], // keep it empty 
   "cursive-font": ["script", "boldScript", "subscript"],
@@ -80,3 +88,39 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "serifBoldItalic"
   ]
 };
+
+export const topicFonts: Record<TopicKey, FontKey[]> = {
+  facebook: [
+    "fraktur",
+    "boldFraktur",
+    "sansSerif",
+    "sansBold",
+    "sansItalic",
+    "sansBoldItalic",
+    "serifBold",
+    "serifItalic",
+    "serifBoldItalic"
+  ],
+  twitter: [
+    "fraktur",
+    "boldFraktur",
+    "sansSerif",
+    "sansBold",
+    "sansItalic",
+    "sansBoldItalic",
+    "serifBold",
+    "serifItalic",
+    "serifBoldItalic"
+  ],
+  whatsapp: [
+    "fraktur",
+    "boldFraktur",
+    "sansSerif",
+    "sansBold",
+    "sansItalic",
+    "sansBoldItalic",
+    "serifBold",
+    "serifItalic",
+    "serifBoldItalic"
+  ]
+}

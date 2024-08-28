@@ -1,4 +1,22 @@
 {
+  "empty": {
+    "locales": [
+      "de_DE",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ]
+  },
   "home/block1": {
     "locales": [
       "de_DE",
@@ -291,6 +309,24 @@
   "style/underline/block2": {
     "locales": [
       "en"
+    ]
+  },
+  "topic/facebook/block1": {
+    "locales": [
+      "de_DE",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
     ]
   }
 }

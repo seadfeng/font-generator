@@ -113,6 +113,10 @@
           "title": "Sujets pour le générateur de polices"
         }
       }
+    },
+    "shared": {
+      "copy": "Copie",
+      "copyed": "Copié!"
     }
   }
 }

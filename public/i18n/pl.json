@@ -113,6 +113,10 @@
           "title": "Tematy dla generatora czcionek"
         }
       }
+    },
+    "shared": {
+      "copy": "Kopia",
+      "copyed": "Skopiowano!"
     }
   }
 }

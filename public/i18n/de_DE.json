@@ -113,6 +113,10 @@
           "title": "Themen für den Schriftartengenerator"
         }
       }
+    },
+    "shared": {
+      "copy": "Kopie",
+      "copyed": "Kopiert!"
     }
   }
 }

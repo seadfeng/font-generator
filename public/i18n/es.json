@@ -113,6 +113,10 @@
           "title": "Temas para el generador de fuentes"
         }
       }
+    },
+    "shared": {
+      "copy": "Copiar",
+      "copyed": "¡Copiado!"
     }
   }
 }

@@ -114,6 +114,10 @@
           "title": "Topics for font Generator"
         }
       }
+    },
+    "shared": {
+      "copy": "Copy",
+      "copyed": "Copied!"
     }
   }
 }

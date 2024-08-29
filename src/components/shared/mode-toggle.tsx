@@ -4,11 +4,9 @@ import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
-import { useTranslations } from "next-intl"
 
 export function ModeToggle() {
-  const { theme, setTheme } = useTheme(); 
-  const t = useTranslations();
+  const { theme, setTheme } = useTheme();  
 
   return ( 
     <Button aria-label="Theme Mode" variant="ghost" size="icon" className="h-10 w-10 rounded-md" onClick={() => theme === "dark" ? setTheme("light") : setTheme("dark")} >

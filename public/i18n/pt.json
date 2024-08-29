@@ -113,6 +113,10 @@
           "title": "Tópicos para gerador de fontes"
         }
       }
+    },
+    "shared": {
+      "copy": "Cópia",
+      "copyed": "Copiado!"
     }
   }
 }

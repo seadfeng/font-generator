@@ -91,6 +91,10 @@
           "title": "Yazı Tipi Oluşturucu konuları"
         }
       }
+    },
+    "shared": {
+      "copy": "Kopyala",
+      "copyed": "Kopyalandı!"
     }
   }
 }

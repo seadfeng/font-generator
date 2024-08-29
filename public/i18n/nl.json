@@ -113,6 +113,10 @@
           "title": "Onderwerpen voor lettertypegenerator"
         }
       }
+    },
+    "shared": {
+      "copy": "Kopiëren",
+      "copyed": "Gekopieerd!"
     }
   }
 }

@@ -113,6 +113,10 @@
           "title": "Ämnen för teckensnittsgenerator"
         }
       }
+    },
+    "shared": {
+      "copy": "Kopiera",
+      "copyed": "Kopierade!"
     }
   }
 }

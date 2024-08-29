@@ -113,6 +113,10 @@
           "title": "Argomenti per il generatore di caratteri"
         }
       }
+    },
+    "shared": {
+      "copy": "Copia",
+      "copyed": "Copiato!"
     }
   }
 }

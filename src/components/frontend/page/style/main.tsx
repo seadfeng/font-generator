@@ -26,7 +26,7 @@ export function StyleMain({
 
   const onChange=(e: React.ChangeEvent<HTMLTextAreaElement>)=>{
     setContent(e.target.value);
-    router.replace(`${pathname}?text=${e.target.value}`);
+    router.replace(`${pathname}?text=${encodeURIComponent(e.target.value)}`);
   }
 
   const currentFonts = style === "all" ? fontKeys : styleFonts[style];

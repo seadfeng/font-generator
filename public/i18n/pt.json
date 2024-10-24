@@ -93,6 +93,9 @@
         "bubble-text": "Texto de bolha",
         "square-text": "Texto Quadrado",
         "cursive": "Cursiva"
+      },
+      "topic": {
+        "handwriting": "Caligrafia"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Tópicos para gerador de fontes"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Gerador de fontes de caligrafia",
+          "description": "Gerador de fontes de caligrafia online gratuito. \nConverta seu texto em fontes Unicode elegantes e caracteres especiais. \nCrie estilos manuscritos exclusivos para mídias sociais e mensagens."
         }
       }
     },

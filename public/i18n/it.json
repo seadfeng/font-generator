@@ -93,6 +93,9 @@
         "bubble-text": "Testo a bolle",
         "square-text": "Testo quadrato",
         "cursive": "Corsivo"
+      },
+      "topic": {
+        "handwriting": "Grafia"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Argomenti per il generatore di caratteri"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Generatore di caratteri per la scrittura a mano",
+          "description": "Generatore di caratteri per la scrittura online gratuito. \nConverti il ​​tuo testo in eleganti caratteri Unicode e caratteri speciali. \nCrea stili scritti a mano unici per i social media e la messaggistica."
         }
       }
     },

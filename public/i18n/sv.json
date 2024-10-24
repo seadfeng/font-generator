@@ -93,6 +93,9 @@
         "bubble-text": "Bubbla text",
         "square-text": "Fyrkantig text",
         "cursive": "Kursiv"
+      },
+      "topic": {
+        "handwriting": "Handstil"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Ämnen för teckensnittsgenerator"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Handskriftstypsnittsgenerator",
+          "description": "Gratis teckensnittsgenerator för handskrift online. \nKonvertera din text till snygga Unicode-teckensnitt och specialtecken. \nSkapa unika handskrivna stilar för sociala medier och meddelanden."
         }
       }
     },

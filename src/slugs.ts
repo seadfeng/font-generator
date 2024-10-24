@@ -20,7 +20,8 @@ export type StyleKey = typeof styleKeys[number];
 export const topicKeys = [
   "facebook",
   "twitter",
-  "whatsapp"
+  "whatsapp",
+  "handwriting"
 ] as const;
 
 export type TopicKey = typeof topicKeys[number];
@@ -90,6 +91,9 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
 };
 
 export const topicFonts: Record<TopicKey, FontKey[]> = {
+  handwriting: [
+    "script", "boldScript", "subscript"
+  ],
   facebook: [
     "fraktur",
     "boldFraktur",

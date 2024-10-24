@@ -77,6 +77,9 @@
     "slug": {
       "menu": {
         "cursive": "El yazısı"
+      },
+      "topic": {
+        "handwriting": "El yazısı"
       }
     },
     "topic": {
@@ -89,6 +92,12 @@
       "index": {
         "meta": {
           "title": "Yazı Tipi Oluşturucu konuları"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "El Yazısı Yazı Tipi Oluşturucu",
+          "description": "Ücretsiz çevrimiçi el yazısı yazı tipi oluşturucu. \nMetninizi şık Unicode yazı tiplerine ve özel karakterlere dönüştürün. \nSosyal medya ve mesajlaşma için benzersiz el yazısı stilleri oluşturun."
         }
       }
     },

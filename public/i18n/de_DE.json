@@ -93,6 +93,9 @@
         "bubble-text": "Blasentext",
         "square-text": "Quadratischer Text",
         "cursive": "Kursiv"
+      },
+      "topic": {
+        "handwriting": "Handschrift"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Themen für den Schriftartengenerator"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Handschrift-Schriftgenerator",
+          "description": "Kostenloser Online-Generator für Handschriftschriften. \nWandeln Sie Ihren Text in stilvolle Unicode-Schriftarten und Sonderzeichen um. \nErstellen Sie einzigartige handschriftliche Stile für soziale Medien und Nachrichten."
         }
       }
     },

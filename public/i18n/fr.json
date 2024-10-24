@@ -93,6 +93,9 @@
         "bubble-text": "Texte à bulles",
         "square-text": "Texte carré",
         "cursive": "Cursive"
+      },
+      "topic": {
+        "handwriting": "Écriture"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Sujets pour le générateur de polices"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Générateur de polices d'écriture manuscrite",
+          "description": "Générateur de polices d'écriture manuscrite en ligne gratuit. \nConvertissez votre texte en polices Unicode élégantes et en caractères spéciaux. \nCréez des styles manuscrits uniques pour les médias sociaux et la messagerie."
         }
       }
     },

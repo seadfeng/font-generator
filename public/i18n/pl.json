@@ -93,6 +93,9 @@
         "bubble-text": "Tekst bąbelkowy",
         "square-text": "Kwadratowy tekst",
         "cursive": "Kursywny"
+      },
+      "topic": {
+        "handwriting": "Pismo"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Tematy dla generatora czcionek"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Generator czcionek pisma ręcznego",
+          "description": "Darmowy generator czcionek pisma ręcznego online. \nKonwertuj swój tekst na stylowe czcionki Unicode i znaki specjalne. \nTwórz unikalne style pisma odręcznego na potrzeby mediów społecznościowych i wiadomości."
         }
       }
     },

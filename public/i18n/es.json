@@ -93,6 +93,9 @@
         "bubble-text": "Texto de burbuja",
         "square-text": "Texto cuadrado",
         "cursive": "Cursivo"
+      },
+      "topic": {
+        "handwriting": "Escritura"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "Temas para el generador de fuentes"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Generador de fuentes de escritura a mano",
+          "description": "Generador de fuentes de escritura a mano en línea gratuito. \nConvierta su texto en elegantes fuentes Unicode y caracteres especiales. \nCree estilos escritos a mano únicos para redes sociales y mensajería."
         }
       }
     },

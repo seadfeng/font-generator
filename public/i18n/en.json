@@ -94,6 +94,9 @@
         "bubble-text": "Bubble Text",
         "square-text": "Square Text",
         "cursive": "Cursive"
+      },
+      "topic": {
+        "handwriting": "Handwriting"
       }
     },
     "meta": {
@@ -112,6 +115,12 @@
       "index": {
         "meta": {
           "title": "Topics for font Generator"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "Handwriting Font Generator",
+          "description": "Free online handwriting font generator. Convert your text into stylish Unicode fonts and special characters. Create unique handwritten styles for social media and messaging."
         }
       }
     },

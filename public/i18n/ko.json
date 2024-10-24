@@ -93,6 +93,9 @@
         "bubble-text": "버블 텍스트",
         "square-text": "정사각형 텍스트",
         "cursive": "필기체"
+      },
+      "topic": {
+        "handwriting": "필적"
       }
     },
     "meta": {
@@ -111,6 +114,12 @@
       "index": {
         "meta": {
           "title": "글꼴 생성기 주제"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "필기체 글꼴 생성기",
+          "description": "무료 온라인 필기체 글꼴 생성기. \n텍스트를 세련된 유니코드 글꼴과 특수 문자로 변환하세요. \n소셜 미디어와 메시징을 위한 독특한 손글씨 스타일을 만들어 보세요."
         }
       }
     },

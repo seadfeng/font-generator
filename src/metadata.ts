@@ -116,6 +116,11 @@ export const topicMetadata = async ({ params }: { params: { topic?: TopicKey } }
       title = t('frontend.topic.facebook.meta.title');
       description = t('frontend.topic.facebook.meta.description');
       break;
+    case "handwriting":
+      title = t('frontend.topic.handwriting.meta.title');
+      description = t('frontend.topic.handwriting.meta.description');
+      break;
+
     default:
       title = t('frontend.topic.index.meta.title');
   }
@@ -132,6 +137,8 @@ export const getTopicName = async ({ params }: Readonly<{ params: { topic: Topic
   switch (topic) {
     case "facebook":
       return "FaceBook";
+    case "handwriting":
+      return t("frontend.slug.topic.handwriting");;
     default:
       return "";
   }

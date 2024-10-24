@@ -346,5 +346,23 @@
       "tr",
       "zh"
     ]
+  },
+  "topic/handwriting/block1": {
+    "locales": [
+      "de_DE",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ]
   }
 }

@@ -95,6 +95,9 @@
         "bubble-text": "气泡文字",
         "square-text": "方形文字",
         "cursive": "草书"
+      },
+      "topic": {
+        "handwriting": "手写"
       }
     },
     "meta": {
@@ -113,6 +116,12 @@
       "index": {
         "meta": {
           "title": "字体生成器的主题"
+        }
+      },
+      "handwriting": {
+        "meta": {
+          "title": "手写字体生成器",
+          "description": "免费在线手写字体生成器。\n将您的文本转换为时尚的 Unicode 字体和特殊字符。\n为社交媒体和消息传递创建独特的手写风格。"
         }
       }
     },

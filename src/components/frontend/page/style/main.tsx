@@ -2,9 +2,10 @@
 
 import { Markdown } from "@/components/shared/markdown";
 import { Textarea } from "@/components/ui/textarea";
+import { alternatingFontKeys } from "@/fonts";
 import { cn } from "@/lib/utils";
 import { styleFonts, StyleKey } from "@/slugs";
-import { fontKeys } from "@/transforms";
+import { FontKey, fontKeys } from "@/transforms";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Fonts } from "./fonts";
@@ -29,7 +30,10 @@ export function StyleMain({
     router.replace(`${pathname}?text=${encodeURIComponent(e.target.value)}`);
   }
 
-  const currentFonts = style === "all" ? fontKeys : styleFonts[style];
+  const allFonts: FontKey[] = [];
+  fontKeys.map(item => allFonts.push(item) )
+  alternatingFontKeys.map(item => allFonts.push(item) )
+  const currentFonts = style === "all" ? allFonts as readonly FontKey[] : styleFonts[style];
 
   return (
     <div className={cn("w-full leading-9 text-base")}> 

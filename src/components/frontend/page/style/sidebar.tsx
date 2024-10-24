@@ -1,6 +1,6 @@
 import { Link } from "@/lib/i18n";
 import { styleFonts, StyleKey } from "@/slugs";
-import { ALargeSmallIcon, BoldIcon, CircleDot, FeatherIcon, ItalicIcon, Pencil, SquareDot, StarsIcon, UnderlineIcon } from "lucide-react";
+import { ALargeSmallIcon, BoldIcon, CircleDot, FeatherIcon, ItalicIcon, Ligature, Pencil, SquareDot, StarsIcon, UnderlineIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { usePathname, useSearchParams } from "next/navigation";
 import { ClassNameValue } from "tailwind-merge";
@@ -38,6 +38,8 @@ export const Sidebar =( )=>{
         return t("frontend.slug.menu.bubble-text");
       case "square-text":
         return t("frontend.slug.menu.square-text");
+      case "alternating":
+        return t("frontend.slug.menu.alternating");
       default:
         return null;
     }
@@ -65,6 +67,8 @@ export const Sidebar =( )=>{
         return <SquareDot size={18}  />; 
       case "cursive-font":
         return <Pencil size={18}  />; 
+      case "alternating":
+        return <Ligature size={18}  />; 
       default:
         return null;
     }

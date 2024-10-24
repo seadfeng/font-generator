@@ -82,6 +82,16 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
   "square-text": [
     "squared", "squaredNegative"
   ],
+  "alternating": [
+    "alternatingSerifBold",
+    "alternatingSansBold",
+    "alternatingCircled",
+    "alternatingSquared",
+    "alternatingBoldScript",
+    "alternatingBoldFraktur",
+    "alternatingSansBoldItalic",
+    "alternatingSerifBoldItalic"
+  ],
   "sans-serif": [
     "sansSerif",
     "sansBold",
@@ -92,16 +102,6 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "serifBold",
     "serifItalic",
     "serifBoldItalic"
-  ],
-  "alternating": [
-    "alternatingSerifBold",
-    "alternatingSansBold",
-    "alternatingCircled",
-    "alternatingSquared",
-    "alternatingBoldScript",
-    "alternatingBoldFraktur",
-    "alternatingSansBoldItalic",
-    "alternatingSerifBoldItalic"
   ]
 };
 

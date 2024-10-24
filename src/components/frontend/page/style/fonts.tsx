@@ -2,6 +2,7 @@
 import Copy from "@/components/shared/copy";
 import { Button } from "@/components/ui/button";
 import { appConfig } from "@/config";
+import { AlternatingFontKey, alternatingFonts } from "@/fonts";
 import { addDoubleUnderline, addStrikethrough, addUnderline, addWavyUnderline } from "@/lib/utils";
 import { StyleKey } from "@/slugs";
 import { FontKey, fonts, transforms } from "@/transforms";
@@ -26,11 +27,14 @@ export const Fonts = ({
   const [doubleUnderline, setDoubleUnderline] = useState(false);
   const [wavyUnderline, setWavyUnderline] = useState(false);
 
-  const FontItem = ({ fontKey }: { fontKey: FontKey }) => { 
-    const chars = transforms[fontKey] as TransformMap;
-
+  const FontItem = ({ fontKey }: { fontKey: FontKey }) => {  
     const transformAndAdjust = (text: string) => {
-      return Array.from(text).map(char => {
+     
+      return Array.from(text).map((char,idx) => {
+        const alternatingIdx = idx % 2; // index 0 or 1
+        const alternatings = alternatingFonts; 
+        const chars = fontKey.includes("alternating") ? transforms[(alternatings[fontKey as AlternatingFontKey][alternatingIdx]) as FontKey] as TransformMap : transforms[fontKey] as TransformMap;
+  
         let newChar = chars[char] || char; 
 
         if(style === "underline"){

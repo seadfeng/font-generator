@@ -80,6 +80,11 @@
           "title": "草书字体生成器 |\n在线创建优雅的手写字体",
           "description": "使用我们的免费草书字体生成器将您的文本转换为漂亮的草书字体。\n为社交媒体、设计等创建独特的手写风格文本。\n现在就试试吧！"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "交替字体生成器"
+        }
       }
     },
     "slug": {
@@ -94,7 +99,8 @@
         "underline": "强调",
         "bubble-text": "气泡文字",
         "square-text": "方形文字",
-        "cursive": "草书"
+        "cursive": "草书",
+        "alternating": "交替"
       },
       "topic": {
         "handwriting": "手写"

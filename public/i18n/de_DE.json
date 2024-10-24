@@ -78,6 +78,11 @@
           "title": "Generator für kursive Schriftarten | \nErstellen Sie online elegante Handschriftschriften",
           "description": "Verwandeln Sie Ihren Text mit unserem kostenlosen Generator für kursive Schriftarten in wunderschöne kursive Schriftarten. \nErstellen Sie einzigartige Texte im Handschriftstil für soziale Medien, Designs und mehr. \nProbieren Sie es jetzt aus!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Generator für alternierende Schriftarten"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Unterstreichen",
         "bubble-text": "Blasentext",
         "square-text": "Quadratischer Text",
-        "cursive": "Kursiv"
+        "cursive": "Kursiv",
+        "alternating": "Abwechselnd"
       },
       "topic": {
         "handwriting": "Handschrift"

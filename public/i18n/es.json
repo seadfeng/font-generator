@@ -78,6 +78,11 @@
           "title": "Generador de fuentes cursivas | \nCree fuentes elegantes para escribir a mano en línea",
           "description": "Transforme su texto en hermosas fuentes cursivas con nuestro generador de fuentes cursivas gratuito. \nCree texto único con estilo de escritura a mano para redes sociales, diseños y más. \n¡Pruébalo ahora!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Generador de fuentes alternas"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Subrayar",
         "bubble-text": "Texto de burbuja",
         "square-text": "Texto cuadrado",
-        "cursive": "Cursivo"
+        "cursive": "Cursivo",
+        "alternating": "Alterno"
       },
       "topic": {
         "handwriting": "Escritura"

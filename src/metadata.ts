@@ -63,6 +63,11 @@ export const styleMetadata = async ({ params }: { params: { locale: LocaleType, 
       title = t('frontend.style.cursive-font.meta.title');
       description = t('frontend.style.cursive-font.meta.description');
       break;
+    case "alternating":
+      title = t('frontend.style.alternating.meta.title');
+      description = t('frontend.style.alternating.meta.description');
+      break;
+
     default:
       title = "";
   }
@@ -100,6 +105,8 @@ export const getStyleName = async ({ params }: Readonly<{ params: { locale: Loca
       return t("frontend.slug.menu.bubble-text");
     case "square-text":
       return t("frontend.slug.menu.square-text");
+    case "alternating":
+      return t("frontend.slug.menu.alternating");
     default:
       return "";
   }

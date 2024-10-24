@@ -78,6 +78,11 @@
           "title": "필기체 글꼴 생성기 | \n온라인으로 우아한 필기체 글꼴 만들기",
           "description": "무료 필기체 글꼴 생성기를 사용하여 텍스트를 아름다운 필기체 글꼴로 변환하세요. \n소셜 미디어, 디자인 등에 사용할 고유한 손글씨 스타일의 텍스트를 만드세요. \n지금 사용해 보세요!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "대체 글꼴 생성기"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "밑줄",
         "bubble-text": "버블 텍스트",
         "square-text": "정사각형 텍스트",
-        "cursive": "필기체"
+        "cursive": "필기체",
+        "alternating": "교대"
       },
       "topic": {
         "handwriting": "필적"

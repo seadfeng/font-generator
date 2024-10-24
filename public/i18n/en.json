@@ -79,6 +79,11 @@
           "title": "Cursive Font Generator | Create Elegant Handwriting Fonts Online",
           "description": "Transform your text into beautiful cursive fonts with our free Cursive Font Generator. Create unique, handwriting-style text for social media, designs, and more. Try it now!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Alternating Font Generator"
+        }
       }
     },
     "slug": {
@@ -93,7 +98,8 @@
         "underline": "Underline",
         "bubble-text": "Bubble Text",
         "square-text": "Square Text",
-        "cursive": "Cursive"
+        "cursive": "Cursive",
+        "alternating": "Alternating"
       },
       "topic": {
         "handwriting": "Handwriting"

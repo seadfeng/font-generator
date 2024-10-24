@@ -13,7 +13,8 @@ export const styleKeys = [
   "underline",
   "bubble-text",
   "square-text",
-  "cursive-font"
+  "cursive-font",
+  "alternating",
 ] as const;
 export type StyleKey = typeof styleKeys[number];
 
@@ -42,15 +43,19 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "smallCaps", "superscript", "subscript", "sansItalic", "serifItalic"
   ],
   "bold-text": [
-    "sansBold", "serifBold", "boldScript", "boldFraktur", "serifBoldItalic"
+    "sansBold", "serifBold", "boldScript", "boldFraktur", "serifBoldItalic",
+    "alternatingSansBold", "alternatingSansBoldItalic",
+    "alternatingSerifBold", "alternatingSerifBoldItalic"
   ],
   "italic": [
-    "sansItalic", "serifItalic", "serifBoldItalic", "sansBoldItalic"
+    "sansItalic", "serifItalic", "serifBoldItalic", "sansBoldItalic",
+    "alternatingSansBoldItalic", "alternatingSerifBoldItalic"
   ],
   "bold-italic": [
     "sansBoldItalic", "serifBoldItalic",
     "sansItalic", "serifItalic",
-    "sansBold", "serifBold", "boldScript", "boldFraktur"
+    "sansBold", "serifBold", "boldScript", "boldFraktur",
+    "alternatingSansBoldItalic", "alternatingSerifBoldItalic"
   ],
   "underline": [
     "smallCaps",
@@ -87,6 +92,16 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "serifBold",
     "serifItalic",
     "serifBoldItalic"
+  ],
+  "alternating": [
+    "alternatingSerifBold",
+    "alternatingSansBold",
+    "alternatingCircled",
+    "alternatingSquared",
+    "alternatingBoldScript",
+    "alternatingBoldFraktur",
+    "alternatingSansBoldItalic",
+    "alternatingSerifBoldItalic"
   ]
 };
 
@@ -127,4 +142,4 @@ export const topicFonts: Record<TopicKey, FontKey[]> = {
     "serifItalic",
     "serifBoldItalic"
   ]
-}
+} 

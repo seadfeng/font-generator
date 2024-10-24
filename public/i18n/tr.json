@@ -72,11 +72,17 @@
           "title": "El Yazısı Yazı Tipi Oluşturucu | \nÇevrimiçi Zarif El Yazısı Fontları Oluşturun",
           "description": "Ücretsiz El Yazısı Yazı Tipi Oluşturucumuzla metninizi güzel el yazısı yazı tiplerine dönüştürün. \nSosyal medya, tasarımlar ve daha fazlası için benzersiz, el yazısı stilinde metinler oluşturun. \nŞimdi deneyin!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Alternatif Yazı Tipi Oluşturucu"
+        }
       }
     },
     "slug": {
       "menu": {
-        "cursive": "El yazısı"
+        "cursive": "El yazısı",
+        "alternating": "Alternatif"
       },
       "topic": {
         "handwriting": "El yazısı"

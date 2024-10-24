@@ -40,7 +40,7 @@ export const createAlternates = ({ headers }: { headers: Headers; }) => {
 type appendChar = {
   char: string;
   oldChar?: string;
-  fontKey: FontKey
+  fontKey: FontKey | "normal"
 }
 
 export const addUnderline = ({ char, fontKey }: appendChar) => {

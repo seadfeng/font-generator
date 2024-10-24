@@ -40,6 +40,32 @@ export const fonts = {
   canadianAboriginalLetterlike2: "\"\\ !#$%&'()*+,-./0123456789:;<=>?@ᗩᗷᑕᗞᕮᒋᕋᖺᑊᒎᕙᘂᘻᘯᗜᑭᘝᖇᔕᘕᕞᕓᘺ᙮ᒉᓯ[]^_`ᗩᗷᑕᗞᕮᒋᕋᖺᑊᒎᕙᘂᘻᘯᗜᑭᘝᖇᔕᘕᕞᕓᘺ᙮ᒉᓯ{|}~",
 }
 
+type FontKey = keyof typeof fonts;
+
+export const alternatingFontKeys = [
+  "alternatingSerifBold",
+  "alternatingSansBold",
+  "alternatingCircled",
+  "alternatingSquared",
+  "alternatingBoldScript",
+  "alternatingBoldFraktur",
+  "alternatingSansBoldItalic",
+  "alternatingSerifBoldItalic"
+] as const;
+export type AlternatingFontKey = typeof alternatingFontKeys[number];
+
+export const alternatingFonts: Record<AlternatingFontKey, FontKey[]> = {
+  alternatingSerifBold: ["serifBold", "normal"],
+  alternatingSansBold: ["sansBold", "sansSerif"],
+  alternatingCircled: ["circledNegative", "circled"],
+  alternatingSquared: ["squaredNegative", "squared"],
+  alternatingBoldScript: ["boldScript", "script"],
+  alternatingBoldFraktur: ["boldFraktur", "fraktur"],
+  alternatingSansBoldItalic: ["sansBoldItalic", "sansItalic"],
+  alternatingSerifBoldItalic: ["serifBoldItalic", "serifItalic"]
+}
+
+
 // áäÄéíóúÁÉÍÓÚàâæçèêëîïôœùûüÿÀÂÆÇÈÊËÎÏÔŒÙÛÜŸğĞöÖşŞıİ
 export const superFonts = {
   sansSerif: {

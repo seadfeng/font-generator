@@ -78,6 +78,11 @@
           "title": "Generatore di caratteri corsivi | \nCrea caratteri di scrittura eleganti online",
           "description": "Trasforma il tuo testo in bellissimi caratteri corsivi con il nostro generatore di caratteri corsivi gratuito. \nCrea testo unico in stile calligrafico per social media, design e altro ancora. \nProvalo adesso!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Generatore di caratteri alternati"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Sottolineare",
         "bubble-text": "Testo a bolle",
         "square-text": "Testo quadrato",
-        "cursive": "Corsivo"
+        "cursive": "Corsivo",
+        "alternating": "Alternato"
       },
       "topic": {
         "handwriting": "Grafia"

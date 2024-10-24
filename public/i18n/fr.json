@@ -78,6 +78,11 @@
           "title": "Générateur de polices cursives | \nCréez des polices d'écriture manuscrites élégantes en ligne",
           "description": "Transformez votre texte en superbes polices cursives avec notre générateur de polices cursives gratuit. \nCréez un texte unique de style manuscrit pour les réseaux sociaux, les designs et bien plus encore. \nEssayez-le maintenant !"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Générateur de polices alternées"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Souligner",
         "bubble-text": "Texte à bulles",
         "square-text": "Texte carré",
-        "cursive": "Cursive"
+        "cursive": "Cursive",
+        "alternating": "En alternance"
       },
       "topic": {
         "handwriting": "Écriture"

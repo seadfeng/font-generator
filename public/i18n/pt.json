@@ -78,6 +78,11 @@
           "title": "Gerador de fontes cursivas | \nCrie fontes elegantes de caligrafia online",
           "description": "Transforme seu texto em belas fontes cursivas com nosso Cursive Font Generator gratuito. \nCrie textos exclusivos em estilo manuscrito para mídias sociais, designs e muito mais. \nExperimente agora!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Gerador de fontes alternadas"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Sublinhado",
         "bubble-text": "Texto de bolha",
         "square-text": "Texto Quadrado",
-        "cursive": "Cursiva"
+        "cursive": "Cursiva",
+        "alternating": "Alternando"
       },
       "topic": {
         "handwriting": "Caligrafia"

@@ -78,6 +78,11 @@
           "title": "Generator czcionek kursywnych | \nTwórz eleganckie czcionki pisma ręcznego online",
           "description": "Przekształć swój tekst w piękne kursywne czcionki za pomocą naszego bezpłatnego generatora czcionek kursywnych. \nTwórz unikalny tekst w stylu pisma odręcznego na potrzeby mediów społecznościowych, projektów i nie tylko. \nWypróbuj teraz!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Generator czcionek przemiennych"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Podkreślać",
         "bubble-text": "Tekst bąbelkowy",
         "square-text": "Kwadratowy tekst",
-        "cursive": "Kursywny"
+        "cursive": "Kursywny",
+        "alternating": "Zmienny"
       },
       "topic": {
         "handwriting": "Pismo"

@@ -78,6 +78,11 @@
           "title": "Cursive Font Generator | \nSkapa eleganta handskriftsteckensnitt online",
           "description": "Förvandla din text till vackra kursiva teckensnitt med vår gratis Cursive Font Generator. \nSkapa unik text i handstil för sociala medier, design och mer. \nProva nu!"
         }
+      },
+      "alternating": {
+        "meta": {
+          "title": "Alternerande teckensnittsgenerator"
+        }
       }
     },
     "slug": {
@@ -92,7 +97,8 @@
         "underline": "Betona",
         "bubble-text": "Bubbla text",
         "square-text": "Fyrkantig text",
-        "cursive": "Kursiv"
+        "cursive": "Kursiv",
+        "alternating": "Omväxlande"
       },
       "topic": {
         "handwriting": "Handstil"

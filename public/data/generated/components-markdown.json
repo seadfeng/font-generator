@@ -40,6 +40,24 @@
       "en"
     ]
   },
+  "style/alternating/block1": {
+    "locales": [
+      "de_DE",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ]
+  },
   "style/bold-italic/block1": {
     "locales": [
       "de_DE",

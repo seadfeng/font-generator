@@ -1,7 +1,105 @@
 
 // This file is auto-generated. Do not edit manually.
+import type { AlternatingFontKey } from "../src/fonts.ts"
 
 export const transforms = {
+  "normal": {
+    "0": "0",
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "\"": "\"",
+    "\\": "\\",
+    " ": " ",
+    "!": "!",
+    "#": "#",
+    "$": "$",
+    "%": "%",
+    "&": "&",
+    "'": "'",
+    "(": "(",
+    ")": ")",
+    "*": "*",
+    "+": "+",
+    ",": ",",
+    "-": "-",
+    ".": ".",
+    "/": "/",
+    ":": ":",
+    ";": ";",
+    "<": "<",
+    "=": "=",
+    ">": ">",
+    "?": "?",
+    "@": "@",
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D",
+    "E": "E",
+    "F": "F",
+    "G": "G",
+    "H": "H",
+    "I": "I",
+    "J": "J",
+    "K": "K",
+    "L": "L",
+    "M": "M",
+    "N": "N",
+    "O": "O",
+    "P": "P",
+    "Q": "Q",
+    "R": "R",
+    "S": "S",
+    "T": "T",
+    "U": "U",
+    "V": "V",
+    "W": "W",
+    "X": "X",
+    "Y": "Y",
+    "Z": "Z",
+    "[": "[",
+    "]": "]",
+    "^": "^",
+    "_": "_",
+    "`": "`",
+    "a": "a",
+    "b": "b",
+    "c": "c",
+    "d": "d",
+    "e": "e",
+    "f": "f",
+    "g": "g",
+    "h": "h",
+    "i": "i",
+    "j": "j",
+    "k": "k",
+    "l": "l",
+    "m": "m",
+    "n": "n",
+    "o": "o",
+    "p": "p",
+    "q": "q",
+    "r": "r",
+    "s": "s",
+    "t": "t",
+    "u": "u",
+    "v": "v",
+    "w": "w",
+    "x": "x",
+    "y": "y",
+    "z": "z",
+    "{": "{",
+    "|": "|",
+    "}": "}",
+    "~": "~"
+  },
   "sansSerif": {
     "0": "𝟢",
     "1": "𝟣",
@@ -3751,10 +3849,43 @@ export const transforms = {
     "|": "|",
     "}": "}",
     "~": "~"
+  },
+  "alternatingSerifBold": {
+    "\"": "serifBold",
+    "\\": "normal"
+  },
+  "alternatingSansBold": {
+    "\"": "sansBold",
+    "\\": "sansSerif"
+  },
+  "alternatingCircled": {
+    "\"": "circledNegative",
+    "\\": "circled"
+  },
+  "alternatingSquared": {
+    "\"": "squaredNegative",
+    "\\": "squared"
+  },
+  "alternatingBoldScript": {
+    "\"": "boldScript",
+    "\\": "script"
+  },
+  "alternatingBoldFraktur": {
+    "\"": "boldFraktur",
+    "\\": "fraktur"
+  },
+  "alternatingSansBoldItalic": {
+    "\"": "sansBoldItalic",
+    "\\": "sansItalic"
+  },
+  "alternatingSerifBoldItalic": {
+    "\"": "serifBoldItalic",
+    "\\": "serifItalic"
   }
 } as const;
 
 export const fontKeys = [
+  "normal",
   "sansSerif",
   "sansBold",
   "sansItalic",
@@ -3788,9 +3919,10 @@ export const fontKeys = [
   "canadianAboriginalLetterlike2"
 ] as const;
 
-export type FontKey = typeof fontKeys[number];
+export type FontKey = typeof fontKeys[number] | AlternatingFontKey;
 
 export const fonts: Record<FontKey, string> = {
+  "normal": "Serif",
   "sansSerif": "Sans Serif",
   "sansBold": "Sans Bold",
   "sansItalic": "Sans Italic",
@@ -3806,9 +3938,9 @@ export const fonts: Record<FontKey, string> = {
   "script": "Script",
   "boldScript": "Bold Script",
   "circled": "Circled",
-  "circledNegative": "Circled  Negative",
+  "circledNegative": "Circled Negative",
   "squared": "Squared",
-  "squaredNegative": "Squared  Negative",
+  "squaredNegative": "Squared Negative",
   "parenthesized": "Parenthesized",
   "smallCaps": "Small Caps",
   "subscript": "Subscript",
@@ -3821,5 +3953,13 @@ export const fonts: Record<FontKey, string> = {
   "bamumLetterlike": "Bamum Letterlike",
   "smallCherokeeLetterlike": "Small Cherokee Letterlike",
   "canadianAboriginalLetterlike1": "Canadian Aboriginal Letterlike1",
-  "canadianAboriginalLetterlike2": "Canadian Aboriginal Letterlike2"
+  "canadianAboriginalLetterlike2": "Canadian Aboriginal Letterlike2",
+  "alternatingSerifBold": "Alternating Serif Bold",
+  "alternatingSansBold": "Alternating Sans Bold",
+  "alternatingCircled": "Alternating Circled",
+  "alternatingSquared": "Alternating Squared",
+  "alternatingBoldScript": "Alternating Bold Script",
+  "alternatingBoldFraktur": "Alternating Bold Fraktur",
+  "alternatingSansBoldItalic": "Alternating Sans Bold Italic",
+  "alternatingSerifBoldItalic": "Alternating Serif Bold Italic"
 };

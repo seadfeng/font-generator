@@ -77,10 +77,10 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "subscript"
   ],
   "bubble-text": [
-    "circled", "circledNegative"
+    "circled", "circledNegative", "alternatingCircled"
   ],
   "square-text": [
-    "squared", "squaredNegative"
+    "squared", "squaredNegative", "alternatingSquared"
   ],
   "alternating": [
     "alternatingSerifBold",

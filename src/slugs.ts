@@ -118,7 +118,13 @@ export const topicFonts: Record<TopicKey, FontKey[]> = {
     "sansBoldItalic",
     "serifBold",
     "serifItalic",
-    "serifBoldItalic"
+    "serifBoldItalic",
+    "alternatingSerifBold",
+    "alternatingSansBold",
+    "alternatingBoldScript",
+    "alternatingBoldFraktur",
+    "alternatingSansBoldItalic",
+    "alternatingSerifBoldItalic"
   ],
   twitter: [
     "fraktur",
@@ -129,7 +135,13 @@ export const topicFonts: Record<TopicKey, FontKey[]> = {
     "sansBoldItalic",
     "serifBold",
     "serifItalic",
-    "serifBoldItalic"
+    "serifBoldItalic",
+    "alternatingSerifBold",
+    "alternatingSansBold",
+    "alternatingBoldScript",
+    "alternatingBoldFraktur",
+    "alternatingSansBoldItalic",
+    "alternatingSerifBoldItalic"
   ],
   whatsapp: [
     "fraktur",
@@ -140,6 +152,12 @@ export const topicFonts: Record<TopicKey, FontKey[]> = {
     "sansBoldItalic",
     "serifBold",
     "serifItalic",
-    "serifBoldItalic"
+    "serifBoldItalic",
+    "alternatingSerifBold",
+    "alternatingSansBold",
+    "alternatingBoldScript",
+    "alternatingBoldFraktur",
+    "alternatingSansBoldItalic",
+    "alternatingSerifBoldItalic"
   ]
 } 

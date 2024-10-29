@@ -3881,6 +3881,22 @@ export const transforms = {
   "alternatingSerifBoldItalic": {
     "\"": "serifBoldItalic",
     "\\": "serifItalic"
+  },
+  "alternatingItalicBold": {
+    "\"": "sansItalic",
+    "\\": "sansBold"
+  },
+  "alternatingCursiveScriptBold": {
+    "\"": "script",
+    "\\": "boldScript"
+  },
+  "alternatingFraktur": {
+    "\"": "boldFraktur",
+    "\\": "fraktur"
+  },
+  "alternatingBold": {
+    "\"": "sansBold",
+    "\\": "serifBold"
   }
 } as const;
 
@@ -3961,5 +3977,9 @@ export const fonts: Record<FontKey, string> = {
   "alternatingBoldScript": "Alternating Bold Script",
   "alternatingBoldFraktur": "Alternating Bold Fraktur",
   "alternatingSansBoldItalic": "Alternating Sans Bold Italic",
-  "alternatingSerifBoldItalic": "Alternating Serif Bold Italic"
+  "alternatingSerifBoldItalic": "Alternating Serif Bold Italic",
+  "alternatingItalicBold": "Alternating Italic Bold",
+  "alternatingCursiveScriptBold": "Alternating Cursive Script Bold",
+  "alternatingFraktur": "Alternating Fraktur",
+  "alternatingBold": "Alternating Bold"
 };

@@ -77,7 +77,7 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
     "subscript"
   ],
   "bubble-text": [
-    "circled", "circledNegative", "alternatingCircled"
+    "bubble", "blackBubble", "alternatingBubble"
   ],
   "square-text": [
     "squared", "squaredNegative", "alternatingSquared"
@@ -85,12 +85,16 @@ export const styleFonts: Record<StyleKey, FontKey[]> = {
   "alternating": [
     "alternatingSerifBold",
     "alternatingSansBold",
-    "alternatingCircled",
+    "alternatingBubble",
     "alternatingSquared",
     "alternatingBoldScript",
     "alternatingBoldFraktur",
     "alternatingSansBoldItalic",
-    "alternatingSerifBoldItalic"
+    "alternatingSerifBoldItalic",
+    "alternatingItalicBold",
+    "alternatingCursiveScriptBold",
+    "alternatingFraktur",
+    "alternatingBold"
   ],
   "sans-serif": [
     "sansSerif",

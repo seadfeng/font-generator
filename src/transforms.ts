@@ -2103,7 +2103,7 @@ export const transforms = {
     "ı": "ı",
     "İ": "𝓘̇"
   },
-  "circled": {
+  "bubble": {
     "0": "⓪",
     "1": "①",
     "2": "②",
@@ -2200,7 +2200,7 @@ export const transforms = {
     "}": "}",
     "~": "~"
   },
-  "circledNegative": {
+  "blackBubble": {
     "0": "⓿",
     "1": "❶",
     "2": "❷",
@@ -3858,9 +3858,9 @@ export const transforms = {
     "\"": "sansBold",
     "\\": "sansSerif"
   },
-  "alternatingCircled": {
-    "\"": "circledNegative",
-    "\\": "circled"
+  "alternatingBubble": {
+    "\"": "bubble",
+    "\\": "blackBubble"
   },
   "alternatingSquared": {
     "\"": "squaredNegative",
@@ -3916,8 +3916,8 @@ export const fontKeys = [
   "doubleStruck",
   "script",
   "boldScript",
-  "circled",
-  "circledNegative",
+  "bubble",
+  "blackBubble",
   "squared",
   "squaredNegative",
   "parenthesized",
@@ -3953,8 +3953,8 @@ export const fonts: Record<FontKey, string> = {
   "doubleStruck": "Double Struck",
   "script": "Script",
   "boldScript": "Bold Script",
-  "circled": "Circled",
-  "circledNegative": "Circled Negative",
+  "bubble": "Bubble",
+  "blackBubble": "Black Bubble",
   "squared": "Squared",
   "squaredNegative": "Squared Negative",
   "parenthesized": "Parenthesized",
@@ -3972,7 +3972,7 @@ export const fonts: Record<FontKey, string> = {
   "canadianAboriginalLetterlike2": "Canadian Aboriginal Letterlike2",
   "alternatingSerifBold": "Alternating Serif Bold",
   "alternatingSansBold": "Alternating Sans Bold",
-  "alternatingCircled": "Alternating Circled",
+  "alternatingBubble": "Alternating Bubble",
   "alternatingSquared": "Alternating Squared",
   "alternatingBoldScript": "Alternating Bold Script",
   "alternatingBoldFraktur": "Alternating Bold Fraktur",

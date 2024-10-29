@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { alternatingFontKeys, fonts, superFonts } from "../src/fonts";
+import { alternatingFontKeys, alternatingFonts, fonts, superFonts } from "../src/fonts";
 import { FontKey } from "../src/transforms";
 
 const outputFile = path.join(process.cwd(), 'src', 'transforms.ts');
@@ -25,6 +25,10 @@ Object.keys(fonts).forEach((fontKey) => {
     }
   }
   // }
+});
+
+Object.keys(alternatingFonts).forEach((fontKey) => {
+  transforms[fontKey] = {};
 });
 
 const fontKeys = Object.keys(fonts).filter(key => key);

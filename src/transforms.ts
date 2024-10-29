@@ -3849,7 +3849,19 @@ export const transforms = {
     "|": "|",
     "}": "}",
     "~": "~"
-  }
+  },
+  "alternatingSerifBold": {},
+  "alternatingSansBold": {},
+  "alternatingBubble": {},
+  "alternatingSquared": {},
+  "alternatingBoldScript": {},
+  "alternatingBoldFraktur": {},
+  "alternatingSansBoldItalic": {},
+  "alternatingSerifBoldItalic": {},
+  "alternatingItalicBold": {},
+  "alternatingCursiveScriptBold": {},
+  "alternatingFraktur": {},
+  "alternatingBold": {}
 } as const;
 
 export const fontKeys = [

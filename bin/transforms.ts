@@ -1,11 +1,12 @@
 import fs from 'fs';
 import path from 'path';
-import { alternatingFontKeys, alternatingFonts, fonts, superFonts } from "../src/fonts";
+import { alternatingFontKeys, fonts, superFonts } from "../src/fonts";
+import { FontKey } from "../src/transforms";
 
 const outputFile = path.join(process.cwd(), 'src', 'transforms.ts');
 
 type FontMap = { [key: string]: string };
-type TransformMap = { [key: string]: { [key: string]: string } };
+type TransformMap = Partial<Record<FontKey, Record<string, string>>>;
 
 const transforms: TransformMap = {};
 const normalChars = fonts.normal as string;
@@ -24,20 +25,6 @@ Object.keys(fonts).forEach((fontKey) => {
     }
   }
   // }
-});
-
-Object.keys(alternatingFonts).forEach((fontKey) => {
-  transforms[fontKey] = {};
-  const currentChars = alternatingFonts[fontKey];
-  Array.from(normalChars).map((char, index) => {
-    transforms[fontKey][char] = Array.from(currentChars)[index]
-  })
-  if (fontKey in superFonts) {
-    transforms[fontKey] = {
-      ...transforms[fontKey],
-      ...superFonts[fontKey]
-    }
-  }
 });
 
 const fontKeys = Object.keys(fonts).filter(key => key);

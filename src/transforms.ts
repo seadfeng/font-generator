@@ -3849,54 +3849,6 @@ export const transforms = {
     "|": "|",
     "}": "}",
     "~": "~"
-  },
-  "alternatingSerifBold": {
-    "\"": "serifBold",
-    "\\": "normal"
-  },
-  "alternatingSansBold": {
-    "\"": "sansBold",
-    "\\": "sansSerif"
-  },
-  "alternatingBubble": {
-    "\"": "bubble",
-    "\\": "blackBubble"
-  },
-  "alternatingSquared": {
-    "\"": "squaredNegative",
-    "\\": "squared"
-  },
-  "alternatingBoldScript": {
-    "\"": "boldScript",
-    "\\": "script"
-  },
-  "alternatingBoldFraktur": {
-    "\"": "boldFraktur",
-    "\\": "fraktur"
-  },
-  "alternatingSansBoldItalic": {
-    "\"": "sansBoldItalic",
-    "\\": "sansItalic"
-  },
-  "alternatingSerifBoldItalic": {
-    "\"": "serifBoldItalic",
-    "\\": "serifItalic"
-  },
-  "alternatingItalicBold": {
-    "\"": "sansItalic",
-    "\\": "sansBold"
-  },
-  "alternatingCursiveScriptBold": {
-    "\"": "script",
-    "\\": "boldScript"
-  },
-  "alternatingFraktur": {
-    "\"": "boldFraktur",
-    "\\": "fraktur"
-  },
-  "alternatingBold": {
-    "\"": "sansBold",
-    "\\": "serifBold"
   }
 } as const;
 

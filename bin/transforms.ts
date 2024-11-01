@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { alternatingFontKeys, alternatingFonts, fonts, superFonts } from "../src/fonts";
+import { alternatingFontKeys, alternatingFonts, fonts, RenameFonts, superFonts } from "../src/fonts";
 import { FontKey } from "../src/transforms";
 
 const outputFile = path.join(process.cwd(), 'src', 'transforms.ts');
@@ -34,10 +34,14 @@ Object.keys(alternatingFonts).forEach((fontKey) => {
 const fontKeys = Object.keys(fonts).filter(key => key);
 
 function toReadableFontName(key: string): string {
-  return key
-    .split(/(?=[A-Z])/)
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ')
+  if (key in RenameFonts) {
+    return RenameFonts[key];
+  } else {
+    return key
+      .split(/(?=[A-Z])/)
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+  }
 }
 
 const fontsObject: FontMap = Object.fromEntries(

@@ -35,6 +35,7 @@
     "deepmerge": "^4.3.1",
     "lucide-react": "^0.427.0",
     "next": "14.2.5",
+    "next-google-adsense": "^1.0.12",
     "next-intl": "^3.17.2",
     "next-themes": "^0.3.0",
     "nextjs-toploader": "^1.6.12",

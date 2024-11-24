@@ -1,4 +1,5 @@
 
+import { GoogleAdSenseClient } from "@/components/shared/GoogleAdSense";
 import { appConfig, type LocaleType } from "@/config";
 import getRequestConfig from "@/i18n";
 import { cn, createAlternates } from "@/lib/utils";
@@ -69,6 +70,7 @@ export default async function RootLayout({
         </NextIntlClientProvider>
         {appConfig.gaId && <GoogleAnalytics gaId={appConfig.gaId} />}
       </body>
+      <GoogleAdSenseClient />
     </html>
   );
 }

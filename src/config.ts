@@ -9,7 +9,7 @@ export const appConfig = {
   appRootDomain: "fontgenerator.dev",
   appName: "FontGenerator",
   appDescription: "font-generator",
-  gaId: process.env.NEXT_PUBLIC_GA_ID || 'G-GEKRPVPFPD',
+  gaId: process.env.NEXT_PUBLIC_GA_ID,
   i18n: {
     locales,
     defaultLocale,
